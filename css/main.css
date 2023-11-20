@@ -1098,7 +1098,7 @@ pre code {
   margin: 0;
 }
 .site-subtitle {
-  color: #ddd;
+  color: #f5f5f5;
   font-size: 0.8125em;
   margin: 10px 10px 0;
 }
@@ -2366,7 +2366,7 @@ header.header {
 }
 .site-nav-toggle .toggle .toggle-line,
 .site-nav-right .toggle .toggle-line {
-  background: #fff;
+  background: #87daff;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-nav {
