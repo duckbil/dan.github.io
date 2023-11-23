@@ -2168,6 +2168,14 @@ pre code {
 .category-all-page .category-list-child {
   padding-left: 60px;
 }
+.category-all-page .category-list-item {
+  margin: 15px 10px 10px 10px;
+  list-style: none;
+  font-size: 20px;
+}
+.category-all-page .category-list-child {
+  list-style: none;
+}
 .event-list hr {
   background: #222;
   margin: 20px 0 45px;
