@@ -92,24 +92,7 @@
 </nav>
 
 
-<header>
-    <nav>
-        <ul>
-            <% for (var name in theme.menu) { %>
-                <li>
-                    <a href="<%- url_for(theme.menu[name]) %>"><div><%= name %></div></a>
-                    <% if(name == 'About') { %>
-                        <ul>
-                            <% for (var i in theme.about) { %>
-                                <li><a href="<%- url_for(theme.about[i]) %>"><div><%= i %></div></a></li>
-                            <% } %>
-                        </ul>
-                    <% } %>
-                </li>
-            <% } %>
-        </ul>
-    </nav>
-</header>
+
 
 
 
@@ -263,5 +246,6 @@
 
 
 
+  <script type="text/javascript" src="/js/category.js"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":120,"height":180},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
