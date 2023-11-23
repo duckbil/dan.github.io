@@ -89,6 +89,26 @@
 </nav>
 
 
+<header>
+    <nav>
+        <ul>
+            <% for (var name in theme.menu) { %>
+                <li>
+                    <a href="<%- url_for(theme.menu[name]) %>"><div><%= name %></div></a>
+                    <% if(name == 'About') { %>
+                        <ul>
+                            <% for (var i in theme.about) { %>
+                                <li><a href="<%- url_for(theme.about[i]) %>"><div><%= i %></div></a></li>
+                            <% } %>
+                        </ul>
+                    <% } %>
+                </li>
+            <% } %>
+        </ul>
+    </nav>
+</header>
+
+
 
 
 </header>
