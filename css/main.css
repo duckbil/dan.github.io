@@ -1953,6 +1953,9 @@ pre code {
 #busuanzi_container_page_pv {
   display: none;
 }
+.header-inner {
+  position: relative;
+}
 .weather {
   float: left;
   margin: 8px 15px;
