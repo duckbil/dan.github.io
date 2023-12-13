@@ -138,18 +138,24 @@
   <entry>
     <title>R</title>
     <url>/2023/12/13/R/</url>
-    <content><![CDATA[<p>#R语言学习<br>如果你闲着没事干又想做点有意义的事，而且你所学专业又涉及到R语言的话，可以试试Swirl，一个非常适合R语言初学者的包，以一种闯关式的学习方式来学习R语言，特别是回答正确都会出现一句鼓励的话，满满的成就感，特别适合无聊时来上那么一两关，打发时间的同时又能学习到新知识，正可谓一举两得。</p>
+    <content><![CDATA[<h1 id="R语言学习"><a href="#R语言学习" class="headerlink" title="R语言学习"></a>R语言学习</h1><p>如果你闲着没事干又想做点有意义的事，而且你所学专业又涉及到R语言的话，可以试试Swirl，一个非常适合R语言初学者的包，以一种闯关式的学习方式来学习R语言，特别是回答正确都会出现一句鼓励的话，满满的成就感，特别适合无聊时来上那么一两关，打发时间的同时又能学习到新知识，正可谓一举两得。</p>
+<span id="more"></span>
+
 <h2 id="Swirl包的下载"><a href="#Swirl包的下载" class="headerlink" title="Swirl包的下载"></a>Swirl包的下载</h2><p>打开 RStudio（如果没有 RStudio，则直接打开 R）并在控制台中键入以下内容：</p>
 <blockquote>
 <p>install.packages(“swirl”)</p>
 </blockquote>
-<p>###Swirl包的使用<br>这是每次要运行 swirl 时重复的唯一步骤。</p>
+<h3 id="Swirl包的使用"><a href="#Swirl包的使用" class="headerlink" title="Swirl包的使用"></a>Swirl包的使用</h3><p>这是每次要运行 swirl 时重复的唯一步骤。</p>
 <blockquote>
 <p>library(“swirl”)<br>swirl()</p>
 </blockquote>
 <p>在学习过程中想了解更多功能可以输入 </p>
 <blockquote>
-<p>info()<br>实在想不出答案的话可以输入<br>skip()</p>
+<p>info()</p>
+</blockquote>
+<p>实在想不出答案的话可以输入</p>
+<blockquote>
+<p>skip()</p>
 </blockquote>
 <p>想了解更多方面或者进一步的学习R语言可以点开<a href="https://swirlstats.com/">swirl网页</a>查看。</p>
 ]]></content>
