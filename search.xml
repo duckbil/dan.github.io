@@ -169,30 +169,29 @@
   </entry>
   <entry>
     <title>swirl第四关</title>
-    <url>/2023/12/13/R4/</url>
+    <url>/2023/12/13/swirl4/</url>
     <content><![CDATA[<h1 id="Swirl-第四关"><a href="#Swirl-第四关" class="headerlink" title="Swirl 第四关"></a>Swirl 第四关</h1><p>在R语言中最简单和普通的数据结果就是向量，本文内容为swirl包第四关vector（向量）的答案以及一些易踩坑点，虽然有答案很方便，但还是要自己多思考，才能取得进步。</p>
 <span id="more"></span>
 
-<h2 id="First-create-a-numeric-vector-num-vect-that-contains-the-values-0-5-55-10-and-6"><a href="#First-create-a-numeric-vector-num-vect-that-contains-the-values-0-5-55-10-and-6" class="headerlink" title="First, create a numeric vector num_vect that contains the values 0.5, 55, -10, and 6."></a>First, create a numeric vector num_vect that contains the values 0.5, 55, -10, and 6.</h2><blockquote>
+<h2 id="First-create-a-numeric-vector-num-vect"><a href="#First-create-a-numeric-vector-num-vect" class="headerlink" title="First, create a numeric vector num_vect"></a>First, create a numeric vector num_vect</h2><blockquote>
 <p>num_vect &lt;- c(0.5,55,-10,6)</p>
 </blockquote>
-<h3 id="Now-create-a-variable-called-tf-that-gets-the-result-of-num-vect-1-which-is-read-as-‘num-vect-is-less-than-1’"><a href="#Now-create-a-variable-called-tf-that-gets-the-result-of-num-vect-1-which-is-read-as-‘num-vect-is-less-than-1’" class="headerlink" title="Now, create a variable called tf that gets the result of num_vect &lt; 1, which is read as ‘num_vect is less than 1’."></a>Now, create a variable called tf that gets the result of num_vect &lt; 1, which is read as ‘num_vect is less than 1’.</h3><blockquote>
+<h2 id="Now-create-a-variable-called-tf"><a href="#Now-create-a-variable-called-tf" class="headerlink" title="Now, create a variable called tf"></a>Now, create a variable called tf</h2><blockquote>
 <p>tf &lt;- num_vect &lt; 1</p>
 </blockquote>
-<p>接下来两步很简单,这里就不写了</p>
-<p>###Let’s try another. Type num_vect &gt;&#x3D; 6 without assigning the result to a new variable.</p>
-<blockquote>
+<p>（接下来两步很简单,这里就不写了）</p>
+<h2 id="Type-num-vect-6-without-assigning-the-result-to-a-new-variable"><a href="#Type-num-vect-6-without-assigning-the-result-to-a-new-variable" class="headerlink" title="Type num_vect &gt;&#x3D; 6 without assigning the result to a new variable."></a>Type num_vect &gt;&#x3D; 6 without assigning the result to a new variable.</h2><blockquote>
 <p>num_vect &gt;&#x3D; 6</p>
 </blockquote>
 <p>然后是几个判断题,只需要看懂”&amp;”和”|”的含义就会变得很简单</p>
-<p>####Create a character vector (因为接下来几道题关联性大,所以把答案放在一起)<br>注意大小写</p>
+<h2 id="Create-a-character-vector-因为接下来几道题关联性大-所以把答案放在一起"><a href="#Create-a-character-vector-因为接下来几道题关联性大-所以把答案放在一起" class="headerlink" title="Create a character vector (因为接下来几道题关联性大,所以把答案放在一起)"></a>Create a character vector (因为接下来几道题关联性大,所以把答案放在一起)</h2><p>注意大小写</p>
 <blockquote>
 <p>my_char &lt;- c(“My”, “name”, “is”)</p>
 </blockquote>
 <blockquote>
 <p>paste(my_char, collapse &#x3D; “ “)</p>
 </blockquote>
-<p>最容易出错的地方就是在这,因为没有输对名字,导致报错,并且my_name会保存错误名字,尽管后面将名字输对也会一直错误,这时候只有输入&gt;bye(),退出swirl后,在控制台输入&gt;rm(my_name),将之前输错的变量删除后,再次进入swirl,输入下面代码才会正确.</p>
+<p>注：最容易出错的地方就是在这,因为没有输对名字,导致报错,并且my_name会保存错误名字,尽管后面将名字输对也会一直错误,这时候只有输入&gt;bye(),退出swirl后,在控制台输入&gt;rm(my_name),将之前输错的变量删除后,再次进入swirl,输入下面代码才会正确.</p>
 <blockquote>
 <p>my_name &lt;- c(my_char, “Swirl”)</p>
 </blockquote>
