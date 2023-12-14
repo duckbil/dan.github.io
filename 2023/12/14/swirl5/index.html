@@ -20,25 +20,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"duckbil.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Dan的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dan&#39;s Blog">
-<meta property="og:url" content="https://duckbil.github.io/categories/%E8%AF%97%E6%AD%8C/%E8%AF%97%E7%BB%8F/index.html">
+    <meta name="description" content="Swirl第五关missing values（缺失值）；R语言一般用于统计分析，因此在处理大量数据时，缺失值是一个常见的问题，在发现缺失值后该怎么处理？在第五关，简单解释了缺失值以及统计缺失值。 这关很简单，只需要理解他的描述就好了，所以就简单的把答案放在一起了。  x &lt;- c(44, NA, 5, NA)x*3y &lt;- rnorm(1000)z &lt;- rep(NA, 1000">
+<meta property="og:type" content="article">
+<meta property="og:title" content="swirl第五关">
+<meta property="og:url" content="https://duckbil.github.io/2023/12/14/swirl5/index.html">
 <meta property="og:site_name" content="Dan&#39;s Blog">
-<meta property="og:description" content="Dan的博客">
+<meta property="og:description" content="Swirl第五关missing values（缺失值）；R语言一般用于统计分析，因此在处理大量数据时，缺失值是一个常见的问题，在发现缺失值后该怎么处理？在第五关，简单解释了缺失值以及统计缺失值。 这关很简单，只需要理解他的描述就好了，所以就简单的把答案放在一起了。  x &lt;- c(44, NA, 5, NA)x*3y &lt;- rnorm(1000)z &lt;- rep(NA, 1000">
 <meta property="og:locale">
+<meta property="article:published_time" content="2023-12-14T05:59:09.000Z">
+<meta property="article:modified_time" content="2023-12-14T06:10:08.510Z">
 <meta property="article:author" content="Dan">
+<meta property="article:tag" content="R语言入门">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://duckbil.github.io/categories/%E8%AF%97%E6%AD%8C/%E8%AF%97%E7%BB%8F/">
+<link rel="canonical" href="https://duckbil.github.io/2023/12/14/swirl5/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-Hans","comments":"","permalink":"","path":"categories/诗歌/诗经/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"https://duckbil.github.io/2023/12/14/swirl5/","path":"2023/12/14/swirl5/","title":"swirl第五关"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: 诗经 | Dan's Blog</title>
+<title>swirl第五关 | Dan's Blog</title>
   
 
 
@@ -153,7 +156,7 @@
   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=8921640053&auto=1&height=430">
   </iframe>
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -166,6 +169,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Swirl%E7%AC%AC%E4%BA%94%E5%85%B3"><span class="nav-number">1.</span> <span class="nav-text">Swirl第五关</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -219,70 +223,115 @@
 
     </div>
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">诗经
-          <small>分类</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://duckbil.github.io/2023/12/14/swirl5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/dan.jpg">
+      <meta itemprop="name" content="Dan">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dan's Blog">
+      <meta itemprop="description" content="Dan的博客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="swirl第五关 | Dan's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          swirl第五关
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+
+      <time title="创建时间：2023-12-14 13:59:09 / 修改时间：14:10:08" itemprop="dateCreated datePublished" datetime="2023-12-14T13:59:09+08:00">2023-12-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/R%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">R语言</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/R%E8%AF%AD%E8%A8%80/Swirl%E5%8C%85/" itemprop="url" rel="index"><span itemprop="name">Swirl包</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="Swirl第五关"><a href="#Swirl第五关" class="headerlink" title="Swirl第五关"></a>Swirl第五关</h1><p>missing values（缺失值）；R语言一般用于统计分析，因此在处理大量数据时，缺失值<br>是一个常见的问题，在发现缺失值后该怎么处理？在第五关，简单解释了缺失值以及统计缺失值。</p>
+<p>这关很简单，只需要理解他的描述就好了，所以就简单的把答案放在一起了。</p>
+<blockquote>
+<p>x &lt;- c(44, NA, 5, NA)<br>x*3<br>y &lt;- rnorm(1000)<br>z &lt;- rep(NA, 1000)<br>my_data &lt;- sample(c(y, z), 100)<br>my_na &lt;- is.na(my_data)<br>my_data &#x3D;&#x3D; NA<br>sum(my_na)</p>
+</blockquote>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-11-22T10:50:08+08:00"
-              content="2023-11-22">
-          11-22
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-        <a class="post-title-link" href="/2023/11/22/Meng/" itemprop="url">
-          <span itemprop="name">氓</span>
-        </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/R%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/" rel="tag"># R语言入门</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/12/13/swirl4/" rel="prev" title="swirl第四关">
+                  <i class="fa fa-angle-left"></i> swirl第四关
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-11-22T10:34:31+08:00"
-              content="2023-11-22">
-          11-22
-        </time>
-      </div>
 
-      <div class="post-title">
-        <a class="post-title-link" href="/2023/11/22/JianJia/" itemprop="url">
-          <span itemprop="name">蒹葭</span>
-        </a>
-      </div>
 
-      
-    </header>
-  </article>
 
-    </div>
-  </div>
-  
-  
-  
+
 
 </div>
   </main>
