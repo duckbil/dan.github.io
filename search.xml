@@ -220,9 +220,31 @@
     <title>swirl第五关</title>
     <url>/2023/12/14/swirl5/</url>
     <content><![CDATA[<h1 id="Swirl第五关"><a href="#Swirl第五关" class="headerlink" title="Swirl第五关"></a>Swirl第五关</h1><p>missing values（缺失值）；R语言一般用于统计分析，因此在处理大量数据时，缺失值<br>是一个常见的问题，在发现缺失值后该怎么处理？在第五关，简单解释了缺失值以及统计缺失值。</p>
+<span id="more"></span>
 <p>这关很简单，只需要理解他的描述就好了，所以就简单的把答案放在一起了。</p>
 <blockquote>
-<p>x &lt;- c(44, NA, 5, NA)<br>x*3<br>y &lt;- rnorm(1000)<br>z &lt;- rep(NA, 1000)<br>my_data &lt;- sample(c(y, z), 100)<br>my_na &lt;- is.na(my_data)<br>my_data &#x3D;&#x3D; NA<br>sum(my_na)</p>
+<p>x &lt;- c(44, NA, 5, NA)</p>
+</blockquote>
+<blockquote>
+<p>x*3</p>
+</blockquote>
+<blockquote>
+<p>y &lt;- rnorm(1000)</p>
+</blockquote>
+<blockquote>
+<p>z &lt;- rep(NA, 1000)</p>
+</blockquote>
+<blockquote>
+<p>my_data &lt;- sample(c(y, z), 100)</p>
+</blockquote>
+<blockquote>
+<p>my_na &lt;- is.na(my_data)</p>
+</blockquote>
+<blockquote>
+<p>my_data &#x3D;&#x3D; NA</p>
+</blockquote>
+<blockquote>
+<p>sum(my_na)</p>
 </blockquote>
 ]]></content>
       <categories>
