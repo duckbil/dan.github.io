@@ -68,7 +68,7 @@
       </tags>
   </entry>
   <entry>
-    <title>R</title>
+    <title>R语言</title>
     <url>/2023/12/13/R/</url>
     <content><![CDATA[<h1 id="R语言学习"><a href="#R语言学习" class="headerlink" title="R语言学习"></a>R语言学习</h1><p>如果你闲着没事干又想做点有意义的事，而且你所学专业又涉及到R语言的话，可以试试Swirl，一个非常适合R语言初学者的包，以一种闯关式的学习方式来学习R语言，特别是回答正确都会出现一句鼓励的话，满满的成就感，特别适合无聊时来上那么一两关，打发时间的同时又能学习到新知识，正可谓一举两得。</p>
 <span id="more"></span>
@@ -89,7 +89,7 @@
 <blockquote>
 <p>skip()</p>
 </blockquote>
-<p>想了解更多方面或者进一步的学习R语言可以点开<a href="https://swirlstats.com/">swirl网页</a>查看。</p>
+<p>想了解更多方面或者进一步的学习R语言可以点击<a href="https://swirlstats.com/">swirl</a>查看，希望对你有所帮助。</p>
 ]]></content>
       <categories>
         <category>R语言</category>
@@ -117,48 +117,48 @@
   <entry>
     <title>洛克王国</title>
     <url>/2023/11/23/luokewangguo/</url>
-    <content><![CDATA[<p>洛克王国宠物图鉴！小时候的回忆，主要是喜欢收集各种各样宠物的感觉。先是找了几个我觉得好看的宠物。</p>
+    <content><![CDATA[<p>洛克王国宠物图鉴！小时候的回忆，主要是喜欢收集各种各样宠物的感觉。</p>
 <span id="more"></span>
-
-<p><img src="/images/luoke/2.png"><br>宝石利乌</p>
-<p><img src="/images/luoke/3.png"><br>硕果格兰</p>
-<p><img src="/images/luoke/5.png"><br>驭萝侠兔</p>
-<p><img src="/images/luoke/6.png"><br>震雷圣子</p>
-<p><img src="/images/luoke/8.png"><br>星舰萝萝（可爱捏）</p>
-<p><img src="/images/luoke/9.png"><br>霜羽萌皇</p>
-<p><img src="/images/luoke/10.png"><br>裂创虎神</p>
-<p><img src="/images/luoke/11.png"><br>曼媞丝</p>
-<p><img src="/images/luoke/12.png"><br>灵渺星姬（直呼老婆！）</p>
-<p><img src="/images/luoke/13.png"><br>嬉游（二老婆）</p>
-<p><img src="/images/luoke/14.png"><br>魅小妹（小时候最喜欢的）</p>
-<p>以下是最初版本的宠物，不包括进化（不进化才是最可爱的！！）<br><img src="/images/luoke/15.png"><br>喵喵（御三家中最喜欢的）</p>
-<p><img src="/images/luoke/16.png"><br>火花（御三家）</p>
-<p><img src="/images/luoke/17.png"><br>水蓝蓝（御三家，可爱捏）</p>
-<p><img src="/images/luoke/18.png"><br>蹦蹦种子</p>
-<p><img src="/images/luoke/19.png"><br>火苗龙</p>
-<p><img src="/images/luoke/20.png"><br>板板壳</p>
-<p><img src="/images/luoke/21.png"><br>大尾鱼</p>
-<p><img src="/images/luoke/22.png"><br>可立鸡（真的可以立吗）</p>
-<p><img src="/images/luoke/23.png"><br>咔咔羽毛</p>
-<p><img src="/images/luoke/24.png"><br>地鼠</p>
-<p><img src="/images/luoke/25.png"><br>护主犬（永远的神！）</p>
-<p><img src="/images/luoke/26.png"><br>翡翠水母</p>
-<p><img src="/images/luoke/27.png"><br>霹雳龙</p>
-<p><img src="/images/luoke/28.png"><br>蒸汽龙</p>
-<p><img src="/images/luoke/29.png"><br>豆豆龙</p>
-<p><img src="/images/luoke/30.png"><br>独眼怪</p>
-<p><img src="/images/luoke/31.png"><br>小地狱犬</p>
-<p><img src="/images/luoke/32.png"><br>恶魔猪</p>
-<p><img src="/images/luoke/33.png"><br>小海豹</p>
-<p><img src="/images/luoke/34.png"><br>拉特</p>
-<p><img src="/images/luoke/35.png"><br>小罗王（挺像我侄子的😊）</p>
-<p><img src="/images/luoke/36.png"><br>瞌睡王（像于总😆）</p>
-<p><img src="/images/luoke/37.png"><br>呆火鸟</p>
-<p><img src="/images/luoke/38.png"><br>丢丢（这玩意越进化越丑）</p>
-<p><img src="/images/luoke/39.png"><br>电圈怪（+·△·-哈哈）</p>
-<p><img src="/images/luoke/40.png"><br>双灯鱼</p>
-<p><img src="/images/luoke/41.png"><br>蜗石贝（洛克你是有多喜欢香肠嘴啊）</p>
-<p><img src="/images/luoke/42.png"><br>独角龙</p>
+<h1 id="先是找了几个我觉得好看的宠物。"><a href="#先是找了几个我觉得好看的宠物。" class="headerlink" title="先是找了几个我觉得好看的宠物。"></a>先是找了几个我觉得好看的宠物。</h1><h2 id="宝石利乌"><a href="#宝石利乌" class="headerlink" title="宝石利乌"></a>宝石利乌</h2><p><img src="/images/luoke/2.png"></p>
+<h2 id="硕果格兰"><a href="#硕果格兰" class="headerlink" title="硕果格兰"></a>硕果格兰</h2><p><img src="/images/luoke/3.png"></p>
+<h2 id="驭萝侠兔"><a href="#驭萝侠兔" class="headerlink" title="驭萝侠兔"></a>驭萝侠兔</h2><p><img src="/images/luoke/5.png"></p>
+<h2 id="震雷圣子"><a href="#震雷圣子" class="headerlink" title="震雷圣子"></a>震雷圣子</h2><p><img src="/images/luoke/6.png"></p>
+<h2 id="星舰萝萝（可爱捏）"><a href="#星舰萝萝（可爱捏）" class="headerlink" title="星舰萝萝（可爱捏）"></a>星舰萝萝（可爱捏）</h2><p><img src="/images/luoke/8.png"></p>
+<h2 id="霜羽萌皇"><a href="#霜羽萌皇" class="headerlink" title="霜羽萌皇"></a>霜羽萌皇</h2><p><img src="/images/luoke/9.png"></p>
+<h2 id="裂创虎神"><a href="#裂创虎神" class="headerlink" title="裂创虎神"></a>裂创虎神</h2><p><img src="/images/luoke/10.png"></p>
+<h2 id="曼媞丝"><a href="#曼媞丝" class="headerlink" title="曼媞丝"></a>曼媞丝</h2><p><img src="/images/luoke/11.png"></p>
+<h2 id="灵渺星姬（直呼老婆！）"><a href="#灵渺星姬（直呼老婆！）" class="headerlink" title="灵渺星姬（直呼老婆！）"></a>灵渺星姬（直呼老婆！）</h2><p><img src="/images/luoke/12.png"></p>
+<h2 id="嬉游（二老婆）"><a href="#嬉游（二老婆）" class="headerlink" title="嬉游（二老婆）"></a>嬉游（二老婆）</h2><p><img src="/images/luoke/13.png"></p>
+<h2 id="魅小妹（小时候最喜欢的）"><a href="#魅小妹（小时候最喜欢的）" class="headerlink" title="魅小妹（小时候最喜欢的）"></a>魅小妹（小时候最喜欢的）</h2><p><img src="/images/luoke/14.png"></p>
+<h1 id="以下是最初版本的宠物，不包括进化（不进化才是最可爱的！！）"><a href="#以下是最初版本的宠物，不包括进化（不进化才是最可爱的！！）" class="headerlink" title="以下是最初版本的宠物，不包括进化（不进化才是最可爱的！！）"></a>以下是最初版本的宠物，不包括进化（不进化才是最可爱的！！）</h1><h2 id="喵喵（御三家中最喜欢的）"><a href="#喵喵（御三家中最喜欢的）" class="headerlink" title="喵喵（御三家中最喜欢的）"></a>喵喵（御三家中最喜欢的）</h2><p><img src="/images/luoke/15.png"></p>
+<h2 id="火花（御三家）"><a href="#火花（御三家）" class="headerlink" title="火花（御三家）"></a>火花（御三家）</h2><p><img src="/images/luoke/16.png"></p>
+<h2 id="水蓝蓝（御三家，可爱捏）"><a href="#水蓝蓝（御三家，可爱捏）" class="headerlink" title="水蓝蓝（御三家，可爱捏）"></a>水蓝蓝（御三家，可爱捏）</h2><p><img src="/images/luoke/17.png"></p>
+<h2 id="蹦蹦种子"><a href="#蹦蹦种子" class="headerlink" title="蹦蹦种子"></a>蹦蹦种子</h2><p><img src="/images/luoke/18.png"></p>
+<h2 id="火苗龙"><a href="#火苗龙" class="headerlink" title="火苗龙"></a>火苗龙</h2><p><img src="/images/luoke/19.png"></p>
+<h2 id="板板壳"><a href="#板板壳" class="headerlink" title="板板壳"></a>板板壳</h2><p><img src="/images/luoke/20.png"></p>
+<h2 id="大尾鱼"><a href="#大尾鱼" class="headerlink" title="大尾鱼"></a>大尾鱼</h2><p><img src="/images/luoke/21.png"></p>
+<h2 id="可立鸡（真的可以立吗）"><a href="#可立鸡（真的可以立吗）" class="headerlink" title="可立鸡（真的可以立吗）"></a>可立鸡（真的可以立吗）</h2><p><img src="/images/luoke/22.png"></p>
+<h2 id="咔咔羽毛"><a href="#咔咔羽毛" class="headerlink" title="咔咔羽毛"></a>咔咔羽毛</h2><p><img src="/images/luoke/23.png"></p>
+<h2 id="地鼠"><a href="#地鼠" class="headerlink" title="地鼠"></a>地鼠</h2><p><img src="/images/luoke/24.png"></p>
+<h2 id="护主犬（永远的神！）"><a href="#护主犬（永远的神！）" class="headerlink" title="护主犬（永远的神！）"></a>护主犬（永远的神！）</h2><p><img src="/images/luoke/25.png"></p>
+<h2 id="翡翠水母"><a href="#翡翠水母" class="headerlink" title="翡翠水母"></a>翡翠水母</h2><p><img src="/images/luoke/26.png"></p>
+<h2 id="霹雳龙"><a href="#霹雳龙" class="headerlink" title="霹雳龙"></a>霹雳龙</h2><p><img src="/images/luoke/27.png"></p>
+<h2 id="蒸汽龙"><a href="#蒸汽龙" class="headerlink" title="蒸汽龙"></a>蒸汽龙</h2><p><img src="/images/luoke/28.png"></p>
+<h2 id="豆豆龙"><a href="#豆豆龙" class="headerlink" title="豆豆龙"></a>豆豆龙</h2><p><img src="/images/luoke/29.png"></p>
+<h2 id="独眼怪"><a href="#独眼怪" class="headerlink" title="独眼怪"></a>独眼怪</h2><p><img src="/images/luoke/30.png"></p>
+<h2 id="小地狱犬"><a href="#小地狱犬" class="headerlink" title="小地狱犬"></a>小地狱犬</h2><p><img src="/images/luoke/31.png"></p>
+<h2 id="恶魔猪"><a href="#恶魔猪" class="headerlink" title="恶魔猪"></a>恶魔猪</h2><p><img src="/images/luoke/32.png"></p>
+<h2 id="小海豹"><a href="#小海豹" class="headerlink" title="小海豹"></a>小海豹</h2><p><img src="/images/luoke/33.png"></p>
+<h2 id="拉特"><a href="#拉特" class="headerlink" title="拉特"></a>拉特</h2><p><img src="/images/luoke/34.png"></p>
+<h2 id="小罗王（挺像我侄子的😊）"><a href="#小罗王（挺像我侄子的😊）" class="headerlink" title="小罗王（挺像我侄子的😊）"></a>小罗王（挺像我侄子的😊）</h2><p><img src="/images/luoke/35.png"></p>
+<h2 id="瞌睡王（像于总😆）"><a href="#瞌睡王（像于总😆）" class="headerlink" title="瞌睡王（像于总😆）"></a>瞌睡王（像于总😆）</h2><p><img src="/images/luoke/36.png"></p>
+<h2 id="呆火鸟"><a href="#呆火鸟" class="headerlink" title="呆火鸟"></a>呆火鸟</h2><p><img src="/images/luoke/37.png"></p>
+<h2 id="丢丢（这玩意越进化越丑）"><a href="#丢丢（这玩意越进化越丑）" class="headerlink" title="丢丢（这玩意越进化越丑）"></a>丢丢（这玩意越进化越丑）</h2><p><img src="/images/luoke/38.png"></p>
+<h2 id="电圈怪（-·△·-哈哈）"><a href="#电圈怪（-·△·-哈哈）" class="headerlink" title="电圈怪（+·△·-哈哈）"></a>电圈怪（+·△·-哈哈）</h2><p><img src="/images/luoke/39.png"></p>
+<h2 id="双灯鱼"><a href="#双灯鱼" class="headerlink" title="双灯鱼"></a>双灯鱼</h2><p><img src="/images/luoke/40.png"></p>
+<h2 id="蜗石贝（洛克你是有多喜欢香肠嘴啊）"><a href="#蜗石贝（洛克你是有多喜欢香肠嘴啊）" class="headerlink" title="蜗石贝（洛克你是有多喜欢香肠嘴啊）"></a>蜗石贝（洛克你是有多喜欢香肠嘴啊）</h2><p><img src="/images/luoke/41.png"></p>
+<h2 id="独角龙"><a href="#独角龙" class="headerlink" title="独角龙"></a>独角龙</h2><p><img src="/images/luoke/42.png"></p>
+<p>如果想看更多古怪可爱的宠物，可以移步该<a href="https://rocokingdom.huijiwiki.com/wiki/%E5%AE%A0%E7%89%A9%E5%9B%BE%E9%89%B4">宠物图鉴</a>，探索你喜欢的宠物。</p>
 ]]></content>
       <categories>
         <category>游戏</category>
