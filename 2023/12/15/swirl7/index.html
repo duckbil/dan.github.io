@@ -20,25 +20,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"duckbil.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Dan的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dan&#39;s Blog">
-<meta property="og:url" content="https://duckbil.github.io/categories/%E5%8F%A4%E6%96%87/%E5%94%90%E6%9C%9D/index.html">
+    <meta name="description" content="Swirl第七关Matrices and Data Frames，在第七关，你将学习了使用两种非常重要且常见的数据结构——矩阵和数据框架的基础知识，并初步学会构建。 参考答案 my_vector &lt;- 1:20   dim(my_vector)   length(my_vector)   dim(my_vector) &lt;- c(4, 5)   attributes(my_vector)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="swirl第七关">
+<meta property="og:url" content="https://duckbil.github.io/2023/12/15/swirl7/index.html">
 <meta property="og:site_name" content="Dan&#39;s Blog">
-<meta property="og:description" content="Dan的博客">
+<meta property="og:description" content="Swirl第七关Matrices and Data Frames，在第七关，你将学习了使用两种非常重要且常见的数据结构——矩阵和数据框架的基础知识，并初步学会构建。 参考答案 my_vector &lt;- 1:20   dim(my_vector)   length(my_vector)   dim(my_vector) &lt;- c(4, 5)   attributes(my_vector)">
 <meta property="og:locale">
+<meta property="article:published_time" content="2023-12-15T03:06:30.000Z">
+<meta property="article:modified_time" content="2023-12-15T03:15:12.313Z">
 <meta property="article:author" content="Dan">
+<meta property="article:tag" content="R语言入门">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://duckbil.github.io/categories/%E5%8F%A4%E6%96%87/%E5%94%90%E6%9C%9D/">
+<link rel="canonical" href="https://duckbil.github.io/2023/12/15/swirl7/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-Hans","comments":"","permalink":"","path":"categories/古文/唐朝/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"https://duckbil.github.io/2023/12/15/swirl7/","path":"2023/12/15/swirl7/","title":"swirl第七关"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: 唐朝 | Dan's Blog</title>
+<title>swirl第七关 | Dan's Blog</title>
   
 
 
@@ -153,7 +156,7 @@
   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=8921640053&auto=1&height=430">
   </iframe>
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -166,6 +169,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Swirl%E7%AC%AC%E4%B8%83%E5%85%B3"><span class="nav-number">1.</span> <span class="nav-text">Swirl第七关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88"><span class="nav-number">1.1.</span> <span class="nav-text">参考答案</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -219,50 +223,153 @@
 
     </div>
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">唐朝
-          <small>分类</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://duckbil.github.io/2023/12/15/swirl7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/dan.jpg">
+      <meta itemprop="name" content="Dan">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dan's Blog">
+      <meta itemprop="description" content="Dan的博客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="swirl第七关 | Dan's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          swirl第七关
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+
+      <time title="创建时间：2023-12-15 11:06:30 / 修改时间：11:15:12" itemprop="dateCreated datePublished" datetime="2023-12-15T11:06:30+08:00">2023-12-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/R%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">R语言</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/R%E8%AF%AD%E8%A8%80/Swirl%E5%8C%85/" itemprop="url" rel="index"><span itemprop="name">Swirl包</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="Swirl第七关"><a href="#Swirl第七关" class="headerlink" title="Swirl第七关"></a>Swirl第七关</h1><p>Matrices and Data Frames，在第七关，你将学习了使用两种非常重要且常见的数据结构——矩阵和数据框架的基础知识，并初步学会构建。</p>
+<h2 id="参考答案"><a href="#参考答案" class="headerlink" title="参考答案"></a>参考答案</h2><blockquote>
+<p>my_vector &lt;- 1:20</p>
+</blockquote>
+<blockquote>
+<p>dim(my_vector)</p>
+</blockquote>
+<blockquote>
+<p>length(my_vector)</p>
+</blockquote>
+<blockquote>
+<p>dim(my_vector) &lt;- c(4, 5)</p>
+</blockquote>
+<blockquote>
+<p>attributes(my_vector)</p>
+</blockquote>
+<blockquote>
+<p>class(my_vector)</p>
+</blockquote>
+<blockquote>
+<p>my_matrix &lt;- my_vector</p>
+</blockquote>
+<blockquote>
+<p>my_matrix2 &lt;- matrix(data &#x3D; 1:20, nrow &#x3D; 4, ncol &#x3D; 5)</p>
+</blockquote>
+<blockquote>
+<p>identical(my_matrix, my_matrix2)</p>
+</blockquote>
+<blockquote>
+<p>patients &lt;- c(“Bill”, “Gina”, “Kelly”, “Sean”)</p>
+</blockquote>
+<blockquote>
+<p>cbind(patients, my_matrix)</p>
+</blockquote>
+<blockquote>
+<p>my_data &lt;- data.frame(patients, my_matrix)</p>
+</blockquote>
+<blockquote>
+<p>cnames &lt;- c(“patient”, “age”, “weight”, “bp”, “rating”, “test”)</p>
+</blockquote>
+<blockquote>
+<p>colnames(my_data) &lt;- cnames</p>
+</blockquote>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-11-23T12:00:39+08:00"
-              content="2023-11-23">
-          11-23
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-        <a class="post-title-link" href="/2023/11/23/afanggongfu/" itemprop="url">
-          <span itemprop="name">阿房宫赋</span>
-        </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/R%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/" rel="tag"># R语言入门</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/12/14/swirl5/" rel="prev" title="swirl第五关">
+                  <i class="fa fa-angle-left"></i> swirl第五关
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
