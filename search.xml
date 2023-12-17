@@ -259,6 +259,7 @@
     <title>swirl第七关</title>
     <url>/2023/12/15/swirl7/</url>
     <content><![CDATA[<h1 id="Swirl第七关"><a href="#Swirl第七关" class="headerlink" title="Swirl第七关"></a>Swirl第七关</h1><p>Matrices and Data Frames，在第七关，你将学习了使用两种非常重要且常见的数据结构——矩阵和数据框架的基础知识，并初步学会构建。</p>
+<span id="more"></span>
 <h2 id="参考答案"><a href="#参考答案" class="headerlink" title="参考答案"></a>参考答案</h2><blockquote>
 <p>my_vector &lt;- 1:20</p>
 </blockquote>
