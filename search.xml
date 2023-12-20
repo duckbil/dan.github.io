@@ -168,7 +168,7 @@
       </tags>
   </entry>
   <entry>
-    <title>swirl第四关</title>
+    <title>swirl包（Vector）</title>
     <url>/2023/12/13/swirl4/</url>
     <content><![CDATA[<h1 id="Swirl-第四关"><a href="#Swirl-第四关" class="headerlink" title="Swirl 第四关"></a>Swirl 第四关</h1><p>在R语言中最简单和普通的数据结果就是向量，本文内容为swirl包第四关vector（向量）的答案以及一些易踩坑点，虽然有答案很方便，但还是要自己多思考，才能取得进步。</p>
 <span id="more"></span>
@@ -217,7 +217,7 @@
       </tags>
   </entry>
   <entry>
-    <title>swirl第五关</title>
+    <title>swirl包（Missing values）</title>
     <url>/2023/12/14/swirl5/</url>
     <content><![CDATA[<h1 id="Swirl第五关"><a href="#Swirl第五关" class="headerlink" title="Swirl第五关"></a>Swirl第五关</h1><p>missing values（缺失值）；R语言一般用于统计分析，因此在处理大量数据时，缺失值<br>是一个常见的问题，在发现缺失值后该怎么处理？在第五关，简单解释了缺失值以及统计缺失值。</p>
 <span id="more"></span>
@@ -256,7 +256,7 @@
       </tags>
   </entry>
   <entry>
-    <title>swirl第七关</title>
+    <title>swirl包（Matrices and Data Frames）</title>
     <url>/2023/12/15/swirl7/</url>
     <content><![CDATA[<h1 id="Swirl第七关"><a href="#Swirl第七关" class="headerlink" title="Swirl第七关"></a>Swirl第七关</h1><p>Matrices and Data Frames，在第七关，你将学习了使用两种非常重要且常见的数据结构——矩阵和数据框架的基础知识，并初步学会构建。</p>
 <span id="more"></span>
@@ -301,6 +301,42 @@
 </blockquote>
 <blockquote>
 <p>colnames(my_data) &lt;- cnames</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>R语言</category>
+        <category>Swirl包</category>
+      </categories>
+      <tags>
+        <tag>R语言入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>swirl包（Function）</title>
+    <url>/2023/12/20/swirl9/</url>
+    <content><![CDATA[<h1 id="Swirl包第九关"><a href="#Swirl包第九关" class="headerlink" title="Swirl包第九关"></a>Swirl包第九关</h1><p>  第九关的内容主要讲的是Function（函数），该关会简单介绍几种R语言里基础的函数。</p>
+<span id="more"></span>
+<h2 id="Sys-Date"><a href="#Sys-Date" class="headerlink" title="Sys.Date()"></a>Sys.Date()</h2><p>  Sys.Date()函数基于你电脑的环境会返回一个变量（你的电脑上的日期）</p>
+<h2 id="mean"><a href="#mean" class="headerlink" title="mean()"></a>mean()</h2><p>  mean()函数会读取你输入的向量里的数，并且返回这些数的平均值。</p>
+<h2 id="自己构建函数boring-function-my-mean-remainder"><a href="#自己构建函数boring-function-my-mean-remainder" class="headerlink" title="自己构建函数boring_function(), my_mean(), remainder()"></a>自己构建函数boring_function(), my_mean(), remainder()</h2><h3 id="构建函数boring-function"><a href="#构建函数boring-function" class="headerlink" title="构建函数boring_function()"></a>构建函数boring_function()</h3><p>  在脚本编写区写入以下代码：<br>boring_function &lt;- function(x) {<br>  x<br>}<br>该函数功能为输出括号内的数，一个简单且无聊的函数</p>
+<h3 id="构建函数my-mean"><a href="#构建函数my-mean" class="headerlink" title="构建函数my_mean()"></a>构建函数my_mean()</h3><p>   在脚本编写区写入以下代码：<br>my_mean &lt;- function(my_vector) {<br>  sum(my_vector)&#x2F;length(my_vector)<br>}<br>该函数功能为计算你输入的向量的平均数，如输入：</p>
+<blockquote>
+<p>my_mean(c(4, 5, 10))<br>会得到一个数6.3333</p>
+</blockquote>
+<h3 id="构建remainder-函数"><a href="#构建remainder-函数" class="headerlink" title="构建remainder()函数"></a>构建remainder()函数</h3><p>   在脚本编写区输入以下代码：<br>remainder &lt;- function(num, divisor &#x3D; 2) {<br>  num %% divisor<br>}<br>该函数功能为计算你输入的数除以2后的余数， 如输入：</p>
+<blockquote>
+<p>remainder(5)<br>会得到数：1</p>
+</blockquote>
+<p>也可以自己改变除数，如：</p>
+<blockquote>
+<p>remainder(12, 5)<br>会得到数：2<br>或者可以输入：<br>remainder(divisor &#x3D; 11, num &#x3D; 5) #divisor为除数，num为被除数<br>会得到数：5</p>
+</blockquote>
+<h3 id="构建evaluate-函数"><a href="#构建evaluate-函数" class="headerlink" title="构建evaluate()函数"></a>构建evaluate()函数</h3><p>  在脚本编写区写入以下代码：<br>evaluate &lt;- function(func, dat){<br>  func(dat)<br>}<br>该函数可以将函数作为参数</p>
+<h3 id="构建telegram-函数"><a href="#构建telegram-函数" class="headerlink" title="构建telegram()函数"></a>构建telegram()函数</h3><p>   在脚本编写区写入以下代码：<br>telegram &lt;- function(…){<br>  paste(“START”, …, “STOP”)<br>}<br>功能和boring_function()函数有点像</p>
+<h3 id="构建mad-libs-函数"><a href="#构建mad-libs-函数" class="headerlink" title="构建mad_libs()函数"></a>构建mad_libs()函数</h3><p>  在脚本编写区写入代码：<br>mad_libs &lt;- function(…){<br>  args &lt;- list(…)<br>  place &lt;- args[[“place”]]<br>  adjective &lt;- args[[“adjective”]]<br>  noun &lt;- args[[“noun”]]<br>  paste(“News from”, place, “today where”, adjective, “students took to the streets in protest of the new”, noun, “being installed on campus.”)<br>}<br>可以修改paste内的内容，是一个文本填充和替换的函数，无聊。</p>
+<h3 id="自己定义二进制运算符"><a href="#自己定义二进制运算符" class="headerlink" title="自己定义二进制运算符"></a>自己定义二进制运算符</h3><p>  在脚本编写区写入以下代码：<br>“%p%” &lt;- function(left, right){ # Remember to add arguments!<br>  paste(left, right)<br>}<br>使用“%p%”可以结合其两边的文字，例如：</p>
+<blockquote>
+<p>‘I’%p%’love’%p%’R!’<br>会得到：”I love R!”</p>
 </blockquote>
 ]]></content>
       <categories>

@@ -20,25 +20,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"duckbil.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Dan的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dan&#39;s Blog">
-<meta property="og:url" content="https://duckbil.github.io/tags/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD/index.html">
+    <meta name="description" content="Swirl包第九关  第九关的内容主要讲的是Function（函数），该关会简单介绍几种R语言里基础的函数。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="swirl包（Function）">
+<meta property="og:url" content="https://duckbil.github.io/2023/12/20/swirl9/index.html">
 <meta property="og:site_name" content="Dan&#39;s Blog">
-<meta property="og:description" content="Dan的博客">
+<meta property="og:description" content="Swirl包第九关  第九关的内容主要讲的是Function（函数），该关会简单介绍几种R语言里基础的函数。">
 <meta property="og:locale">
+<meta property="article:published_time" content="2023-12-20T02:11:10.000Z">
+<meta property="article:modified_time" content="2023-12-20T08:38:54.122Z">
 <meta property="article:author" content="Dan">
+<meta property="article:tag" content="R语言入门">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://duckbil.github.io/tags/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD/">
+<link rel="canonical" href="https://duckbil.github.io/2023/12/20/swirl9/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-Hans","comments":"","permalink":"","path":"tags/洛克王国/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"https://duckbil.github.io/2023/12/20/swirl9/","path":"2023/12/20/swirl9/","title":"swirl包（Function）"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>标签: 洛克王国 | Dan's Blog</title>
+<title>swirl包（Function） | Dan's Blog</title>
   
 
 
@@ -153,7 +156,7 @@
   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=8921640053&auto=1&height=430">
   </iframe>
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -166,6 +169,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Swirl%E5%8C%85%E7%AC%AC%E4%B9%9D%E5%85%B3"><span class="nav-number">1.</span> <span class="nav-text">Swirl包第九关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Sys-Date"><span class="nav-number">1.1.</span> <span class="nav-text">Sys.Date()</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mean"><span class="nav-number">1.2.</span> <span class="nav-text">mean()</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%B7%B1%E6%9E%84%E5%BB%BA%E5%87%BD%E6%95%B0boring-function-my-mean-remainder"><span class="nav-number">1.3.</span> <span class="nav-text">自己构建函数boring_function(), my_mean(), remainder()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E5%BB%BA%E5%87%BD%E6%95%B0boring-function"><span class="nav-number">1.3.1.</span> <span class="nav-text">构建函数boring_function()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E5%BB%BA%E5%87%BD%E6%95%B0my-mean"><span class="nav-number">1.3.2.</span> <span class="nav-text">构建函数my_mean()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E5%BB%BAremainder-%E5%87%BD%E6%95%B0"><span class="nav-number">1.3.3.</span> <span class="nav-text">构建remainder()函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E5%BB%BAevaluate-%E5%87%BD%E6%95%B0"><span class="nav-number">1.3.4.</span> <span class="nav-text">构建evaluate()函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E5%BB%BAtelegram-%E5%87%BD%E6%95%B0"><span class="nav-number">1.3.5.</span> <span class="nav-text">构建telegram()函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%84%E5%BB%BAmad-libs-%E5%87%BD%E6%95%B0"><span class="nav-number">1.3.6.</span> <span class="nav-text">构建mad_libs()函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%B7%B1%E5%AE%9A%E4%B9%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.3.7.</span> <span class="nav-text">自己定义二进制运算符</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -222,50 +226,134 @@
 
     </div>
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">洛克王国
-          <small>标签</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://duckbil.github.io/2023/12/20/swirl9/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/dan.jpg">
+      <meta itemprop="name" content="Dan">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dan's Blog">
+      <meta itemprop="description" content="Dan的博客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="swirl包（Function） | Dan's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          swirl包（Function）
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+
+      <time title="创建时间：2023-12-20 10:11:10 / 修改时间：16:38:54" itemprop="dateCreated datePublished" datetime="2023-12-20T10:11:10+08:00">2023-12-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/R%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">R语言</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/R%E8%AF%AD%E8%A8%80/Swirl%E5%8C%85/" itemprop="url" rel="index"><span itemprop="name">Swirl包</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="Swirl包第九关"><a href="#Swirl包第九关" class="headerlink" title="Swirl包第九关"></a>Swirl包第九关</h1><p>  第九关的内容主要讲的是Function（函数），该关会简单介绍几种R语言里基础的函数。</p>
+<span id="more"></span>
+<h2 id="Sys-Date"><a href="#Sys-Date" class="headerlink" title="Sys.Date()"></a>Sys.Date()</h2><p>  Sys.Date()函数基于你电脑的环境会返回一个变量（你的电脑上的日期）</p>
+<h2 id="mean"><a href="#mean" class="headerlink" title="mean()"></a>mean()</h2><p>  mean()函数会读取你输入的向量里的数，并且返回这些数的平均值。</p>
+<h2 id="自己构建函数boring-function-my-mean-remainder"><a href="#自己构建函数boring-function-my-mean-remainder" class="headerlink" title="自己构建函数boring_function(), my_mean(), remainder()"></a>自己构建函数boring_function(), my_mean(), remainder()</h2><h3 id="构建函数boring-function"><a href="#构建函数boring-function" class="headerlink" title="构建函数boring_function()"></a>构建函数boring_function()</h3><p>  在脚本编写区写入以下代码：<br>boring_function &lt;- function(x) {<br>  x<br>}<br>该函数功能为输出括号内的数，一个简单且无聊的函数</p>
+<h3 id="构建函数my-mean"><a href="#构建函数my-mean" class="headerlink" title="构建函数my_mean()"></a>构建函数my_mean()</h3><p>   在脚本编写区写入以下代码：<br>my_mean &lt;- function(my_vector) {<br>  sum(my_vector)&#x2F;length(my_vector)<br>}<br>该函数功能为计算你输入的向量的平均数，如输入：</p>
+<blockquote>
+<p>my_mean(c(4, 5, 10))<br>会得到一个数6.3333</p>
+</blockquote>
+<h3 id="构建remainder-函数"><a href="#构建remainder-函数" class="headerlink" title="构建remainder()函数"></a>构建remainder()函数</h3><p>   在脚本编写区输入以下代码：<br>remainder &lt;- function(num, divisor &#x3D; 2) {<br>  num %% divisor<br>}<br>该函数功能为计算你输入的数除以2后的余数， 如输入：</p>
+<blockquote>
+<p>remainder(5)<br>会得到数：1</p>
+</blockquote>
+<p>也可以自己改变除数，如：</p>
+<blockquote>
+<p>remainder(12, 5)<br>会得到数：2<br>或者可以输入：<br>remainder(divisor &#x3D; 11, num &#x3D; 5) #divisor为除数，num为被除数<br>会得到数：5</p>
+</blockquote>
+<h3 id="构建evaluate-函数"><a href="#构建evaluate-函数" class="headerlink" title="构建evaluate()函数"></a>构建evaluate()函数</h3><p>  在脚本编写区写入以下代码：<br>evaluate &lt;- function(func, dat){<br>  func(dat)<br>}<br>该函数可以将函数作为参数</p>
+<h3 id="构建telegram-函数"><a href="#构建telegram-函数" class="headerlink" title="构建telegram()函数"></a>构建telegram()函数</h3><p>   在脚本编写区写入以下代码：<br>telegram &lt;- function(…){<br>  paste(“START”, …, “STOP”)<br>}<br>功能和boring_function()函数有点像</p>
+<h3 id="构建mad-libs-函数"><a href="#构建mad-libs-函数" class="headerlink" title="构建mad_libs()函数"></a>构建mad_libs()函数</h3><p>  在脚本编写区写入代码：<br>mad_libs &lt;- function(…){<br>  args &lt;- list(…)<br>  place &lt;- args[[“place”]]<br>  adjective &lt;- args[[“adjective”]]<br>  noun &lt;- args[[“noun”]]<br>  paste(“News from”, place, “today where”, adjective, “students took to the streets in protest of the new”, noun, “being installed on campus.”)<br>}<br>可以修改paste内的内容，是一个文本填充和替换的函数，无聊。</p>
+<h3 id="自己定义二进制运算符"><a href="#自己定义二进制运算符" class="headerlink" title="自己定义二进制运算符"></a>自己定义二进制运算符</h3><p>  在脚本编写区写入以下代码：<br>“%p%” &lt;- function(left, right){ # Remember to add arguments!<br>  paste(left, right)<br>}<br>使用“%p%”可以结合其两边的文字，例如：</p>
+<blockquote>
+<p>‘I’%p%’love’%p%’R!’<br>会得到：”I love R!”</p>
+</blockquote>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-11-23T12:06:41+08:00"
-              content="2023-11-23">
-          11-23
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-        <a class="post-title-link" href="/2023/11/23/luokewangguo/" itemprop="url">
-          <span itemprop="name">洛克王国</span>
-        </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/R%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/" rel="tag"># R语言入门</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/12/15/swirl7/" rel="prev" title="swirl包（Matrices and Data Frames）">
+                  <i class="fa fa-angle-left"></i> swirl包（Matrices and Data Frames）
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
