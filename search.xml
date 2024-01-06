@@ -31,23 +31,6 @@
       </tags>
   </entry>
   <entry>
-    <title>上善若水</title>
-    <url>/2023/11/19/ShangShanRuoShui/</url>
-    <content><![CDATA[<p>上善若水<br>水善利万物而不争，处众人之所恶，故几于道。</p>
-<span id="more"></span>
-<p>居，善地；与，善仁；心，善渊；言，善信；政，善治；事，善能；动，善时。<br>夫惟不争，故无尤。<br>                  ———-《道德经》</p>
-]]></content>
-      <categories>
-        <category>古文</category>
-        <category>战国</category>
-        <category>道德经</category>
-      </categories>
-      <tags>
-        <tag>老子</tag>
-        <tag>道</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>R语言</title>
     <url>/2023/12/13/R/</url>
     <content><![CDATA[<h1 id="R语言学习"><a href="#R语言学习" class="headerlink" title="R语言学习"></a>R语言学习</h1><p>如果你闲着没事干又想做点有意义的事，而且你所学专业又涉及到R语言的话，可以试试Swirl，一个非常适合R语言初学者的包，以一种闯关式的学习方式来学习R语言，特别是回答正确都会出现一句鼓励的话，满满的成就感，特别适合无聊时来上那么一两关，打发时间的同时又能学习到新知识，正可谓一举两得。</p>
@@ -77,6 +60,23 @@
       </categories>
       <tags>
         <tag>R语言入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>上善若水</title>
+    <url>/2023/11/19/ShangShanRuoShui/</url>
+    <content><![CDATA[<p>上善若水<br>水善利万物而不争，处众人之所恶，故几于道。</p>
+<span id="more"></span>
+<p>居，善地；与，善仁；心，善渊；言，善信；政，善治；事，善能；动，善时。<br>夫惟不争，故无尤。<br>                  ———-《道德经》</p>
+]]></content>
+      <categories>
+        <category>古文</category>
+        <category>战国</category>
+        <category>道德经</category>
+      </categories>
+      <tags>
+        <tag>老子</tag>
+        <tag>道</tag>
       </tags>
   </entry>
   <entry>
@@ -218,7 +218,7 @@
   <entry>
     <title>多组学</title>
     <url>/2023/12/25/%E5%A4%9A%E7%BB%84%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="第一课"><a href="#第一课" class="headerlink" title="第一课"></a>第一课</h1><p>1、基因组<br>基因组是指生物体所有 遗传物质 的总和。 这些遗传物质包括 DNA 或 RNA （病毒RNA）。 基因组包括编码DNA和非编码DNA、 线粒体DNA 和 叶绿体DNA 。</p>
+    <content><![CDATA[<h1 id="第一课"><a href="#第一课" class="headerlink" title="第一课"></a>第一课</h1><p>1、什么是基因组<br>基因组是指生物体所有 遗传物质 的总和。 这些遗传物质包括 DNA 或 RNA （病毒RNA）。 基因组包括编码DNA和非编码DNA、 线粒体DNA 和 叶绿体DNA 。</p>
 <span id="more"></span>
 <p>2、什么是基因<br>基因是遗传的基本单元，携带有遗传信息的DNA或RNA序列，通过复制，把遗传信息传递给下一代，指导蛋白质的合成来表达自己所携带的遗传信息，从而控制生物个体的性状表达。<br>3、原核生物和真核生物基因组有何差异</p>
 <table>
