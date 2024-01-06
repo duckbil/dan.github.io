@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>蒹葭</title>
-    <url>/2023/11/22/JianJia/</url>
-    <content><![CDATA[<p>蒹葭<br>蒹葭苍苍，白露为霜。<br>所谓伊人，在水一方。<br>随洄从之，道阻且长。<br>溯游从之，宛在水中央。<br>蒹葭萋萋，白露未晞。</p>
-<span id="more"></span>
-<p>所谓伊人，在水之湄。<br>溯洄从之，道阻且跻。<br>溯游从之，宛在水中坻。<br>蒹葭采采，白露未已。<br>所谓伊人，在水之涘。<br>溯洄从之，道阻且右。<br>溯游从之，宛在水中沚。</p>
-]]></content>
-      <categories>
-        <category>诗歌</category>
-        <category>诗经</category>
-      </categories>
-      <tags>
-        <tag>无名</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>氓</title>
-    <url>/2023/11/22/Meng/</url>
-    <content><![CDATA[<p>氓<br>氓之蚩蚩，抱布贸丝。<br>匪来贸丝，来即我谋。<br>送子涉淇，至于顿丘。<br>匪我愆期，子无良媒。<br>将子无怒，秋以为期。<br>乘彼垝垣，以望复关。<br>不见复关，泣涕涟涟。<br>即见复关，载笑载言。<br>尔卜尔筮，体无咎言。</p>
-<span id="more"></span>
-<p>以尔车来，以我贿迁。<br>桑之未落，其叶沃若。<br>于嗟鸠兮，无食桑葚！<br>于嗟女兮，无与士耽！<br>士之耽兮，犹可说也。<br>女之耽兮，不可说也！<br>桑之落矣，其黄而陨。<br>自我徂尔，三岁食贫。<br>淇水汤汤，渐车帷裳。<br>女也不爽，士贰其行。<br>士也罔极，二三其德。<br>三岁为妇，靡室劳矣。<br>夙兴夜寐，靡有朝矣。<br>言既遂矣，至于暴矣。<br>兄弟不知，咥其笑矣。<br>静言思之，躬自悼矣。<br>及尔偕老，老使我怨。<br>淇则有岸，隰则有泮。<br>总角之宴，言笑晏晏，<br>信誓旦旦，不思其反。<br>反是不思，亦已焉哉！</p>
-]]></content>
-      <categories>
-        <category>诗歌</category>
-        <category>诗经</category>
-      </categories>
-      <tags>
-        <tag>无名</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>R语言</title>
     <url>/2023/12/13/R/</url>
     <content><![CDATA[<h1 id="R语言学习"><a href="#R语言学习" class="headerlink" title="R语言学习"></a>R语言学习</h1><p>如果你闲着没事干又想做点有意义的事，而且你所学专业又涉及到R语言的话，可以试试Swirl，一个非常适合R语言初学者的包，以一种闯关式的学习方式来学习R语言，特别是回答正确都会出现一句鼓励的话，满满的成就感，特别适合无聊时来上那么一两关，打发时间的同时又能学习到新知识，正可谓一举两得。</p>
@@ -60,6 +30,36 @@
       </categories>
       <tags>
         <tag>R语言入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>氓</title>
+    <url>/2023/11/22/Meng/</url>
+    <content><![CDATA[<p>氓<br>氓之蚩蚩，抱布贸丝。<br>匪来贸丝，来即我谋。<br>送子涉淇，至于顿丘。<br>匪我愆期，子无良媒。<br>将子无怒，秋以为期。<br>乘彼垝垣，以望复关。<br>不见复关，泣涕涟涟。<br>即见复关，载笑载言。<br>尔卜尔筮，体无咎言。</p>
+<span id="more"></span>
+<p>以尔车来，以我贿迁。<br>桑之未落，其叶沃若。<br>于嗟鸠兮，无食桑葚！<br>于嗟女兮，无与士耽！<br>士之耽兮，犹可说也。<br>女之耽兮，不可说也！<br>桑之落矣，其黄而陨。<br>自我徂尔，三岁食贫。<br>淇水汤汤，渐车帷裳。<br>女也不爽，士贰其行。<br>士也罔极，二三其德。<br>三岁为妇，靡室劳矣。<br>夙兴夜寐，靡有朝矣。<br>言既遂矣，至于暴矣。<br>兄弟不知，咥其笑矣。<br>静言思之，躬自悼矣。<br>及尔偕老，老使我怨。<br>淇则有岸，隰则有泮。<br>总角之宴，言笑晏晏，<br>信誓旦旦，不思其反。<br>反是不思，亦已焉哉！</p>
+]]></content>
+      <categories>
+        <category>诗歌</category>
+        <category>诗经</category>
+      </categories>
+      <tags>
+        <tag>无名</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>蒹葭</title>
+    <url>/2023/11/22/JianJia/</url>
+    <content><![CDATA[<p>蒹葭<br>蒹葭苍苍，白露为霜。<br>所谓伊人，在水一方。<br>随洄从之，道阻且长。<br>溯游从之，宛在水中央。<br>蒹葭萋萋，白露未晞。</p>
+<span id="more"></span>
+<p>所谓伊人，在水之湄。<br>溯洄从之，道阻且跻。<br>溯游从之，宛在水中坻。<br>蒹葭采采，白露未已。<br>所谓伊人，在水之涘。<br>溯洄从之，道阻且右。<br>溯游从之，宛在水中沚。</p>
+]]></content>
+      <categories>
+        <category>诗歌</category>
+        <category>诗经</category>
+      </categories>
+      <tags>
+        <tag>无名</tag>
       </tags>
   </entry>
   <entry>
@@ -100,21 +100,6 @@
       </tags>
   </entry>
   <entry>
-    <title>离骚</title>
-    <url>/2023/11/23/lisao/</url>
-    <content><![CDATA[<p>帝高阳之苗裔兮，朕皇考曰伯庸。<br>摄提贞于孟陬兮，惟庚寅吾以降。<br>皇览揆余初度兮，肇锡余以嘉名：<br>名余曰正则兮，字余曰灵均。<br>纷吾既有此内美兮，又重之以修能。</p>
-<span id="more"></span>
-<p>扈江离与辟芷兮，纫秋兰以为佩。<br>汩余若将不及兮，恐年岁之不吾与。<br>朝搴阰之木兰兮，夕揽洲之宿莽。<br>日月忽其不淹兮，春与秋其代序。<br>惟草木之零落兮，恐美人之迟暮。(惟 通：唯)<br>不抚壮而弃秽兮，何不改此度？(改此度 一作：改乎此度)<br>乘骐骥以驰骋兮，来吾道夫先路！<br>昔三后之纯粹兮，固众芳之所在。<br>杂申椒与菌桂兮，岂惟纫夫蕙茝！<br>彼尧、舜之耿介兮，既遵道而得路。<br>何桀纣之猖披兮，夫唯捷径以窘步。<br>惟夫党人之偷乐兮，路幽昧以险隘。<br>岂余身之惮殃兮，恐皇舆之败绩！<br>忽奔走以先后兮，及前王之踵武。<br>荃不查余之中情兮，反信谗而齌怒。<br>余固知謇謇之为患兮，忍而不能舍也。<br>指九天以为正兮，夫唯灵修之故也。<br>曰黄昏以为期兮，羌中道而改路！<br>初既与余成言兮，后悔遁而有他。<br>余既不难夫离别兮，伤灵修之数化。<br>余既滋兰之九畹兮，又树蕙之百亩。<br>畦留夷与揭车兮，杂杜衡与芳芷。<br>冀枝叶之峻茂兮，愿俟时乎吾将刈。<br>虽萎绝其亦何伤兮，哀众芳之芜秽。<br>众皆竞进以贪婪兮，凭不厌乎求索。<br>羌内恕己以量人兮，各兴心而嫉妒。<br>忽驰骛以追逐兮，非余心之所急。<br>老冉冉其将至兮，恐修名之不立。<br>朝饮木兰之坠露兮，夕餐秋菊之落英。<br>苟余情其信姱以练要兮，长顑颔亦何伤。<br>掔木根以结茝兮，贯薜荔之落蕊。<br>矫菌桂以纫蕙兮，索胡绳之纚纚。<br>謇吾法夫前修兮，非世俗之所服。<br>虽不周于今之人兮，愿依彭咸之遗则。<br>长太息以掩涕兮，哀民生之多艰。<br>余虽好修姱以鞿羁兮，謇朝谇而夕替。<br>既替余以蕙纕兮，又申之以揽茝。<br>亦余心之所善兮，虽九死其犹未悔。<br>怨灵修之浩荡兮，终不察夫民心。<br>众女嫉余之蛾眉兮，谣诼谓余以善淫。<br>固时俗之工巧兮，偭规矩而改错。<br>背绳墨以追曲兮，竞周容以为度。<br>忳郁邑余侘傺兮，吾独穷困乎此时也。<br>宁溘死以流亡兮，余不忍为此态也。<br>鸷鸟之不群兮，自前世而固然。<br>何方圜之能周兮，夫孰异道而相安？<br>屈心而抑志兮，忍尤而攘诟。<br>伏清白以死直兮，固前圣之所厚。<br>悔相道之不察兮，延伫乎吾将反。<br>回朕车以复路兮，及行迷之未远。<br>步余马于兰皋兮，驰椒丘且焉止息。<br>进不入以离尤兮，退将复修吾初服。<br>制芰荷以为衣兮，集芙蓉以为裳。<br>不吾知其亦已兮，苟余情其信芳。<br>高余冠之岌岌兮，长余佩之陆离。<br>芳与泽其杂糅兮，唯昭质其犹未亏。<br>忽反顾以游目兮，将往观乎四荒。<br>佩缤纷其繁饰兮，芳菲菲其弥章。<br>民生各有所乐兮，余独好修以为常。<br>虽体解吾犹未变兮，岂余心之可惩。<br>女嬃之婵媛兮，申申其詈予，曰：<br>鲧婞直以亡身兮，终然夭乎羽之野。<br>汝何博謇而好修兮，纷独有此姱节？<br>薋菉葹以盈室兮，判独离而不服。<br>众不可户说兮，孰云察余之中情？<br>世并举而好朋兮，夫何茕独而不予听？<br>依前圣以节中兮，喟凭心而历兹。<br>济沅、湘以南征兮，就重华而敶词：<br>启《九辩》与《九歌》兮，夏康娱以自纵。<br>不顾难以图后兮，五子用失乎家衖。<br>羿淫游以佚畋兮，又好射夫封狐。<br>固乱流其鲜终兮，浞又贪夫厥家。<br>浇身被服强圉兮，纵欲而不忍。<br>日康娱而自忘兮，厥首用夫颠陨。<br>夏桀之常违兮，乃遂焉而逢殃。<br>后辛之菹醢兮，殷宗用而不长。<br>汤、禹俨而祗敬兮，周论道而莫差。<br>举贤才而授能兮，循绳墨而不颇。<br>皇天无私阿兮，览民德焉错辅。<br>夫维圣哲以茂行兮，苟得用此下土。<br>瞻前而顾后兮，相观民之计极。<br>夫孰非义而可用兮？孰非善而可服？<br>阽余身而危死兮，览余初其犹未悔。<br>不量凿而正枘兮，固前修以菹醢。<br>曾歔欷余郁邑兮，哀朕时之不当。<br>揽茹蕙以掩涕兮，沾余襟之浪浪。<br>跪敷衽以陈辞兮，耿吾既得此中正。<br>驷玉虬以椉鹥兮，溘埃风余上征。<br>朝发轫于苍梧兮，夕余至乎县圃。<br>欲少留此灵琐兮，日忽忽其将暮。<br>吾令羲和弭节兮，望崦嵫而勿迫。<br>路曼曼其修远兮，吾将上下而求索。(曼曼 一作：漫漫)<br>饮余马于咸池兮，总余辔乎扶桑。<br>折若木以拂日兮，聊逍遥以相羊。<br>前望舒使先驱兮，后飞廉使奔属。<br>鸾皇为余先戒兮，雷师告余以未具。<br>吾令凤鸟飞腾兮，继之以日夜。<br>飘风屯其相离兮，帅云霓而来御。<br>纷总总其离合兮，斑陆离其上下。<br>吾令帝阍开关兮，倚阊阖而望予。<br>时暧暧其将罢兮，结幽兰而延伫。<br>世溷浊而不分兮，好蔽美而嫉妒。<br>朝吾将济于白水兮，登阆风而绁马。<br>忽反顾以流涕兮，哀高丘之无女。<br>溘吾游此春宫兮，折琼枝以继佩。<br>及荣华之未落兮，相下女之可诒。<br>吾令丰隆乘云兮，求宓妃之所在。<br>解佩纕以结言兮，吾令謇修以为理。<br>纷总总其离合兮，忽纬繣其难迁。<br>夕归次于穷石兮，朝濯发乎洧盘。<br>保厥美以骄傲兮，日康娱以淫游。<br>虽信美而无礼兮，来违弃而改求。<br>览相观于四极兮，周流乎天余乃下。<br>望瑶台之偃蹇兮，见有娀之佚女。<br>吾令鸩为媒兮，鸩告余以不好。<br>雄鸠之鸣逝兮，余犹恶其佻巧。<br>心犹豫而狐疑兮，欲自适而不可。<br>凤皇既受诒兮，恐高辛之先我。<br>欲远集而无所止兮，聊浮游以逍遥。<br>及少康之未家兮，留有虞之二姚。<br>理弱而媒拙兮，恐导言之不固。<br>世溷浊而嫉贤兮，好蔽美而称恶。<br>闺中既以邃远兮，哲王又不寤。<br>怀朕情而不发兮，余焉能忍而与此终古？<br>索琼茅以筳篿兮，命灵氛为余占之。<br>曰：两美其必合兮，孰信修而慕之？<br>思九州之博大兮，岂惟是其有女？<br>曰：勉远逝而无狐疑兮，孰求美而释女？<br>何所独无芳草兮，尔何怀乎故宇？<br>世幽昧以昡曜兮，孰云察余之善恶？<br>民好恶其不同兮，惟此党人其独异！<br>户服艾以盈要兮，谓幽兰其不可佩。<br>览察草木其犹未得兮，岂珵美之能当？<br>苏粪壤以充祎兮，谓申椒其不芳。<br>欲从灵氛之吉占兮，心犹豫而狐疑。<br>巫咸将夕降兮，怀椒糈而要之。<br>百神翳其备降兮，九疑缤其并迎。<br>皇剡剡其扬灵兮，告余以吉故。<br>曰：勉升降以上下兮，求矩矱之所同。<br>汤、禹俨而求合兮，挚、咎繇而能调。<br>苟中情其好修兮，又何必用夫行媒？<br>说操筑于傅岩兮，武丁用而不疑。<br>吕望之鼓刀兮，遭周文而得举。<br>宁戚之讴歌兮，齐桓闻以该辅。<br>及年岁之未晏兮，时亦犹其未央。<br>恐鹈鴂之先鸣兮，使夫百草为之不芳。<br>何琼佩之偃蹇兮，众薆然而蔽之。<br>惟此党人之不谅兮，恐嫉妒而折之。<br>时缤纷其变易兮，又何可以淹留？<br>兰芷变而不芳兮，荃蕙化而为茅。<br>何昔日之芳草兮，今直为此萧艾也？<br>岂其有他故兮，莫好修之害也！<br>余以兰为可恃兮，羌无实而容长。<br>委厥美以从俗兮，苟得列乎众芳。<br>椒专佞以慢慆兮，樧又欲充夫佩帏。<br>既干进而务入兮，又何芳之能祗？<br>固时俗之流从兮，又孰能无变化？<br>览椒兰其若兹兮，又况揭车与江离？<br>惟兹佩之可贵兮，委厥美而历兹。<br>芳菲菲而难亏兮，芬至今犹未沬。<br>和调度以自娱兮，聊浮游而求女。<br>及余饰之方壮兮，周流观乎上下。<br>灵氛既告余以吉占兮，历吉日乎吾将行。<br>折琼枝以为羞兮，精琼爢以为粻。<br>为余驾飞龙兮，杂瑶象以为车。<br>何离心之可同兮？吾将远逝以自疏。<br>邅吾道夫昆仑兮，路修远以周流。<br>扬云霓之晻蔼兮，鸣玉鸾之啾啾。<br>朝发轫于天津兮，夕余至乎西极。<br>凤皇翼其承旗兮，高翱翔之翼翼。<br>忽吾行此流沙兮，遵赤水而容与。<br>麾蛟龙使梁津兮，诏西皇使涉予。<br>路修远以多艰兮，腾众车使径待。<br>路不周以左转兮，指西海以为期。<br>屯余车其千乘兮，齐玉轪而并驰。<br>驾八龙之婉婉兮，载云旗之委蛇。<br>抑志而弭节兮，神高驰之邈邈。<br>奏《九歌》而舞《韶》兮，聊假日以媮乐。<br>陟升皇之赫戏兮，忽临睨夫旧乡。<br>仆夫悲余马怀兮，蜷局顾而不行。<br>乱曰：已矣哉！<br>国无人莫我知兮，又何怀乎故都！<br>既莫足与为美政兮，吾将从彭咸之所居！</p>
-]]></content>
-      <categories>
-        <category>古文</category>
-        <category>战国</category>
-      </categories>
-      <tags>
-        <tag>离骚</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>swirl包（Vector）</title>
     <url>/2023/12/13/swirl4/</url>
     <content><![CDATA[<h1 id="Swirl-第四关"><a href="#Swirl-第四关" class="headerlink" title="Swirl 第四关"></a>Swirl 第四关</h1><p>在R语言中最简单和普通的数据结果就是向量，本文内容为swirl包第四关vector（向量）的答案以及一些易踩坑点，虽然有答案很方便，但还是要自己多思考，才能取得进步。</p>
@@ -138,6 +123,21 @@
       </tags>
   </entry>
   <entry>
+    <title>离骚</title>
+    <url>/2023/11/23/lisao/</url>
+    <content><![CDATA[<p>帝高阳之苗裔兮，朕皇考曰伯庸。<br>摄提贞于孟陬兮，惟庚寅吾以降。<br>皇览揆余初度兮，肇锡余以嘉名：<br>名余曰正则兮，字余曰灵均。<br>纷吾既有此内美兮，又重之以修能。</p>
+<span id="more"></span>
+<p>扈江离与辟芷兮，纫秋兰以为佩。<br>汩余若将不及兮，恐年岁之不吾与。<br>朝搴阰之木兰兮，夕揽洲之宿莽。<br>日月忽其不淹兮，春与秋其代序。<br>惟草木之零落兮，恐美人之迟暮。(惟 通：唯)<br>不抚壮而弃秽兮，何不改此度？(改此度 一作：改乎此度)<br>乘骐骥以驰骋兮，来吾道夫先路！<br>昔三后之纯粹兮，固众芳之所在。<br>杂申椒与菌桂兮，岂惟纫夫蕙茝！<br>彼尧、舜之耿介兮，既遵道而得路。<br>何桀纣之猖披兮，夫唯捷径以窘步。<br>惟夫党人之偷乐兮，路幽昧以险隘。<br>岂余身之惮殃兮，恐皇舆之败绩！<br>忽奔走以先后兮，及前王之踵武。<br>荃不查余之中情兮，反信谗而齌怒。<br>余固知謇謇之为患兮，忍而不能舍也。<br>指九天以为正兮，夫唯灵修之故也。<br>曰黄昏以为期兮，羌中道而改路！<br>初既与余成言兮，后悔遁而有他。<br>余既不难夫离别兮，伤灵修之数化。<br>余既滋兰之九畹兮，又树蕙之百亩。<br>畦留夷与揭车兮，杂杜衡与芳芷。<br>冀枝叶之峻茂兮，愿俟时乎吾将刈。<br>虽萎绝其亦何伤兮，哀众芳之芜秽。<br>众皆竞进以贪婪兮，凭不厌乎求索。<br>羌内恕己以量人兮，各兴心而嫉妒。<br>忽驰骛以追逐兮，非余心之所急。<br>老冉冉其将至兮，恐修名之不立。<br>朝饮木兰之坠露兮，夕餐秋菊之落英。<br>苟余情其信姱以练要兮，长顑颔亦何伤。<br>掔木根以结茝兮，贯薜荔之落蕊。<br>矫菌桂以纫蕙兮，索胡绳之纚纚。<br>謇吾法夫前修兮，非世俗之所服。<br>虽不周于今之人兮，愿依彭咸之遗则。<br>长太息以掩涕兮，哀民生之多艰。<br>余虽好修姱以鞿羁兮，謇朝谇而夕替。<br>既替余以蕙纕兮，又申之以揽茝。<br>亦余心之所善兮，虽九死其犹未悔。<br>怨灵修之浩荡兮，终不察夫民心。<br>众女嫉余之蛾眉兮，谣诼谓余以善淫。<br>固时俗之工巧兮，偭规矩而改错。<br>背绳墨以追曲兮，竞周容以为度。<br>忳郁邑余侘傺兮，吾独穷困乎此时也。<br>宁溘死以流亡兮，余不忍为此态也。<br>鸷鸟之不群兮，自前世而固然。<br>何方圜之能周兮，夫孰异道而相安？<br>屈心而抑志兮，忍尤而攘诟。<br>伏清白以死直兮，固前圣之所厚。<br>悔相道之不察兮，延伫乎吾将反。<br>回朕车以复路兮，及行迷之未远。<br>步余马于兰皋兮，驰椒丘且焉止息。<br>进不入以离尤兮，退将复修吾初服。<br>制芰荷以为衣兮，集芙蓉以为裳。<br>不吾知其亦已兮，苟余情其信芳。<br>高余冠之岌岌兮，长余佩之陆离。<br>芳与泽其杂糅兮，唯昭质其犹未亏。<br>忽反顾以游目兮，将往观乎四荒。<br>佩缤纷其繁饰兮，芳菲菲其弥章。<br>民生各有所乐兮，余独好修以为常。<br>虽体解吾犹未变兮，岂余心之可惩。<br>女嬃之婵媛兮，申申其詈予，曰：<br>鲧婞直以亡身兮，终然夭乎羽之野。<br>汝何博謇而好修兮，纷独有此姱节？<br>薋菉葹以盈室兮，判独离而不服。<br>众不可户说兮，孰云察余之中情？<br>世并举而好朋兮，夫何茕独而不予听？<br>依前圣以节中兮，喟凭心而历兹。<br>济沅、湘以南征兮，就重华而敶词：<br>启《九辩》与《九歌》兮，夏康娱以自纵。<br>不顾难以图后兮，五子用失乎家衖。<br>羿淫游以佚畋兮，又好射夫封狐。<br>固乱流其鲜终兮，浞又贪夫厥家。<br>浇身被服强圉兮，纵欲而不忍。<br>日康娱而自忘兮，厥首用夫颠陨。<br>夏桀之常违兮，乃遂焉而逢殃。<br>后辛之菹醢兮，殷宗用而不长。<br>汤、禹俨而祗敬兮，周论道而莫差。<br>举贤才而授能兮，循绳墨而不颇。<br>皇天无私阿兮，览民德焉错辅。<br>夫维圣哲以茂行兮，苟得用此下土。<br>瞻前而顾后兮，相观民之计极。<br>夫孰非义而可用兮？孰非善而可服？<br>阽余身而危死兮，览余初其犹未悔。<br>不量凿而正枘兮，固前修以菹醢。<br>曾歔欷余郁邑兮，哀朕时之不当。<br>揽茹蕙以掩涕兮，沾余襟之浪浪。<br>跪敷衽以陈辞兮，耿吾既得此中正。<br>驷玉虬以椉鹥兮，溘埃风余上征。<br>朝发轫于苍梧兮，夕余至乎县圃。<br>欲少留此灵琐兮，日忽忽其将暮。<br>吾令羲和弭节兮，望崦嵫而勿迫。<br>路曼曼其修远兮，吾将上下而求索。(曼曼 一作：漫漫)<br>饮余马于咸池兮，总余辔乎扶桑。<br>折若木以拂日兮，聊逍遥以相羊。<br>前望舒使先驱兮，后飞廉使奔属。<br>鸾皇为余先戒兮，雷师告余以未具。<br>吾令凤鸟飞腾兮，继之以日夜。<br>飘风屯其相离兮，帅云霓而来御。<br>纷总总其离合兮，斑陆离其上下。<br>吾令帝阍开关兮，倚阊阖而望予。<br>时暧暧其将罢兮，结幽兰而延伫。<br>世溷浊而不分兮，好蔽美而嫉妒。<br>朝吾将济于白水兮，登阆风而绁马。<br>忽反顾以流涕兮，哀高丘之无女。<br>溘吾游此春宫兮，折琼枝以继佩。<br>及荣华之未落兮，相下女之可诒。<br>吾令丰隆乘云兮，求宓妃之所在。<br>解佩纕以结言兮，吾令謇修以为理。<br>纷总总其离合兮，忽纬繣其难迁。<br>夕归次于穷石兮，朝濯发乎洧盘。<br>保厥美以骄傲兮，日康娱以淫游。<br>虽信美而无礼兮，来违弃而改求。<br>览相观于四极兮，周流乎天余乃下。<br>望瑶台之偃蹇兮，见有娀之佚女。<br>吾令鸩为媒兮，鸩告余以不好。<br>雄鸠之鸣逝兮，余犹恶其佻巧。<br>心犹豫而狐疑兮，欲自适而不可。<br>凤皇既受诒兮，恐高辛之先我。<br>欲远集而无所止兮，聊浮游以逍遥。<br>及少康之未家兮，留有虞之二姚。<br>理弱而媒拙兮，恐导言之不固。<br>世溷浊而嫉贤兮，好蔽美而称恶。<br>闺中既以邃远兮，哲王又不寤。<br>怀朕情而不发兮，余焉能忍而与此终古？<br>索琼茅以筳篿兮，命灵氛为余占之。<br>曰：两美其必合兮，孰信修而慕之？<br>思九州之博大兮，岂惟是其有女？<br>曰：勉远逝而无狐疑兮，孰求美而释女？<br>何所独无芳草兮，尔何怀乎故宇？<br>世幽昧以昡曜兮，孰云察余之善恶？<br>民好恶其不同兮，惟此党人其独异！<br>户服艾以盈要兮，谓幽兰其不可佩。<br>览察草木其犹未得兮，岂珵美之能当？<br>苏粪壤以充祎兮，谓申椒其不芳。<br>欲从灵氛之吉占兮，心犹豫而狐疑。<br>巫咸将夕降兮，怀椒糈而要之。<br>百神翳其备降兮，九疑缤其并迎。<br>皇剡剡其扬灵兮，告余以吉故。<br>曰：勉升降以上下兮，求矩矱之所同。<br>汤、禹俨而求合兮，挚、咎繇而能调。<br>苟中情其好修兮，又何必用夫行媒？<br>说操筑于傅岩兮，武丁用而不疑。<br>吕望之鼓刀兮，遭周文而得举。<br>宁戚之讴歌兮，齐桓闻以该辅。<br>及年岁之未晏兮，时亦犹其未央。<br>恐鹈鴂之先鸣兮，使夫百草为之不芳。<br>何琼佩之偃蹇兮，众薆然而蔽之。<br>惟此党人之不谅兮，恐嫉妒而折之。<br>时缤纷其变易兮，又何可以淹留？<br>兰芷变而不芳兮，荃蕙化而为茅。<br>何昔日之芳草兮，今直为此萧艾也？<br>岂其有他故兮，莫好修之害也！<br>余以兰为可恃兮，羌无实而容长。<br>委厥美以从俗兮，苟得列乎众芳。<br>椒专佞以慢慆兮，樧又欲充夫佩帏。<br>既干进而务入兮，又何芳之能祗？<br>固时俗之流从兮，又孰能无变化？<br>览椒兰其若兹兮，又况揭车与江离？<br>惟兹佩之可贵兮，委厥美而历兹。<br>芳菲菲而难亏兮，芬至今犹未沬。<br>和调度以自娱兮，聊浮游而求女。<br>及余饰之方壮兮，周流观乎上下。<br>灵氛既告余以吉占兮，历吉日乎吾将行。<br>折琼枝以为羞兮，精琼爢以为粻。<br>为余驾飞龙兮，杂瑶象以为车。<br>何离心之可同兮？吾将远逝以自疏。<br>邅吾道夫昆仑兮，路修远以周流。<br>扬云霓之晻蔼兮，鸣玉鸾之啾啾。<br>朝发轫于天津兮，夕余至乎西极。<br>凤皇翼其承旗兮，高翱翔之翼翼。<br>忽吾行此流沙兮，遵赤水而容与。<br>麾蛟龙使梁津兮，诏西皇使涉予。<br>路修远以多艰兮，腾众车使径待。<br>路不周以左转兮，指西海以为期。<br>屯余车其千乘兮，齐玉轪而并驰。<br>驾八龙之婉婉兮，载云旗之委蛇。<br>抑志而弭节兮，神高驰之邈邈。<br>奏《九歌》而舞《韶》兮，聊假日以媮乐。<br>陟升皇之赫戏兮，忽临睨夫旧乡。<br>仆夫悲余马怀兮，蜷局顾而不行。<br>乱曰：已矣哉！<br>国无人莫我知兮，又何怀乎故都！<br>既莫足与为美政兮，吾将从彭咸之所居！</p>
+]]></content>
+      <categories>
+        <category>古文</category>
+        <category>战国</category>
+      </categories>
+      <tags>
+        <tag>离骚</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>swirl包（Missing values）</title>
     <url>/2023/12/14/swirl5/</url>
     <content><![CDATA[<h1 id="Swirl第五关"><a href="#Swirl第五关" class="headerlink" title="Swirl第五关"></a>Swirl第五关</h1><p>missing values（缺失值）；R语言一般用于统计分析，因此在处理大量数据时，缺失值<br>是一个常见的问题，在发现缺失值后该怎么处理？在第五关，简单解释了缺失值以及统计缺失值。</p>
@@ -158,54 +158,6 @@
     <content><![CDATA[<h1 id="Swirl第七关"><a href="#Swirl第七关" class="headerlink" title="Swirl第七关"></a>Swirl第七关</h1><p>Matrices and Data Frames，在第七关，你将学习了使用两种非常重要且常见的数据结构——矩阵和数据框架的基础知识，并初步学会构建。</p>
 <span id="more"></span>
 <h2 id="参考答案"><a href="#参考答案" class="headerlink" title="参考答案"></a>参考答案</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; my_vector &lt;- 1:20</span><br><span class="line"></span><br><span class="line">&gt; dim(my_vector)</span><br><span class="line"></span><br><span class="line">&gt; length(my_vector)</span><br><span class="line"></span><br><span class="line">&gt; dim(my_vector) &lt;- c(4, 5)</span><br><span class="line"></span><br><span class="line">&gt; attributes(my_vector)</span><br><span class="line"></span><br><span class="line">&gt; class(my_vector)</span><br><span class="line"></span><br><span class="line">&gt; my_matrix &lt;- my_vector</span><br><span class="line"></span><br><span class="line">&gt; my_matrix2 &lt;- matrix(data = 1:20, nrow = 4, ncol = 5)</span><br><span class="line"></span><br><span class="line">&gt; identical(my_matrix, my_matrix2)</span><br><span class="line"></span><br><span class="line">&gt; patients &lt;- c(&quot;Bill&quot;, &quot;Gina&quot;, &quot;Kelly&quot;, &quot;Sean&quot;)</span><br><span class="line"></span><br><span class="line">&gt; cbind(patients, my_matrix)</span><br><span class="line"></span><br><span class="line">&gt; my_data &lt;- data.frame(patients, my_matrix)</span><br><span class="line"></span><br><span class="line">&gt; cnames &lt;- c(&quot;patient&quot;, &quot;age&quot;, &quot;weight&quot;, &quot;bp&quot;, &quot;rating&quot;, &quot;test&quot;)</span><br><span class="line"></span><br><span class="line">&gt; colnames(my_data) &lt;- cnames</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>R语言</category>
-        <category>Swirl包</category>
-      </categories>
-      <tags>
-        <tag>R语言入门</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>swirl包（Function）</title>
-    <url>/2023/12/20/swirl9/</url>
-    <content><![CDATA[<h1 id="Swirl包第九关"><a href="#Swirl包第九关" class="headerlink" title="Swirl包第九关"></a>Swirl包第九关</h1><p>  第九关的内容主要讲的是Function（函数），该关会简单介绍几种R语言里基础的函数。</p>
-<span id="more"></span>
-<h2 id="Sys-Date"><a href="#Sys-Date" class="headerlink" title="Sys.Date()"></a>Sys.Date()</h2><p>  Sys.Date()函数基于你电脑的环境会返回一个变量（你的电脑上的日期）</p>
-<h2 id="mean"><a href="#mean" class="headerlink" title="mean()"></a>mean()</h2><p>  mean()函数会读取你输入的向量里的数，并且返回这些数的平均值。</p>
-<h2 id="自己构建函数boring-function-my-mean-remainder"><a href="#自己构建函数boring-function-my-mean-remainder" class="headerlink" title="自己构建函数boring_function(), my_mean(), remainder()"></a>自己构建函数boring_function(), my_mean(), remainder()</h2><h3 id="构建函数boring-function"><a href="#构建函数boring-function" class="headerlink" title="构建函数boring_function()"></a>构建函数boring_function()</h3><p>  在脚本编写区写入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">boring_function &lt;- function(x) &#123;</span><br><span class="line">   x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>该函数功能为输出括号内的数，一个简单且无聊的函数</p>
-<h3 id="构建函数my-mean"><a href="#构建函数my-mean" class="headerlink" title="构建函数my_mean()"></a>构建函数my_mean()</h3><p>   在脚本编写区写入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">my_mean &lt;- function(my_vector) &#123;</span><br><span class="line">  sum(my_vector)/length(my_vector)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>该函数功能为计算你输入的向量的平均数，如输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;my_mean(c(4, 5, 10))</span><br></pre></td></tr></table></figure>
-<p>会得到一个数6.3333</p>
-<h3 id="构建remainder-函数"><a href="#构建remainder-函数" class="headerlink" title="构建remainder()函数"></a>构建remainder()函数</h3><p>   在脚本编写区输入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">remainder &lt;- function(num, divisor = 2) &#123;</span><br><span class="line">  num %% divisor</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>该函数功能为计算你输入的数除以2后的余数， 如输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;remainder(5)</span><br></pre></td></tr></table></figure>
-<p>会得到数：1</p>
-<p>也可以自己改变除数，如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;remainder(12, 5)</span><br></pre></td></tr></table></figure>
-<p>会得到数：2<br>或者可以输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;remainder(divisor = 11, num = 5) #divisor为除数，num为被除数</span><br></pre></td></tr></table></figure>
-<p>会得到数：5</p>
-<h3 id="构建evaluate-函数"><a href="#构建evaluate-函数" class="headerlink" title="构建evaluate()函数"></a>构建evaluate()函数</h3><p>  在脚本编写区写入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">evaluate &lt;- function(func, dat)&#123;</span><br><span class="line">  func(dat)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>该函数可以将函数作为参数</p>
-<h3 id="构建telegram-函数"><a href="#构建telegram-函数" class="headerlink" title="构建telegram()函数"></a>构建telegram()函数</h3><p>   在脚本编写区写入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">telegram &lt;- function(...)&#123;</span><br><span class="line">  paste(&quot;START&quot;, ..., &quot;STOP&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>功能和boring_function()函数有点像</p>
-<h3 id="构建mad-libs-函数"><a href="#构建mad-libs-函数" class="headerlink" title="构建mad_libs()函数"></a>构建mad_libs()函数</h3><p>  在脚本编写区写入代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mad_libs &lt;- function(...)&#123;</span><br><span class="line">  args &lt;- list(...)</span><br><span class="line">  place &lt;- args[[&quot;place&quot;]]</span><br><span class="line">  adjective &lt;- args[[&quot;adjective&quot;]]</span><br><span class="line">  noun &lt;- args[[&quot;noun&quot;]]</span><br><span class="line">  paste(&quot;News from&quot;, place, &quot;today where&quot;, adjective, &quot;students took to the streets in protest of the new&quot;, noun, &quot;being installed on campus.&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>可以修改paste内的内容，是一个文本填充和替换的函数，无聊。</p>
-<h3 id="自己定义二进制运算符"><a href="#自己定义二进制运算符" class="headerlink" title="自己定义二进制运算符"></a>自己定义二进制运算符</h3><p>  在脚本编写区写入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;%p%&quot; &lt;- function(left, right)&#123; # Remember to add arguments!</span><br><span class="line">  paste(left, right)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>使用“%p%”可以结合其两边的文字，例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;&#x27;I&#x27;%p%&#x27;love&#x27;%p%&#x27;R!&#x27;</span><br></pre></td></tr></table></figure>
-<p>会得到：”I love R!”</p>
 ]]></content>
       <categories>
         <category>R语言</category>
@@ -344,31 +296,65 @@
   <entry>
     <title>生物技术</title>
     <url>/2023/12/21/%E7%94%9F%E7%89%A9%E6%8A%80%E6%9C%AF/</url>
-    <content><![CDATA[<h1 id="生物技术复习"><a href="#生物技术复习" class="headerlink" title="生物技术复习"></a>生物技术复习</h1><p>太多了根本背不了，坐等挂科了😥。</p>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，请重试" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c9d4ee0b688ecb6d9457d4068d83627ae226ab206758213a856938bd604016a0">7aff1eb6359dfecb858d3e59376d8e8b57333b9451f6eaecc94b412eb88eae16b041ff906406cd869af55adaf95ae46206a1bc3f9b61ed2da442336cbb63f115e6534e19c500604bc5480d3f49fc50649c2d233c589bf0bf4fc4ca418c758f07543b301d7c5d31fbd600d80813076471495c4961ec7ebe0aaf2718d7ad47416305bf130c07acaa91cf657a67400d41a9d8622748b4c27b5c7872e3b7925d24ffe2560c60125810d58c640c48cb01b51e0f32de9d54abc94b4309a63eac77e2e98ddb95f5c0b3b7b3597a3dddde9091afa8fd301ccc86868d8ab7154faf4d30825e16d34398c1d5b7e5d53ab504b04c161225230917e0a37fea8511f5660cc027a8564aeb37e127bb88843b26268c51ca66fabe2f3b186e43bd32d0e411e2cd70bc3ada13108ade43555596ed631f45be862010a0d4eb34bdea425e2e552193140c1684993095b53c879a374851fdc2255bd775278d6561022e95224951e9f17da2e6e84c5f852f488d8576faf21eb1a1a987054cba49232bb5127e0dc04e7d0510f4d4f9765ceac045de6d767f9ee14ef944c714b6f971315c7194fd89242c05ab01d84fc83b245094b875589f0586292dda116045f6713d8e9a416f09888e87aa4a00e62ca6ecf3df7e145fad63f1ec4de6cbe036172238fc3947c9c96b316b601afeb54fb8dd096b07786dc3d24cc617cb7ffb6d5986140b9c7494e262adb0a67f1fe4e82f5d35433adfbbeb9570ba00dafe965500048ead6276fb8c02c57f2c0b18bc3db29ce0c480f6559e9f22fcb2f34e12c5e27a4d04fac06eab8406fd3c47af693c72db1f1ce761266d89d0eefb51def0433f092210158ecbb122d0ac7e16c66f00d63a6b299fa1bd1015abdf36c2e6a5d229d9a4b09eca2db024107b2cc23eaf39c0784c48f5e15329a055ae42bc0fcbfa32ffd1302786c43b7285d1bbdc76daa3a739bdcf58db469e435933ad59afa992ebf162eab069321556f2fd00a63abf199b6e1ea90b3951e20cb2460fab2e93a1f9144482e3d6fdd958fa9f9f92b918150b181e3e3f3eb4fb3d0ea19420634da86551af72e16439ab9fcb7f03a943779067f4b4f7b15fbec1b03ecd17b374f0f27450d27f4b34e4b1c08521a7c077d12669242468f8bc4d2d3c924593b3c29838260ae3c23425055c680885ff0334bc4a7f7cedbed7ede4b545a1feee650de4604e87b1d9e60a08297a629ac528f1b7488e8f1d6aedaeebbf1685cb1d8f34f0e184511f6365141b2867f545b2804520b4c37de0f3846b67446f405a4c9a24d3312877bc6cd99fb16ea01af6b4c0c1562024b4a2f9515a0289b0ef2eca26184ed17e2a5dedfc115198d40947212ce6275d71fb1e0c24552bacf9997703225a8acb947aa9bec16189bca7782cf4bfdbf3563a99cf3bb4a70f0b27059d679580e559a06ff9e744767d3d120b5e3c2f43ecb296acea5cf90f267e320ea4d70c2eb50cf8422f7fe8e2803ce4b7680ca014000c1904094f99b05d5fd2effaa11fe579795892ab4df32e2fd7cf58f7fde21689a5f8c0d6a485d7ec1516f46414180e716956c327b2a7b3f8060fd92d8d5112fbece6dbc6952b650b18f11c37758b23403441690948c8313b8a6ea539ad92f4a5ee4f39de12c61a06da79906a2ad6575aa01263ad152e0bbfea31b8336ba1408abfa13bffb9c631eeed46d82e04de2ef1129db26d33612e7632236d0182f5c49e63526405b822eeec1858797872d180283799c419c89790f41073b7d2f9517316c70fba41f965ca92dbdb2ff0e1e7fe0b0b807a62c064c65aad47a26510dcc3727b9a6565c3c086b3c5ef3e02b776a11b79c8af648ffcb2eb691f0ca4edd93a24fa1e2b093e6d864230b56edcf15f5e280673a03aa4c6b6c98aecbcf48af3fcc4eb8da8a67722c0b9ba76c0f0ec0c9217cf2abf486476af6da065f6cacf7cd96944c6b41fe6d87c450a42d9b0c8db01e090aea94397835cb905712805b3d27153a5182b2267a33dceb9a46fead685cf4102f181ef6b8e4c84dbd0d47a0810eb6ccb425310b27938bb3e60d8bad78fadd447ac3c0891919d2937f88dfdc8a6996b6763e127c7eb0223126472e4233b066798b57656218b22c9aa1bff0a770d8a4eccefb08f247c616ca6b124ad26bd22efdd5afebfebdfd478ef7a9c749d482009bc2b35d136a04950510400dc6f72422dab3e7f7fd3842af55883e87a65eebef595fa35dc1768a376eb8a096e3199086e59aee3c64032ba3cf41d7e38bd52ec56c5c856fd19366feb6a765993ba755482f887642c241f01202a433c1d5ae58e86bf539580787bd485cbee93ac36668d982b88cdf2c78fa2b696bea2b266856f7620ca97f49dd9cb98b4585dc68258f278a0b3ebb8940bfcb7d653c654d71b28ffaa5167a9dc1c7ae5cc6c1246beeedb3b0c207c6828e97ab7f4ae04dde218570010d6bef5415dae1444ef0f8aa46a80ba31797cd7773c566878518db4f9cd22e82399dc481920070f6ba410cf6301ac2da2393bf46af58be4c2c349da38596a75943fa7a2cdd3c26351d27f3e049cb377dd49ecb6bebd8d4635e594a0dbfb43a965cd8df7a5af3693c45d3b2ba638f9b214a586c869245aa388110174edcc2a69025dd96f5677582e9e84b39919340c2af96347c0d7f920d515d8c9193c766d854b78dc3bb10e24145515c708a68c8e3d3174a8dc3b90b1453f4b198e01690347cda2dbea3155f0f94df0712c7b4d011f75726f3cc408de979ae2489b0115c4d8ba090d3033680f139a76c64d93aa6739eacf21373ff76a1fac12179e680bb1e58e39a2e73097d338685f392fc7cf10a37f613d08e72267edf3b2f6b2ef1064a6136add1aba1d4d1491400909ca8419945fd206b465656e4d2768381e13b15d217f063bb2a7c9e5d3a79ef9981d0575701ccfc2958245b41372cea22fb88dff035ba488c5237135ccbb4ec47e234f5254614bcbc1804a3bc745773f563596dad4914fa578be45f0b67afee6cb2d99ab8750ba2566f41a088bef98a5f310fca9aa5691887204fe36d53a401c2ab5fc55601bdda27aa0deec4e9b43d05b85e2e3945a235e061515ba7b4183aab317efdedf210a1bb13c6d6084863a0c5854a7e49de27b6932a7829bf8cfd7e1c54edc9bfa0064e7ff147986aa412f8ea9e32f591ef79bb6a9eecafcd2a5cf9234dadac2329997a9881c5d4400fb1974f4390cedfa68dace388e8f13546b6e06a96f49c6a6da4f3eca3a18dd71593e88a29eb8282f78b9e04ea17a5a11807e33c09f3edcf47b89086fcc506aae578755c9dc582ef8735a432a62cf1915d078102a824362f3763be61e94726799bee44fbb9754cd74b5115a21b58687c4903b2c9b25c6c9e2b6ab00c6951f2301ef40099f589730faa9b0bb0147beba5cb69a375744e1a89cbfb21b51323750b69f8e6679334e6ab389c62c463af5534ce0284c686d877a2485f6d8177574bb81167e37509dd686e080d35e8d8433a3cfd7dab653a6dcd2dd2961d769d64017c6fb5f5249cb31006a189466e58e3e6c12b771bb41901b71c39e2fd3a6ad5c6a2f862dff0bc28b7526c2dcdc408ed3d211df81f0ff5583c71cb25224555388032ecfc9635378e647a53969128b23fd2f9b6abfcbb86f35b23863585f0a46ea2980c7fcfb0aa850296fb201f55a46d6741b89ff2385041a002ba61c3eeba7cc8ee96be2f3bb0c1fefc2f7d981bdb33c8857bd697a957ef6d0ed1fc61cc0a7ba22ce24a20676eaffda1775f34c0927c4c7794c2bd95b79d2565aa5ba72960afcff0f55956508a3d6ed8a978c4f4d5107e2d004fa5936c7380e9f1288d38276730403f8f53e62c51d7eb9e42ad4a7159915ceba57d0c2ed542bc96f164aeb52d72a4e9a6645766a4bd65df8b2855c7f8ea2adab9ec3c5ed13efa1535843bffd357c41526764ef82f6d80e48f17d4a55ce558abf7d7bbd4f5b8676535fc1dec03f264740ad1983d4b776256c42bf7e2a04312c9708f89dcb83d01759d6a681ac1cd95b0207b3544bbf8750d0abe3c165947d96319c872537a37324be9ec6f9e25ef029c7326c457e6fee9c2e23a8c0085659eed92aa9848ef234db675201919143d3abb528c53f2d7b8f94e1d8cb93f672b8b62856cf63c68fc83abbc6aab78a51093fe188586293fb8ea83acbb95098a6969fb4820d9c906151e8c1e5b1b097a8ab416d2ba5a9c5c00fac2d799779f5605938c85147e303a099443342d9df3a6cee79d3ed1ed6f4a1d7a0bc6b8bd735291023a2be6dd454d95c4d9e7a4b90a65dcce248b8e8c7142a72639327fdf7a5a936b2d8dd929ec5a6c20e04171da03a8c492fd02e346866764be99005f83f5fa7fbe116788f1615c5e04c4bbafb4ce6c053b0d46bd1b91d569f79fe46fa36666432d380861e40e34cb3c3f049afc1acbb25dc9b3bf74f9086e3d564cd6c5f9ca9fb0668515f8292fa802261daba66a9b5ad1cf21b815df7fd78e4279404bc420c3ebe57d28e937fb4d0f41007ce072712c07dd720e7c3d6a78967ef5b6f954d65a4056693f33bfe38488e3e5b25523831c94a209da2030856c9fdaec3a4b44f12e063ecc3c725578c63df618f1584b619af30d06da281485411bf439025f20e4e4adb5272bad185a32875510b64c5efe16a77614a6fdaecf538c970ceed1ef38754bdb2255a85935304be5169113961ec2fbcbb7f349df741f53b82a56cf38c1b2b0fc5fb0d0e037245a42a9012656e6d4a5154fa972faf95c3defd55ce6f75f8bc044516512b268f4c0c569d1a02dbe91dfbc6418989d8034a06485fd35247b5962dbef59d594e6e0b5c74d21a9999325268f44ec086f14761880a54f9b10199ad8f75d6540a7c6be519c1560391f267c8cfa11adf01fc5b423b12879608af5f8ab4f2b25f8ce4aa7e73cb1d6eddc12a0e68b3b890a9434147a170086bafe4c1f2325b2ed282686d10c4e0c1e9a5c4a810f02e8a8bc92e0f70cc736b4b1c9c05ead9632d8bd5165cc55f4136ce377f86ec1bdce3aac7eff7715fc16be390de372bd8bef09dac9505325c790ba9c4d8980bac619d3485d550f00fba0d216a6237df487dfd7e4cf4785dfa5717938f78b39ebe53232c8a2bc9c4a7d54f17de6aeab775d7b6a44a8380fe17b00a0772941b3612f512c5e183a7ee7f6dbba18ae7b74ea0ac8c366ac15f4cccaa958a11a0e7cbace4e41ef441d4b481df19a65433b419e5e5734adb3be205f3804b52741631865b9adf0238d1e91bd9a12cc60d1ae73387e080cde4a54bca74dccff896f23c010c8f8bfd70bfa62d7158446721dc7871dfd5c57ef2abe469fa055f08659539400a1e4a629c32f763132511d702e128a5862d6d63832a46760fdf0dcba8d25f734b841623b23cd053b3655d5073fbf30c2afeca3597f95d82c828f04bc47fa4a53ce8e502e4fd072a880d71125384760fbffc6beb8d15d89724e35da1deb03bd0bc804a5c3de9dbd18749a7434cc22c95f42c956c9e0593c3556d91c54336c40ff5f3ec23e3a0dcc1269df5fc207cbed460245ba95cf6116fd601c5e2793260328181be5e0a6d8b0991ad8a66245900559dc65e266e29995a28daf87f5e76bf6c05d32c4ee1bf1589e1a7b3092d85778b5265f26a84bf4c6fd8752e319d004cf641613f68101b38c5f12fa33add1d975700bdaca774c67be4f84708bae94682df78118f25cea1fbece378eb696ccae6bd0d0a3128e506f153a2fedee0d023d7abdf27b746fe8b37537a3bbb0e5cafb8832e84ee5fa47723ec00c7c155f84304336e714df6abbbbee2ff04897710906d836417eb5097615a97f243b3e372b1faa8f596854c4c05abd234e148149b7ff5a36d0aafa7dbc16b9cee0f09a0eb3512a28ece7b301e17389baca5f1dd28db0308c2ef2c797153c6dedf49ea97dd147ff38e27b29370bde68f2822bd9c223feab2c4266d03e9cd556ed5e59804c0e55ecaad77d2db842db0e7b754e757f334721cbcf4e6bdb8e6422741c990717bf9a1a7a3858485332ab4fa9d2f8124515862c2c8b6a0e447cba35df3220640053cd0ccaa2860a59cee31282ba2f9e22e7c4ad745a65030fbee9a24df99583cbd71e89d192d3780045f895a2124be7a689321b77f85ddabff8e054f7ffc3e23d49483fa508f7089f1a8774f4fbed12cd318d1599c17b27e9a5dc7dfb849ad68fe076660f4a2064d979bdef7bb158018baecbcf5bb139ca86f7fbf7581db2e0ba1374c72d12cb8b8cbc0b270093f70462827ad6f15fbef6819e1b7b89d8e7f2c6fd03b07fae3780075e3c25d3f24de7d4a5113944c4566de401869c98796731cc65ea4a7af62b00532a07fe13895c8a42119c8f0ee4200600f6773eca753c1ef2f6391e7b42b4abb7dacf24305941039d184d6f058135ba06de748d8973a4466d9c170620f331a18825fc905aaf2a9727905a127fe8af254288d227be50cf41e9c6838509fc939dcd64b4f1fdc20fdba8455bda5a4d8cf68db4f2f550af8f331c6236f5311ef947b0a27b1ae6b9c8aceed535d8dfb612b021adad484648879368eb500033a593ffc28a96cc55c8a43d78a823cad066d8b6f8ab8d3314863f0d1a65c9a6a8ad82c4b5a5028933caeaa2955b863ca2d491ab32c168407a34f78099f68c6c7394324e65129b8f1a0174fd703a40d252a6d37c55f6e24df231137c9c01e09e68fd402c98e8b62a21734f2b986ef8a3297d04fc75a13a7e6c8d331ff895855bec225653fb8a016d86c566b724e341a150f726af4262f96f2fff336e407327c27d7f45c1ce9fc49707938e9d55ec86c3a917c7503abaf63997044fe09fdac739750856543244ecbd95570b6ea545da5c3bc28b24e03883cdb6e19433c312014b1ae40547e11894f5b129a0a67bb1f3898a3db89858ccd7a5dd2acc74ded611b4d684353a02be4fc0e1937314022d500f84b7045e0c5100c3c16665baca68dfd381a326b6ee25db8d40d867e4629fbcee32055034049b95c79eb1a0c6eed2fd13ed5f6334ff7cea9b68b30ac6de76cd691810342329cacbc4a51faeb68b2bd95aa473b9a2ed051668f55d076ddaf627ed04123d1e97717bd65a4b2449a32552627577c97758a190628e21fb49c5aca73224adaf9a7c8a163e66afd2c1c5c44645edfe9da687a629bb129cdd4cf787df5cbccdae7ce9689f9604410884021c5afcd8fcbd5658369d46bd5a7d73896a4a4b15314ab0d838904490b41c1f734645301a572ae0db489dde544a25dfe3d9d9016c247ed5ccfbd10adbf28474c461a530b7d5ed5c67b0a3c3ed30faa424d448b0a378237c47260a1c2f62939a4e881c32e838550721e0819f34bd93b9904dfd3144f7fc6d75972be22c6b28053d160f2609b0b66ca925e51b044c7e395d472998f6d1af91fd7c8bf8f9a9592b30268e641e833a6c3f70335083ec33d6158cd6ccec5b6c0c071f9f64f9d6875e551473f06971824a8ef901d9eb97809fe2b4382a1792b511884631f2d8927a3afda020eb514f131c25bacf12990038ca4fcb06639281bde043ca3fbec0de0d0a8befd3a6c7260ff675d77ca27167753ebc442ec500c71e2a0ec5cfde8f1dca518323e0be0c39875e9a2ef24dd9a0efec5844f2cf896b8d22cdb9403fd8893ffbd237caebafc92263c2cf7ddc8086f3893ebe4f7e4391921e55718eb905ceac56f2a49fcabfeb6c826de192fb8fe001dde9d89e7bbf94eaa2ee8ea35c336fb9fb46b8a7ec063d1e7efb651663c5c9bc829d3eca898a48d617e2a5717c8d358012d3dfbb656c3d93d8c6059ec7d2c0eb597412981a0c188ce6e19be264963fdf495f7defc5fa63692681b826203d3e31962cf84976a6953f60796aea50c0c145e3dd66d9a402c9861732b6442651a32d222e5ae77bb6f3fad116d1a8d0ceaf60a230574f158a445336387aa4f7431557264c84457df2fc53e48b83e366cfa3f11f62c16085b7181e3acfcee6688633cd3b0e5078abf46217634e7ba8587eff98dd512ef9500b150ec1ad228b88a6f83a4fcb49809688610fbaad382c758bc5bdadf3363d1720c466ff135e61eef4fb696e2426900a9229fcc39e1659646fbd7b895ad8f8240425db6ac95b1cb43c2bd31d3fc7a9d4826f1cb265d04399f53c972b63a59de5d0de73f599977b5076a31a8349ee4fb74a29114e55e21d0f79e52144758a6ad1e8775770a82050f40dd0f65c6fa25d6c1d3d3bf5ed01e1616c153beb91f8efe7c29bd5024275af27f1f2bb3e55a3ec0594df4f582d467d7949aa00f284a1fe61d61c7175bd33735b37a88b5097eb3094341029dc8b309d61dddaf64a14a79ab3a19d0d7baed91c973ac6b79b4119d1a60c2de60705857b69eed78a8929857a7c30c6f2082394d94142ff0bb4ee7d51710dc030434d9f623c49bd0af2f13de72023ccb7ad514453dc0618a30eb087dac842593978ba256cd0fe2721a36dea04ba0f465aa6331a37e698f0529c9c8cd304e1b424905f296f3865fa3daa6cf05da6d92e54feaf759ef180015eefd72b2dabe1dc678fd13658e31219a9457523dde5924aaa978b3feefa51e0b2f4259360b447468c5a8c9a56ac20d8de00d1b602066b2246c609fa83086865f0e4bccde38d6185e4c2b5a3a59a8c37eb95a8bf45525a230208b1a75ecb85c591156fb5f6184c26f14265a1354ddf68a49c5fea7e5f7ad00c063fb64d11ca375f0031207d3d0d8503a817be92ded60aa2bbff64b1e7e8af87c291faf8afe6eeb935f01df69a4b3d686a00f240db03a6741203bde0741f18fb3f14a4993fe083b6914b250c17dd26def4c160ebd6e075dc5a1ea409effba5935de3ff420e99091f3925a503348fc2ac05d7b571205046e2ad9e8828a2329c6cb1ca8907095d747862d0d873c0ac2d73b942dc2de5e61552d397746a05d539501126a6cc24b835df651315cedcdce6b16bcec052c69ed657e2aa7077152906296afb80c6db36f3c310bf2334d0a04db7b3710a2aa103b18f0b0a033c86439f9f8345b4406bf6f0bc2567a5e19ba247b10bf3a6e9ae8518646c0ccbd3374b74f21b2b72c351738142c89bb3fa3769542c583fe182212490d05b742f86cbc70e3efabe879daa8ce73302957f548c9b2241fd0fa81f47b7a00f526453645132c8f80f2612f556792fc260c1b72b5eb83f12bda68e0f3f5b5b0f014be0fedea57743e8d3c868fff1db16acc4a42164addf19cca4135e52c6cd11f024dcfa7d8ce573a18760680f51cf1c3276e9d0933fd639a246e68a548610ac09b8fd5b3dace1a360fac594f6aa3fc310de0962ce64789cd5d68fb7fc2d878ee116c414c010768f982e2c5560eefdeeb4001dfbc80e71ad107cc9e1e11791cdba2d3f6e86635996b97f878ceacb48e3f24e64b03bb2e6253bad61909f2348b1abad5eb4506ddb1f8f6b5c963f26279b9c348345e5916187e40c39d2de5d4c7b711023ecdfdd345c381d51ef41b1b252b4d1104cd687aa793e66b255de29770a6dbf953b18cb2f4bcbda885d556fd37a1e389ba403c4c361cb2af38dee99892c5517a1cbaab1eaf2ab20d343945e7d6bf6b79ebd79d0cb65d671de18209f876172c19d2289b3f21d7a6e1d3b6336fb2d4fb59dea4532b6b911f9d55b894e856657583bd77bb96426434dcf6fc7a9c44c88d507a5c40a3e5f7b4cf7d7f6632bddf634b0004e48817e09d939302636e0b71d249e872d716f555a4e51ca646b13e73268f5a8d93c03a151bd3d10ba1ad46186baaa459b06ac9aa64952cd0c1ea9a741c4525d1042ded7f93f1f5c16a3267631912bfcf3bb129b5e723d95c68653397c813d22c458264fbe4e55f69d55e553f5e9304cad3213dfd211a2ea7503189307c6faae52bf1d3cabc6faf38ef908d1e63590a975e6954428e08a122c2def23e907723d66f5680e7f309c786305653bcb6c2ffc7ae21453f80cf802265f078a647ed8cf8b7b80c5ca2a90d948a1ccca4d8b537ac019d3c9011f4061af6ee44261fd23b8042b418066e1c1757f0a7c9d1913933a5a6ec2a6e38d72522ad18f8a529cb1a05146cb7bfb9f4eeee375ea9b47c6b6dca02de1375358266e62c5ad1e863b6658d392478780849df2ce0bb0d71e2fc313fc96871189cf8ecb57162d2da9fb808b8018997a688ffdc0a2edbf794ed5dcc2c1e054236e093c64531a0131d890baa46ee0f34a70448e107bab4761ae706c166ef8496ee349a2d653d223c5bf4c17c00980672aae579eb897200e0cbf748dbda21aa136f2c73b61ba37c2af1238cdb325ca52f55bd4f75733e7235ee4d3db8bdc679c17137a16a18dc272a744b323b568a46a844ec2e800803c486a9c5911f6b10dd15ad1a2d320ceeb857af441bc579ed00b6b0233742621d787bfb09779f8e98a4f9e877bfbf666bb652cb3c30dce94e91e0986c4d10c36a756fb78ad36bb311226f05345eec4f29f18aad8e6cce203f28c3a2312a396d41bc34022c41a1a0e474756f1a9c6214e3995ddfe12f836959397b5409f2836042ba9c01c29fb62030f89ba93061de292168b702a78f3ba0075babb8e792452c462b4c3bd785ce568c9f7e8ca9aef3b51f6005a172dc2041c3e109b9b92bcb2427c52212f3530ce40b584522341d08fa255eb8975132c8c9662c7c5fdfb54873590a4a743a72494b9ca05ee9b88b7b30aed5a5312bf4152982ccfb29c7df64f5164c798505164d25401c6f9adf207ee56505967677202a2a8c0d5e0b596bd32bc330e8c66e3e36d1d2e46f1580dcf0d99946ad8518bb7ac9a0aa11465f71a9feeeee48dbdcd89fd28bb96aca941b4fbf94d4abe5456e92ebc6412a9a298cbd568fd93c3dbdca7b3ed887c7989eb1ec51017e1de58391e80799447a15f4a9748c8d028ec4d2e82527488871498cb7e2d17ffd9820dc12225fe39af624cf40b70adc8c6cf86d33875cb05fef6fbfb471e73235e15df4f4fb0f189e99ad823d049d823438b71007ba5154d7643c53eea3aa79f552ae71a916601990570aa58ea6759573763b27ee6092125cc6ef214ff7dc5ea961582566684dd254032ca37f8d0c4a1e7e70df245cb4d9ab41401786d58fc81db9e7e22c0da86a6991c71ac18b8888a2e25fc7ff0955203f50498d583ed87d265a387534dafe30d767a400149d9ee94567b75b700ba2c780392b718eeaf12b9375694a6e3930feb6c432756c06e464edf379b1878716015ce750b16ac6908065b3fb9a3b724220ba69e19feea6cdf0987b7d45c42c9d45f5cdffaca5ff8a783f3996c469a7b841183cb7d39e033ab0c4f25af56b099ba8e1a0b4bc402e79e87bf42e7c4b6d4014bda01a1060a65070e316b3e035e4c9fe06929885992bc3b68e3176861ab040e8c11d29f2ab4a250e170fcb6835d99564fd4cff303835f4808454ac9a48fc789c05928d0aad631ebf62b0fd95d226b98c1dabe9a93693b0d219c358684b16cc12fd7626bba94471422633f059cc34ca87c460c29f4afe5f29ba8c25300394116bdd0e6552abab7a87d69c1971901cb1523a2c4dc5a910efe8d72da8ea2462c71eb0ea3374f45ae94edc2e2a82b960e1ec89dae9298d3356b95dd34507f9f7b9c09b52cc5f83ea73bea32d31cbe1686f806b09a3bc6aff924152415d9c68e9be116b93168bc1d569c00d4ea8ce5f58bc902610c537f366665154942763cb0672683b470cdd078ee46d57866df5641f0707cccafa92453d0fa8a55f265e0bf375900855705b5634206b6266197c8d2101541a5a39e4404198e62bba1da4c6b64108c3a111679f4d35b2029f1e6f53605858c13bc92db69ae576dca5bb9e5d4ab166627d12ead73b11a3c207bf3904d89df4a03ccd505f4c4630698cd6151a2e0fbe4aaeb141addfee0eab1799b69a49e42e497445dc1b0420a0f68b0a1ca73ef88fbf7c4261d8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-up">
+      <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-up">内容已加密，请输入密码后阅读</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>swirl包（Function）</title>
+    <url>/2023/12/20/swirl9/</url>
+    <content><![CDATA[<h1 id="Swirl包第九关"><a href="#Swirl包第九关" class="headerlink" title="Swirl包第九关"></a>Swirl包第九关</h1><p>  第九关的内容主要讲的是Function（函数），该关会简单介绍几种R语言里基础的函数。</p>
 <span id="more"></span>
-<h1 id="生物技术第十章分子标记"><a href="#生物技术第十章分子标记" class="headerlink" title="生物技术第十章分子标记"></a>生物技术第十章分子标记</h1><p><strong>遗传多样性(遗传变异)</strong>  : 遗传信息的总和,种内不同群体之间或者一个群<br>体内不同个体的遗传变异的总和。</p>
-<p><strong>遗传标记</strong> : 是指可追踪染色体、染色体某一节段或者某个基因座在家系<br>中传递的任何一种遗传特性。是表示遗传多样性的有效手段,可以明确<br>反映遗传多态性的生物特征。它具有两个基本特征,即可遗传性和可识<br>别性。</p>
-<h2 id="遗传标记-Genetic-marker"><a href="#遗传标记-Genetic-marker" class="headerlink" title="遗传标记 (Genetic marker)"></a>遗传标记 (Genetic marker)</h2><p>• 形态标记 (morphological marker)<br>是指那些能够明确显示遗传多样性的外部 <strong>形态特征</strong><br>• 细胞学标记 (cytological marker)<br>细胞有丝分裂的中期和早后期 <strong>染色体</strong> 的 <strong>核型</strong> 和染色体 <strong>显带</strong> 技术（结构、数量）。<br>• 生化标记 (biochemical marker)<br>主要包括同工酶、等位酶和贮藏 <strong>蛋白标记</strong> , 是指利用植物代谢过程中的具有特<br>殊意义的生化成分或产物进行遗传多样性标记的技术。<br>• 分子标记 (molecular marker)<br>广义的分子标记是指可遗传的、可检测的、与生物的表性性状连锁的DNA序列或<br>蛋白质。狭义的分子标记只是指DNA标记。</p>
-<h2 id="分子标记类型"><a href="#分子标记类型" class="headerlink" title="分子标记类型"></a>分子标记类型</h2><p>• 分子标记大多以电泳谱带的形式表现,大致可分为三大类。<br>• 第一类是以 <strong>分子杂交为核心</strong> 的分子标记技术,包括: 限制性片段长度多态性标记<br>(Restriction fragment length polymorphism,简称 <strong>RFLP</strong> 标记,1974);<br>DNA指纹技术(DNA Fingerprinting);原位杂交(in situ hybridization)等;<br>• 第二类分子标记是以 <strong>聚合酶链式反应</strong> (Polymerase chain reaction,简称PCR反<br>应)为核心的分子标记技术,包括:  <strong>SSR</strong>  (1982)、RAPD (1990) 、AP-PCR<br>(1990) 、 **AFLP ** (1993)、ISSR (1994) 、SAGE (1995);<br>• 第三类是一些新型的分子标记,如:以单核苷酸多态性为基础的分子标记技术<br>SNP (1998) 、SRAP (2001) 、TRAP (2003).</p>
-<h2 id="常用分子标记方法"><a href="#常用分子标记方法" class="headerlink" title="常用分子标记方法"></a>常用分子标记方法</h2><p>•  <strong>限制性片段长度多态性标记</strong> (Restriction Fragment Length Polymorphism, RFLP)<br>• 由于DNA分子中 <strong>限制性内切酶酶切</strong> 识别序列中出现碱基的插入、缺失、置换、<br>倒位，而导致酶切位点的增减所引起的基因型限制性片段长度的差异。<br>• 用 <strong>限制性内切酶</strong> 酶解具有相对性状的两个群体的DNA,然后通过 <strong>电泳</strong> 和<br>Southern <strong>杂交技术</strong> 在酶切后形成的DNA片段中发现这种不同。这种不同就是<br>目的性状的RFLP标记。<br>• 特点: 1.遍布,无限；2.不受外界环境、发育阶段、器官等影响；3.探针多；<br> 4. DNA需求量大,纯度高；5,技术要求高,成本大</p>
-<p>• <strong>简单序列重复标记</strong> ，也称微卫星DNA(Simple sequence repeat,简称SSR标记)<br>• 真核生物基因组含有分散重复序列和串连重复序列两种类型的重复序列。<br>• 特点: 1.数量多且平均分布; 2.位于内含子中; 3.共显现遗传; 4.结果重复性高;<br> 5.引物问题（设计，反应条件）<br>• SSR多态性产生基础：串联重复DNA序列重复次数&#x2F;长度的改变，而引起重复<br>DNA片段大小的变异。<br>• SSR多态性产生原因：染色体不对等交换；在DNA复制时多复制了几个重复；</p>
-<p>• <strong>扩展片段长度多态性标记</strong> (Amplified fragment length polymorphism,简称AFLP标记)<br>• 特点: 1、结合了RFLP和PCR的优点，可靠性及灵敏性；<br> 2、目前该技术受专利保护,用于分析的试剂盒昂贵,实验条件要求较高</p>
-<p>•  <strong>单核苷酸多态性</strong> (Single nuleotidepolymorphism,简称SNP标记)<br>• 主要是指在基因组水平上由单个核苷酸的变异所引起的DNA序列多态性。<br>• 特点: 1、它在基因组中的分布较微卫星标记广泛得多；<br> 2、部分位于基因内部的SNP可能会直接影响产物蛋白质的结构或基因<br>表达水平,因此,它们本身可能就是疾病遗传机制的候选改变位点。</p>
-<h1 id="生物技术第十三章目的基因遗传转化技术"><a href="#生物技术第十三章目的基因遗传转化技术" class="headerlink" title="生物技术第十三章目的基因遗传转化技术"></a>生物技术第十三章目的基因遗传转化技术</h1><p><strong>基因工程</strong> 是指在 <strong>体外</strong> 将 <strong>核酸分子</strong> 插入病毒、质粒或其它载体分子，构成遗传物质的新组合，使之进入原先没有这类分子的寄主细胞内并进行持续稳定的 <strong>繁殖和表达</strong> 。</p>
-<h2 id="目的基因的筛选与获取"><a href="#目的基因的筛选与获取" class="headerlink" title="目的基因的筛选与获取"></a>目的基因的筛选与获取</h2><p><strong>目的基因</strong><br>• 在基因工程的设计和操作中，用于改变受体细胞性状的或获得预期表<br>达产物的基因，主要是编码特定蛋白质的基因；</p>
-<p>DNA操作技术<br>• 基于已知DNA或cDNA序列的 <strong>PCR扩增克隆</strong><br>• 目的基因的核苷酸序列未知， <strong>构建基因文库</strong></p>
-<h2 id="基因表达载体的构建"><a href="#基因表达载体的构建" class="headerlink" title="基因表达载体的构建"></a>基因表达载体的构建</h2><p><strong>载体(Vector)</strong><br>• 能够携带外源基因(或DNA片段)进入细胞复制、整合或表达的工具；</p>
-<p>表达方式<br>• <strong>组成型表达</strong> : 持续不断地表达目的蛋白。<br>• <strong>诱导型表达</strong> : 在诱导物存在的情况下表达目的蛋白。<br>• <strong>融合型表达</strong> : 表达载体的多克隆位点上有一个融合表达表达标签,表达的<br>蛋白为融合蛋白。<br>• <strong>分泌型表达</strong> : 在起始密码和目的基因之间加入一个信号肽,可以引导目的<br>蛋白穿越细胞膜,分泌到细胞外。</p>
-<p><img src="/images/13.png"></p>
-<h2 id="目的基因导入受体细胞"><a href="#目的基因导入受体细胞" class="headerlink" title="目的基因导入受体细胞"></a>目的基因导入受体细胞</h2><p><strong>目的基因的遗传转化</strong><br>• 质粒DNA或其他载体与目的基因DNA构建的重组载<br>体导入宿主细胞的过程</p>
-<p><strong>农杆菌介导法</strong> （目的基因遗传转化的一种由生物介导的转化法）需要具备的条件<br>• <strong>高效</strong> 的植物基因转化受体系统；<br>• 受体植物细胞对农杆菌要有很高的 <strong>亲和力</strong> ；<br>• 具有有效的 <strong>选择系统</strong> ；<br>• 稳定的 <strong>转化技术</strong> 和 <strong>基因表达</strong> ；</p>
-<p> <strong>物理法诱导</strong> DNA直接转化<br>• 物理转化方法是基于许多 <strong>物理因素</strong> 对细胞膜的影响，或通过 <strong>机械损伤</strong> 直接将<br>外源DNA导入细胞。<br>• 它不仅能够以 <strong>原生质体</strong> 为受体，还可以直接以 <strong>植物细胞乃至组织、器官</strong> 作为<br>靶受体，因此比化学法更具有广泛性和使用性。<br>• 常用的物理方法有 <strong>基因枪法、电激法、超声波法、显微注射法</strong> 。</p>
+<h2 id="Sys-Date"><a href="#Sys-Date" class="headerlink" title="Sys.Date()"></a>Sys.Date()</h2><p>  Sys.Date()函数基于你电脑的环境会返回一个变量（你的电脑上的日期）</p>
+<h2 id="mean"><a href="#mean" class="headerlink" title="mean()"></a>mean()</h2><p>  mean()函数会读取你输入的向量里的数，并且返回这些数的平均值。</p>
+<h2 id="自己构建函数boring-function-my-mean-remainder"><a href="#自己构建函数boring-function-my-mean-remainder" class="headerlink" title="自己构建函数boring_function(), my_mean(), remainder()"></a>自己构建函数boring_function(), my_mean(), remainder()</h2><h3 id="构建函数boring-function"><a href="#构建函数boring-function" class="headerlink" title="构建函数boring_function()"></a>构建函数boring_function()</h3><p>  在脚本编写区写入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">boring_function &lt;- function(x) &#123;</span><br><span class="line">   x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该函数功能为输出括号内的数，一个简单且无聊的函数</p>
+<h3 id="构建函数my-mean"><a href="#构建函数my-mean" class="headerlink" title="构建函数my_mean()"></a>构建函数my_mean()</h3><p>   在脚本编写区写入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">my_mean &lt;- function(my_vector) &#123;</span><br><span class="line">  sum(my_vector)/length(my_vector)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该函数功能为计算你输入的向量的平均数，如输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;my_mean(c(4, 5, 10))</span><br></pre></td></tr></table></figure>
+<p>会得到一个数6.3333</p>
+<h3 id="构建remainder-函数"><a href="#构建remainder-函数" class="headerlink" title="构建remainder()函数"></a>构建remainder()函数</h3><p>   在脚本编写区输入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">remainder &lt;- function(num, divisor = 2) &#123;</span><br><span class="line">  num %% divisor</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该函数功能为计算你输入的数除以2后的余数， 如输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;remainder(5)</span><br></pre></td></tr></table></figure>
+<p>会得到数：1</p>
+<p>也可以自己改变除数，如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;remainder(12, 5)</span><br></pre></td></tr></table></figure>
+<p>会得到数：2<br>或者可以输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;remainder(divisor = 11, num = 5) #divisor为除数，num为被除数</span><br></pre></td></tr></table></figure>
+<p>会得到数：5</p>
+<h3 id="构建evaluate-函数"><a href="#构建evaluate-函数" class="headerlink" title="构建evaluate()函数"></a>构建evaluate()函数</h3><p>  在脚本编写区写入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">evaluate &lt;- function(func, dat)&#123;</span><br><span class="line">  func(dat)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该函数可以将函数作为参数</p>
+<h3 id="构建telegram-函数"><a href="#构建telegram-函数" class="headerlink" title="构建telegram()函数"></a>构建telegram()函数</h3><p>   在脚本编写区写入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">telegram &lt;- function(...)&#123;</span><br><span class="line">  paste(&quot;START&quot;, ..., &quot;STOP&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>功能和boring_function()函数有点像</p>
+<h3 id="构建mad-libs-函数"><a href="#构建mad-libs-函数" class="headerlink" title="构建mad_libs()函数"></a>构建mad_libs()函数</h3><p>  在脚本编写区写入代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mad_libs &lt;- function(...)&#123;</span><br><span class="line">  args &lt;- list(...)</span><br><span class="line">  place &lt;- args[[&quot;place&quot;]]</span><br><span class="line">  adjective &lt;- args[[&quot;adjective&quot;]]</span><br><span class="line">  noun &lt;- args[[&quot;noun&quot;]]</span><br><span class="line">  paste(&quot;News from&quot;, place, &quot;today where&quot;, adjective, &quot;students took to the streets in protest of the new&quot;, noun, &quot;being installed on campus.&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>可以修改paste内的内容，是一个文本填充和替换的函数，无聊。</p>
+<h3 id="自己定义二进制运算符"><a href="#自己定义二进制运算符" class="headerlink" title="自己定义二进制运算符"></a>自己定义二进制运算符</h3><p>  在脚本编写区写入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;%p%&quot; &lt;- function(left, right)&#123; # Remember to add arguments!</span><br><span class="line">  paste(left, right)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>使用“%p%”可以结合其两边的文字，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;&#x27;I&#x27;%p%&#x27;love&#x27;%p%&#x27;R!&#x27;</span><br></pre></td></tr></table></figure>
+<p>会得到：”I love R!”</p>
 ]]></content>
       <categories>
-        <category>复习资料</category>
+        <category>R语言</category>
+        <category>Swirl包</category>
       </categories>
       <tags>
-        <tag>生物技术</tag>
+        <tag>R语言入门</tag>
       </tags>
   </entry>
 </search>
