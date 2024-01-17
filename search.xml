@@ -373,7 +373,8 @@
   <entry>
     <title>R语言常用语句</title>
     <url>/2024/01/17/3-1R/</url>
-    <content><![CDATA[<h1 id="R语言-常用命令"><a href="#R语言-常用命令" class="headerlink" title="R语言 常用命令"></a>R语言 常用命令</h1><h2 id="一、初始基本操作"><a href="#一、初始基本操作" class="headerlink" title="一、初始基本操作"></a>一、初始基本操作</h2><h3 id="获取工作目录。"><a href="#获取工作目录。" class="headerlink" title="获取工作目录。"></a>获取工作目录。</h3><blockquote>
+    <content><![CDATA[<h1 id="R语言-常用命令"><a href="#R语言-常用命令" class="headerlink" title="R语言 常用命令"></a>R语言 常用命令</h1><span id="more"></span>
+<h2 id="一、初始基本操作"><a href="#一、初始基本操作" class="headerlink" title="一、初始基本操作"></a>一、初始基本操作</h2><h3 id="获取工作目录。"><a href="#获取工作目录。" class="headerlink" title="获取工作目录。"></a>获取工作目录。</h3><blockquote>
 <p>getwd()</p>
 </blockquote>
 <h3 id="设定工作目录为F-R-myfun。"><a href="#设定工作目录为F-R-myfun。" class="headerlink" title="设定工作目录为F:&#x2F;R&#x2F;myfun。"></a>设定工作目录为F:&#x2F;R&#x2F;myfun。</h3><blockquote>
