@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.0.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha256-CTSx/A06dm1B063156EVh15m6Y67pAjZZaQc89LLSrU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.24/fancybox/fancybox.css" integrity="sha256-vQkngPS8jiHHH0I6ABTZroZk8NPZ7b+MUReOFE9UsXQ=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"duckbil.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="R语言 常用命令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="R语言常用语句">
+<meta property="og:url" content="https://duckbil.github.io/2024/01/17/3-1R/index.html">
+<meta property="og:site_name" content="Dan&#39;s Blog">
+<meta property="og:description" content="R语言 常用命令">
+<meta property="og:locale">
+<meta property="article:published_time" content="2024-01-17T06:08:02.000Z">
+<meta property="article:modified_time" content="2024-01-17T06:33:00.065Z">
+<meta property="article:author" content="Dan">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://duckbil.github.io/2024/01/17/3-1R/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"https://duckbil.github.io/2024/01/17/3-1R/","path":"2024/01/17/3-1R/","title":"R语言常用语句"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>R语言常用语句 | Dan's Blog</title>
+  
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@VERSION/pjax.js"></script>
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Dan's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">4</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">6</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">18</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+<div class="weather">
+  <!-- 《添加“心知天气”-->
+  
+    <div id="tp-weather-widget"></div>
+  <script>
+    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+    window.SeniverseWeatherWidget('show', {
+      flavor: "slim",
+      location: "changchun",
+      geolocation: true,
+      language: "zh-Hans",
+      unit: "c",
+      theme: "auto",
+      token: "efb760e3-5326-4f08-839b-122738249a17",
+      hover: "enabled",
+      container: "tp-weather-widget"
+    })
+  </script>
+  
+  <!-- 添加“心知天气”》-->
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+ <div class="sidebar-inner"> 
+  <!--网易云插件-->
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=8921640053&auto=1&height=430">
+  </iframe>
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#R%E8%AF%AD%E8%A8%80-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">R语言 常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%88%9D%E5%A7%8B%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.1.</span> <span class="nav-text">一、初始基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95%E3%80%82"><span class="nav-number">1.1.1.</span> <span class="nav-text">获取工作目录。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E5%AE%9A%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95%E4%B8%BAF-R-myfun%E3%80%82"><span class="nav-number">1.1.2.</span> <span class="nav-text">设定工作目录为F:&#x2F;R&#x2F;myfun。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8Bcom%E7%9A%84%E5%8F%98%E9%87%8F%E6%A0%BC%E5%BC%8F%E3%80%82"><span class="nav-number">1.1.3.</span> <span class="nav-text">查看com的变量格式。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%B7%B2%E5%AE%89%E8%A3%85%E7%9A%84%E5%8C%85%E3%80%82"><span class="nav-number">1.1.4.</span> <span class="nav-text">列出已安装的包。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%BD%E5%85%A5%E5%8C%85ggplot%E3%80%82"><span class="nav-number">1.1.5.</span> <span class="nav-text">载入包ggplot。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%8C%85AER%E7%9A%84%E4%BF%A1%E6%81%AF%E3%80%82"><span class="nav-number">1.1.6.</span> <span class="nav-text">查看包AER的信息。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%BB%E9%99%A4%E8%BD%BD%E5%85%A5%E7%9A%84%E5%8C%85zoo%E3%80%82"><span class="nav-number">1.1.7.</span> <span class="nav-text">去除载入的包zoo。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%B7%B2%E8%BD%BD%E5%85%A5%E7%9A%84%E5%8C%85%E3%80%82"><span class="nav-number">1.1.8.</span> <span class="nav-text">列出已载入的包。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%B7%B2%E8%BD%BD%E5%85%A5%E7%9A%84%E5%8C%85%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%82"><span class="nav-number">1.1.9.</span> <span class="nav-text">列出已载入的包中的所有数据集。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%B7%B2%E5%AE%89%E8%A3%85%E7%9A%84%E5%8C%85%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%82"><span class="nav-number">1.1.10.</span> <span class="nav-text">列出已安装的包中的所有数据集。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%8C%85AER%E9%87%8C%E7%9A%84%E6%89%80%E6%9C%89%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%82"><span class="nav-number">1.1.11.</span> <span class="nav-text">列出包AER里的所有数据集。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%BB%E5%85%A5%E6%95%B0%E6%8D%AE%E9%9B%86Affairs%E5%92%8CBankWages-%E8%BF%99%E4%BA%9B%E6%95%B0%E6%8D%AE%E9%9B%86%E9%9C%80%E5%B7%B2%E5%9C%A8data-%E4%B8%AD%E5%88%97%E5%87%BA-%E3%80%82"><span class="nav-number">1.1.12.</span> <span class="nav-text">读入数据集Affairs和BankWages(这些数据集需已在data()中列出)。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE%E9%9B%86Affairs%E7%9A%84%E4%BF%A1%E6%81%AF%E3%80%82"><span class="nav-number">1.1.13.</span> <span class="nav-text">获取数据集Affairs的信息。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%B4%E4%B8%8A%E6%95%B0%E6%8D%AE%E9%9B%86Affairs%EF%BC%8C%E5%85%B6%E4%BD%9C%E7%94%A8%E6%98%AF%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E5%AF%B9%E6%95%B0%E6%8D%AE%E9%9B%86%E9%87%8C%E7%9A%84%E5%8F%98%E9%87%8F%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C%E3%80%82"><span class="nav-number">1.1.14.</span> <span class="nav-text">贴上数据集Affairs，其作用是可以直接对数据集里的变量进行操作。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8A%E8%BF%B0%E6%93%8D%E4%BD%9C%E7%9A%84%E9%80%86%E6%93%8D%E4%BD%9C%E3%80%82"><span class="nav-number">1.1.15.</span> <span class="nav-text">上述操作的逆操作。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%AF%B9%E4%B8%80%E8%88%AC%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">二、对一般对象的基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E5%AF%B9%E8%B1%A1%E3%80%82"><span class="nav-number">1.2.1.</span> <span class="nav-text">列出所有对象。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%AF%B9%E8%B1%A1x%E7%9A%84%E6%A8%A1%E5%BC%8F%EF%BC%9A%E7%A9%BA%EF%BC%8C%E6%95%B0%E5%80%BC%EF%BC%8C%E5%AD%97%E7%AC%A6%EF%BC%8C%E9%80%BB%E8%BE%91%EF%BC%8C%E5%A4%8D%E6%95%B0%EF%BC%8C%E5%88%97%E8%A1%A8%EF%BC%8C%E5%87%BD%E6%95%B0-NULL%EF%BC%8Cnumeric%EF%BC%8Ccharacter%EF%BC%8Clogical%EF%BC%8Ccomplex%EF%BC%8Clist%EF%BC%8Cfunction-%E3%80%82"><span class="nav-number">1.2.2.</span> <span class="nav-text">查看对象x的模式：空，数值，字符，逻辑，复数，列表，函数(NULL，numeric，character，logical，complex，list，function)。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%AF%B9%E8%B1%A1x%E7%9A%84%E7%B1%BB%E5%9E%8B%EF%BC%9A%E9%99%A4%E4%BA%86mode%E9%87%8C%E5%88%97%E5%87%BA%E7%9A%84%E5%87%A0%E7%A7%8D%E7%B1%BB%E5%9E%8B%E5%A4%96%EF%BC%8C%E8%BF%98%E6%9C%89%E6%95%B4%E6%95%B0%EF%BC%8C%E7%9F%A9%E9%98%B5%EF%BC%8C%E5%9B%A0%E5%AD%90%EF%BC%8C%E9%98%B5%E5%88%97%EF%BC%8C%E6%95%B0%E6%8D%AE%E6%A1%86%EF%BC%8C%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97-integer%EF%BC%8Cmatrix%EF%BC%8Cfactor%EF%BC%8Carray%EF%BC%8Cdata-frame%EF%BC%8Cts-%E7%AD%89%E5%85%B6%E4%BB%96%E7%B1%BB%E5%9E%8B%E3%80%82mode%E4%B8%BB%E8%A6%81%E7%94%A8%E4%BA%8E%E5%8C%BA%E5%88%AB%E6%95%B0%E6%8D%AE%E5%AD%98%E6%94%BE%E7%9A%84%E6%96%B9%E5%BC%8F%EF%BC%8C%E8%80%8Cclass%E6%98%AF%E4%B8%80%E7%A7%8D%E6%9B%B4%E7%BB%86%E5%BE%AE%E7%9A%84%E5%88%86%E7%B1%BB%E6%96%B9%E5%BC%8F%EF%BC%8C%E6%AF%94%E5%A6%82%E7%9F%A9%E9%98%B5%EF%BC%8C%E5%B0%B1%E6%98%AF%E4%B8%80%E7%A7%8D%E6%9B%B4%E2%80%9C%E6%9C%89%E5%BA%8F%E2%80%9D%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AD%98%E6%94%BE%E6%96%B9%E5%BC%8F%E3%80%82%E6%AD%A4%E5%91%BD%E4%BB%A4%E6%AF%94mode%E5%B8%B8%E7%94%A8%E3%80%82"><span class="nav-number">1.2.3.</span> <span class="nav-text">查看对象x的类型：除了mode里列出的几种类型外，还有整数，矩阵，因子，阵列，数据框，时间序列(integer，matrix，factor，array，data frame，ts)等其他类型。mode主要用于区别数据存放的方式，而class是一种更细微的分类方式，比如矩阵，就是一种更“有序”的数据存放方式。此命令比mode常用。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%8A%E5%AF%B9%E8%B1%A1x%E8%BD%AC%E4%B8%BA%E7%9F%A9%E9%98%B5%E5%9E%8B%E3%80%82"><span class="nav-number">1.2.4.</span> <span class="nav-text">把对象x转为矩阵型。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%8A%E5%AF%B9%E8%B1%A1x%E8%BD%AC%E4%B8%BA%E6%95%B0%E5%80%BC%E5%9E%8B%E3%80%82"><span class="nav-number">1.2.5.</span> <span class="nav-text">把对象x转为数值型。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%8A%E5%AF%B9%E8%B1%A1x%E8%BD%AC%E5%8C%96%E4%B8%BA%E5%9B%A0%E5%AD%90%E5%9E%8B%E3%80%82"><span class="nav-number">1.2.6.</span> <span class="nav-text">把对象x转化为因子型。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%AF%B9%E8%B1%A1x%E7%9A%84%E7%BB%93%E6%9E%84%E3%80%82str%E6%98%AFstructure%E7%9A%84%E7%BC%A9%E5%86%99%E3%80%82"><span class="nav-number">1.2.7.</span> <span class="nav-text">查看对象x的结构。str是structure的缩写。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%BB%E9%99%A4%E5%AF%B9%E8%B1%A1x%E3%80%82"><span class="nav-number">1.2.8.</span> <span class="nav-text">移除对象x。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%BB%E9%99%A4%E6%89%80%E6%9C%89%E5%AF%B9%E8%B1%A1%E3%80%82"><span class="nav-number">1.2.9.</span> <span class="nav-text">移除所有对象。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE%E7%9A%84%E5%89%8D6%E8%A1%8C"><span class="nav-number">1.2.10.</span> <span class="nav-text">查看数据的前6行</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E4%B8%8E%E5%90%91%E9%87%8F%E6%9C%89%E5%85%B3%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.3.</span> <span class="nav-text">三、与向量有关的基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E5%85%83%E7%B4%A0%E4%BE%9D%E6%AC%A1%E4%B8%BA1-2-4%E7%9A%84%E5%90%91%E9%87%8Fx%EF%BC%8C%E8%BF%99%E9%87%8C%E7%9A%84c%E6%98%AFconcatenate%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%E6%B3%A8%E6%84%8F%E5%85%B6%E7%B1%BB%E5%9E%8B%E6%98%AF%E6%95%B0%E5%80%BC%EF%BC%8C%E4%B8%8D%E6%98%AF%E7%9F%A9%E9%98%B5%E3%80%82"><span class="nav-number">1.3.1.</span> <span class="nav-text">生成元素依次为1,2,4的向量x，这里的c是concatenate的意思。注意其类型是数值，不是矩阵。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E5%85%83%E7%B4%A0%E4%BE%9D%E6%AC%A1%E4%B8%BA%E2%80%9Da%E2%80%9D-%E2%80%9Db%E2%80%9D-%E2%80%9Dcd%E2%80%9D%E7%9A%84%E5%AD%97%E7%AC%A6%E5%90%91%E9%87%8Fx%E3%80%82"><span class="nav-number">1.3.2.</span> <span class="nav-text">生成元素依次为”a”,”b”,”cd”的字符向量x。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E2%80%9Da-b-cd%E2%80%9D%E7%9A%84%E5%AD%97%E7%AC%A6x%E3%80%82"><span class="nav-number">1.3.3.</span> <span class="nav-text">生成”a b cd”的字符x。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8Fx%E7%9A%84%E7%AC%ACa%E5%88%B0b%E4%B8%AA%E5%85%83%E7%B4%A0%E3%80%82"><span class="nav-number">1.3.4.</span> <span class="nav-text">向量x的第a到b个元素。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%94%E9%99%A4%E5%90%91%E9%87%8Fx%E7%AC%ACi%E4%B8%AA%E5%85%83%E7%B4%A0%E6%89%80%E5%BE%97%E7%9A%84%E5%90%91%E9%87%8F%E3%80%82"><span class="nav-number">1.3.5.</span> <span class="nav-text">剔除向量x第i个元素所得的向量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8Fx%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%82"><span class="nav-number">1.3.6.</span> <span class="nav-text">向量x的长度。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E4%BB%A5%E4%B8%80%E4%B8%AAn%E7%BB%B4%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8Fx%EF%BC%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E4%B8%BAa%EF%BC%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E4%B8%BAb%EF%BC%8C%E4%B8%AD%E9%97%B4%E5%85%83%E7%B4%A0%E4%BE%9D%E6%AC%A1%E7%AD%89%E8%B7%9D%E9%80%92%E5%A2%9E%E3%80%82-%E5%81%87%E8%AE%BEa"><span class="nav-number">1.3.7.</span> <span class="nav-text">生成以一个n维数值型向量x，第一个元素为a，最后一个元素为b，中间元素依次等距递增。(假设a&lt;b)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8Fx%EF%BC%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E4%B8%BAa%EF%BC%8C%E5%85%B6%E5%90%8E%E5%85%83%E7%B4%A0%E4%BE%9D%E6%AC%A1%E5%8A%A0c%EF%BC%8C%E7%9B%B4%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E5%8A%A0c%E5%A4%A7%E4%BA%8Eb%E3%80%82-%E5%81%87%E8%AE%BEa"><span class="nav-number">1.3.8.</span> <span class="nav-text">生成一个数值型向量x，第一个元素为a，其后元素依次加c，直到最后一个元素加c大于b。(假设a&lt;b)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8E1%E5%BC%80%E5%A7%8B%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E9%80%92%E5%A2%9E%E6%88%96%E9%80%92%E5%87%8F%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8Fx%EF%BC%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%BB%9D%E5%AF%B9%E5%80%BC%E4%B8%BA%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E-a-%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B4%E6%95%B0%E3%80%82"><span class="nav-number">1.3.9.</span> <span class="nav-text">从1开始生成一个递增或递减数值型向量x，最后一个元素绝对值为小于等于|a|的最大整数。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E4%BB%8Ea%E9%80%92%E5%A2%9E-%E5%87%8F-%E5%88%B0b%E7%9A%84%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8Fx%E3%80%82-a%E5%92%8Cb%E9%83%BD%E6%98%AF%E6%95%B4%E6%95%B0"><span class="nav-number">1.3.10.</span> <span class="nav-text">生成一个从a递增(减)到b的数值型向量x。(a和b都是整数)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E5%90%91%E9%87%8Fv%E8%BF%9B%E8%A1%8Cn%E6%AC%A1%E5%A4%8D%E5%88%B6%E7%94%9F%E6%88%90%E6%96%B0%E7%9A%84%E5%90%91%E9%87%8Fx%E3%80%82"><span class="nav-number">1.3.11.</span> <span class="nav-text">对向量v进行n次复制生成新的向量x。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%9D%E6%AC%A1%E5%AF%B9%E5%90%91%E9%87%8Fv%E7%9A%84%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0%E5%A4%8D%E5%88%B6n%E6%AD%A4%E7%94%9F%E6%88%90%E6%96%B0%E7%9A%84%E5%90%91%E9%87%8Fx%E3%80%82"><span class="nav-number">1.3.12.</span> <span class="nav-text">依次对向量v的每个元素复制n此生成新的向量x。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%90%91%E9%87%8Fx%EF%BC%8C%E5%85%B6%E4%B8%AD%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0%E6%98%AFv%E5%AF%B9%E5%BA%94%E5%85%83%E7%B4%A0%E7%9A%84%E6%9C%80%E8%BF%91%E6%95%B4%E6%95%B0%E3%80%82"><span class="nav-number">1.3.13.</span> <span class="nav-text">生成一个向量x，其中每个元素是v对应元素的最近整数。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%B7%E5%BE%97%E5%90%91%E9%87%8Fx%E7%AC%ACi%E5%A4%A7%E5%85%83%E7%B4%A0%E5%9C%A8%E5%90%91%E9%87%8F%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E3%80%82"><span class="nav-number">1.3.14.</span> <span class="nav-text">获得向量x第i大元素在向量中的位置。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%B7%E5%BE%97%E5%90%91%E9%87%8Fx%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0%E5%A4%A7%E5%B0%8F%E4%BD%8D%E7%BD%AE%E3%80%82"><span class="nav-number">1.3.15.</span> <span class="nav-text">获得向量x每个元素大小位置。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E5%90%91%E9%87%8Fx%E4%BB%8E%E5%B0%8F%E5%88%B0%E5%A4%A7%E8%BF%9B%E8%A1%8C%E6%8E%92%E5%BA%8F%E3%80%82%E9%99%8D%E5%BA%8F%EF%BC%9Asort-x-decreasing-TRUE-%E3%80%82"><span class="nav-number">1.3.16.</span> <span class="nav-text">对向量x从小到大进行排序。降序：sort(x, decreasing &#x3D; TRUE)。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%B9%E6%8D%AE%E5%9B%A0%E5%AD%90f%E5%AF%B9%E5%90%91%E9%87%8Fx%E5%88%86%E7%B1%BB%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0g%E3%80%82"><span class="nav-number">1.3.17.</span> <span class="nav-text">根据因子f对向量x分类执行函数g。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8Fx%E6%8C%89%E5%9B%A0%E5%AD%90f%E5%88%86%E7%B1%BB%E3%80%82"><span class="nav-number">1.3.18.</span> <span class="nav-text">向量x按因子f分类。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%94%E5%9B%9E%E5%90%91%E9%87%8Fx%E7%9A%84%E5%B7%AE%E5%88%86%E5%90%91%E9%87%8F%E3%80%82"><span class="nav-number">1.3.19.</span> <span class="nav-text">返回向量x的差分向量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%94%E5%9B%9E%E5%90%91%E9%87%8Fx%E7%9A%84%E7%B4%AF%E5%8A%A0%E5%90%91%E9%87%8F%E3%80%82"><span class="nav-number">1.3.20.</span> <span class="nav-text">返回向量x的累加向量。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E4%B8%8E%E7%9F%A9%E9%98%B5%E6%9C%89%E5%85%B3%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.4.</span> <span class="nav-text">四、与矩阵有关的基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90m%E8%A1%8Cn%E5%88%97%E7%9A%840%E7%9F%A9%E9%98%B5%E3%80%82"><span class="nav-number">1.4.1.</span> <span class="nav-text">生成m行n列的0矩阵。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%89%E8%A1%8C%E5%90%88%E5%B9%B6%E7%9F%A9%E9%98%B5X%E5%92%8CY%E5%BD%A2%E6%88%90%E6%96%B0%E7%9F%A9%E9%98%B5M%E3%80%82-X%E5%92%8CY%E5%88%97%E6%95%B0%E9%9C%80%E7%9B%B8%E5%90%8C%EF%BC%89"><span class="nav-number">1.4.2.</span> <span class="nav-text">按行合并矩阵X和Y形成新矩阵M。(X和Y列数需相同）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%89%E5%88%97%E5%90%88%E5%B9%B6%E7%9F%A9%E9%98%B5X%E5%92%8CY%E5%BD%A2%E6%88%90%E6%96%B0%E7%9F%A9%E9%98%B5M%E3%80%82-X%E5%92%8CY%E8%A1%8C%E6%95%B0%E9%9C%80%E7%9B%B8%E5%90%8C%EF%BC%89"><span class="nav-number">1.4.3.</span> <span class="nav-text">按列合并矩阵X和Y形成新矩阵M。(X和Y行数需相同）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E5%88%97%E5%90%8D%E3%80%82"><span class="nav-number">1.4.4.</span> <span class="nav-text">矩阵M的列名。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E8%A1%8C%E5%90%8D%E3%80%82"><span class="nav-number">1.4.5.</span> <span class="nav-text">矩阵M的行名。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E8%A1%8C%E6%95%B0%E3%80%82"><span class="nav-number">1.4.6.</span> <span class="nav-text">矩阵M的行数。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E5%88%97%E6%95%B0%E3%80%82"><span class="nav-number">1.4.7.</span> <span class="nav-text">矩阵M的列数。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E5%BD%A2%E6%88%90%E7%9A%84%E5%90%91%E9%87%8F"><span class="nav-number">1.4.8.</span> <span class="nav-text">矩阵M的对角线元素形成的向量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E4%BB%A5%E5%90%91%E9%87%8Fx%E4%B8%BA%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%EF%BC%8C%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE%E5%85%83%E7%B4%A0%E4%B8%BA0%E7%9A%84%E7%9F%A9%E9%98%B5M%E3%80%82"><span class="nav-number">1.4.9.</span> <span class="nav-text">生成以向量x为对角线元素，其他位置元素为0的矩阵M。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E7%BB%B4%E5%BA%A6%E3%80%82"><span class="nav-number">1.4.10.</span> <span class="nav-text">矩阵M的维度。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%AC%ACi%E8%A1%8C%E3%80%82-%E6%95%B0%E5%80%BC%E5%9E%8B"><span class="nav-number">1.4.11.</span> <span class="nav-text">矩阵M第i行。(数值型)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%AC%ACi%E8%A1%8C%E3%80%82-%E7%9F%A9%E9%98%B5%E5%9E%8B"><span class="nav-number">1.4.12.</span> <span class="nav-text">矩阵M第i行。(矩阵型)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E7%9F%A9%E9%98%B5M%E7%AC%ACi%E8%A1%8C%E3%80%82"><span class="nav-number">1.4.13.</span> <span class="nav-text">删除矩阵M第i行。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%AC%ACj%E5%88%97%E3%80%82"><span class="nav-number">1.4.14.</span> <span class="nav-text">矩阵M第j列。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%AC%ACi%E8%A1%8Cj%E5%88%97%E5%85%83%E7%B4%A0%E3%80%82"><span class="nav-number">1.4.15.</span> <span class="nav-text">矩阵M第i行j列元素。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E7%9A%84%E8%BD%AC%E7%BD%AE%E3%80%82%E8%8B%A5M%E4%B8%BA%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8F%EF%BC%8C%E5%88%99t-M-%E4%B8%BA%E7%9F%A9%E9%98%B5%E5%9E%8B%E8%A1%8C%E5%90%91%E9%87%8F%E3%80%82"><span class="nav-number">1.4.16.</span> <span class="nav-text">矩阵M的转置。若M为数值型向量，则t(M)为矩阵型行向量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5X%E4%B9%98%E7%9F%A9%E9%98%B5Y%E3%80%82%E8%8B%A5Y%E6%98%AF%E6%95%B0%E5%80%BC%E5%9E%8B%E7%9A%84%E5%90%91%E9%87%8F%EF%BC%8CR%E4%BC%9A%E8%87%AA%E5%8A%A8%E5%88%A4%E6%96%AD%E5%85%B6%E4%B8%BA%E8%A1%8C%E5%90%91%E9%87%8F%E8%BF%98%E6%98%AF%E5%88%97%E5%90%91%E9%87%8F%E3%80%82%E8%8B%A5X%E4%B8%8EY%E4%B8%BA%E7%BB%B4%E5%BA%A6%E5%8C%B9%E9%85%8D%E7%9A%84%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8F%EF%BC%8C%E5%88%99%E8%BF%94%E5%9B%9E%E7%9A%84%E6%98%AF%E7%9F%A9%E9%98%B5%E5%9E%8B%E5%90%91%E9%87%8F%E7%9A%84%E5%86%85%E7%A7%AF%E3%80%82"><span class="nav-number">1.4.17.</span> <span class="nav-text">矩阵X乘矩阵Y。若Y是数值型的向量，R会自动判断其为行向量还是列向量。若X与Y为维度匹配的数值型向量，则返回的是矩阵型向量的内积。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%80%BC%E5%9E%8B%E5%90%91%E9%87%8Fx%E4%B8%8Ey%E7%9A%84%E5%A4%96%E7%A7%AF-%E7%9F%A9%E9%98%B5%E5%9E%8B-%E3%80%82"><span class="nav-number">1.4.18.</span> <span class="nav-text">数值型向量x与y的外积(矩阵型)。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5X%E4%B8%8E%E7%9F%A9%E9%98%B5Y%E7%9A%84Hadamard%E4%B9%98%E7%A7%AF%E3%80%82%E5%8A%A0%E3%80%81%E5%87%8F%E3%80%81%E9%99%A4%E3%80%81%E6%B1%82%E4%BD%99%E7%9A%84%E8%A7%84%E5%88%99%E5%92%8C%E4%B9%98%E7%9B%B8%E5%90%8C%EF%BC%8C%E5%8D%B3%E7%9B%B8%E5%90%8C%E4%BD%8D%E7%BD%AE%E7%9A%84%E5%85%83%E7%B4%A0%E8%BF%9B%E8%A1%8C%E8%BF%90%E7%AE%97%E3%80%82"><span class="nav-number">1.4.19.</span> <span class="nav-text">矩阵X与矩阵Y的Hadamard乘积。加、减、除、求余的规则和乘相同，即相同位置的元素进行运算。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B1%82%E7%9F%A9%E9%98%B5M%E7%9A%84%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F%E3%80%82"><span class="nav-number">1.4.20.</span> <span class="nav-text">求矩阵M的特征值和特征向量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5M%E6%B1%82%E9%80%86%E3%80%82"><span class="nav-number">1.4.21.</span> <span class="nav-text">矩阵M求逆。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B1%82%E8%A7%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8BAx-b%E3%80%82"><span class="nav-number">1.4.22.</span> <span class="nav-text">求解线性方程Ax&#x3D;b。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E7%9F%A9%E9%98%B5M%E7%9A%84%E8%A1%8C-dimcode-1-%E6%88%96%E5%88%97-dimcode-2-%E4%BE%9D%E6%AC%A1%E8%BF%9B%E8%A1%8C%E5%87%BD%E6%95%B0f%E6%93%8D%E4%BD%9C%EF%BC%8Cf%E7%9A%84%E5%8F%98%E9%87%8F-arguments-%E6%96%B9%E6%AD%A3fargs%E9%87%8C%E3%80%82"><span class="nav-number">1.4.23.</span> <span class="nav-text">对矩阵M的行(dimcode&#x3D;1)或列(dimcode&#x3D;2)依次进行函数f操作，f的变量(arguments)方正fargs里。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E4%B8%8E%E5%88%97%E8%A1%A8%E6%9C%89%E5%85%B3%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.5.</span> <span class="nav-text">五、与列表有关的基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8B%E5%88%97%E8%A1%A8L%E3%80%82"><span class="nav-number">1.5.1.</span> <span class="nav-text">建立列表L。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%94%E5%9B%9E%E5%88%97%E8%A1%A8L%E9%87%8C%E7%9A%84%E5%AF%B9%E8%B1%A1a%E3%80%82"><span class="nav-number">1.5.2.</span> <span class="nav-text">返回列表L里的对象a。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%BB%E9%99%A4%E5%88%97%E8%A1%A8L%E9%87%8C%E7%9A%84%E5%AF%B9%E8%B1%A1a%E3%80%82"><span class="nav-number">1.5.3.</span> <span class="nav-text">去除列表L里的对象a。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%88%97%E8%A1%A8L%E9%87%8C%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%90%8D%E3%80%82"><span class="nav-number">1.5.4.</span> <span class="nav-text">列出列表L里的对象名。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%BB%E6%8E%89%E5%88%97%E8%A1%A8L%E9%87%8C%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%90%8D%E3%80%82"><span class="nav-number">1.5.5.</span> <span class="nav-text">去掉列表L里的对象名。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#list-apply%E3%80%82%E5%8A%9F%E8%83%BD%E4%B8%8Eapply%E7%B1%BB%E4%BC%BC-%E5%8F%82%E8%80%83%E4%B8%8A%E9%9D%A2%E7%9A%84apply-%EF%BC%8C%E7%94%A8%E4%BA%8E%E5%88%97%E8%A1%A8%E5%9E%8B%E6%95%B0%E6%8D%AE%E3%80%82"><span class="nav-number">1.5.6.</span> <span class="nav-text">list apply。功能与apply类似(参考上面的apply)，用于列表型数据。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#simplified-apply%E3%80%82%E5%8A%9F%E8%83%BD%E4%B8%8Elapply%E7%B1%BB%E4%BC%BC%EF%BC%8C%E5%8C%BA%E5%88%AB%E5%9C%A8%E4%BA%8E%E5%87%BD%E6%95%B0%E7%BB%93%E6%9E%9C%E7%9A%84%E7%B1%BB%E5%9E%8B%E4%B8%8D%E6%98%AF%E5%88%97%E8%A1%A8-list-%E3%80%82"><span class="nav-number">1.5.7.</span> <span class="nav-text">simplified apply。功能与lapply类似，区别在于函数结果的类型不是列表(list)。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%A1%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.6.</span> <span class="nav-text">六、与数据框有关的基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%A1%86Data%E3%80%82"><span class="nav-number">1.6.1.</span> <span class="nav-text">创建数据框Data。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E6%95%B0%E6%8D%AE%E6%A1%86Data%E3%80%82"><span class="nav-number">1.6.2.</span> <span class="nav-text">编辑数据框Data。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE%E6%A1%86Data%E7%9A%84%E5%89%8D%E5%87%A0%E8%A1%8C%E3%80%82"><span class="nav-number">1.6.3.</span> <span class="nav-text">显示数据框Data的前几行。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E6%95%B0%E6%8D%AE%E6%A1%86Data%E7%9A%84%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86%E3%80%82"><span class="nav-number">1.6.4.</span> <span class="nav-text">列出数据框Data的组成部分。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE%E6%A1%86Data%E7%9A%84%E5%8F%98%E9%87%8F%E5%90%8D%E3%80%82"><span class="nav-number">1.6.5.</span> <span class="nav-text">显示数据框Data的变量名。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE%E6%A1%86Data%E7%9A%84%E8%A1%8C%E5%90%8D%E3%80%82"><span class="nav-number">1.6.6.</span> <span class="nav-text">显示数据框Data的行名。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E6%A1%86Data%E4%B8%AD%E5%90%8D%E4%B8%BAname1%E7%9A%84%E5%8F%98%E9%87%8F%E3%80%82"><span class="nav-number">1.6.7.</span> <span class="nav-text">数据框Data中名为name1的变量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E6%A1%86Data%E4%B8%AD%E7%AC%ACi%E4%B8%AA%E5%8F%98%E9%87%8F%E5%BD%A2%E6%88%90%E7%9A%84%E6%95%B0%E6%8D%AE%E6%A1%86%E3%80%82"><span class="nav-number">1.6.8.</span> <span class="nav-text">数据框Data中第i个变量形成的数据框。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%88%E5%B9%B6%E6%95%B0%E6%8D%AE%E6%A1%86D1%E5%92%8CD2%EF%BC%8C%E9%9C%80%E8%A6%81D1%E5%92%8CD2%E4%B8%AD%E6%9C%89%E8%87%B3%E5%B0%91%E4%B8%80%E4%B8%AA%E7%9B%B8%E5%90%8C%E7%9A%84%E5%8F%98%E9%87%8F%E3%80%82"><span class="nav-number">1.6.9.</span> <span class="nav-text">合并数据框D1和D2，需要D1和D2中有至少一个相同的变量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E5%AF%B9%E8%B1%A1x%E6%98%AF%E6%95%B0%E6%8D%AE%E6%A1%86%E3%80%82%E7%B1%BB%E4%BC%BC%E5%91%BD%E4%BB%A4%E6%9C%89is-ts-x-%EF%BC%8Cis-numeric-x-%E7%AD%89%E3%80%82"><span class="nav-number">1.6.10.</span> <span class="nav-text">判断是否对象x是数据框。类似命令有is.ts(x)，is.numeric(x)等。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E5%AF%B9%E8%B1%A1x%E7%9A%84%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0%E9%83%BD%E5%A4%A7%E4%BA%8Ea%E3%80%82"><span class="nav-number">1.6.11.</span> <span class="nav-text">判断是否对象x的每个元素都大于a。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1x%E7%9A%84%E5%85%83%E7%B4%A0%E4%B8%AD%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BA%8Ea%E3%80%82"><span class="nav-number">1.6.12.</span> <span class="nav-text">判断对象x的元素中是否存在一个大于a。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A4%E6%96%ADx%E7%9A%84%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0%E6%98%AF%E5%90%A6%E5%A4%A7%E4%BA%8Ey%E7%9A%84%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0%E3%80%82"><span class="nav-number">1.6.13.</span> <span class="nav-text">判断x的每个元素是否大于y的每个元素。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8Fx%E4%B8%AD%E5%A4%A7%E4%BA%8Ea%E7%9A%84%E5%85%83%E7%B4%A0%E7%BB%84%E6%88%90%E7%9A%84%E6%96%B0%E5%90%91%E9%87%8F%E3%80%82"><span class="nav-number">1.6.14.</span> <span class="nav-text">向量x中大于a的元素组成的新向量。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8Fx%E4%B8%AD%E5%A4%A7%E4%BA%8Ea%E7%9A%84%E5%85%83%E7%B4%A0%E7%BB%84%E6%88%90%E7%9A%84%E6%96%B0%E5%90%91%E9%87%8F%E3%80%82%E4%B8%8E%E4%B8%8A%E9%9D%A2%E4%BE%8B%E5%AD%90%E7%9A%84%E5%8C%BA%E5%88%AB%E5%9C%A8%E4%BA%8E%E8%8B%A5%E5%90%91%E9%87%8F%E5%85%83%E7%B4%A0%E9%87%8C%E6%9C%89NA%EF%BC%8C%E4%B8%8A%E9%9D%A2%E7%9A%84%E4%BE%8B%E5%AD%90%E4%BC%9A%E4%BF%9D%E7%95%99%E5%9C%A8%E7%BB%93%E6%9E%9C%E4%B8%AD%EF%BC%8C%E8%80%8Csubset%E5%91%BD%E4%BB%A4%E4%BC%9A%E5%89%94%E9%99%A4%E6%8E%89%E3%80%82"><span class="nav-number">1.6.15.</span> <span class="nav-text">向量x中大于a的元素组成的新向量。与上面例子的区别在于若向量元素里有NA，上面的例子会保留在结果中，而subset命令会剔除掉。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%94%E5%9B%9E%E5%90%91%E9%87%8F%E4%B8%AD%E5%A4%A7%E4%BA%8Ea%E7%9A%84%E5%85%83%E7%B4%A0%E7%9A%84%E4%BD%8D%E7%BD%AE%E3%80%82"><span class="nav-number">1.6.16.</span> <span class="nav-text">返回向量中大于a的元素的位置。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E4%B8%8Eb-%E9%80%BB%E8%BE%91%E5%90%91%E9%87%8F-%E7%BB%B4%E5%BA%A6%E7%9B%B8%E5%90%8C%E7%9A%84%E6%95%B0%E5%80%BC%E5%90%91%E9%87%8F%EF%BC%8C%E8%8B%A5b-i-%E4%B8%BATRUE%EF%BC%8C%E5%88%99x-i-%E4%B8%BAu%EF%BC%8C%E5%8F%8D%E4%B9%8B%E4%B8%BAv%E3%80%82"><span class="nav-number">1.6.17.</span> <span class="nav-text">生成一个与b(逻辑向量)维度相同的数值向量，若b[i]为TRUE，则x[i]为u，反之为v。</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Dan"
+      src="/images/dan.jpg">
+  <p class="site-author-name" itemprop="name">Dan</p>
+  <div class="site-description" itemprop="description">Dan的博客</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/duckbil" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;duckbil" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/454150852" title="哔哩哔哩 → https:&#x2F;&#x2F;space.bilibili.com&#x2F;454150852" rel="noopener me" target="_blank"><i class="rss fa-fw"></i>哔哩哔哩</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://ganlvtech.github.io/phaser-catch-the-cat/" title="game → https:&#x2F;&#x2F;ganlvtech.github.io&#x2F;phaser-catch-the-cat&#x2F;" rel="noopener me" target="_blank"><i class="rss fa-fw"></i>game</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://duckbil.github.io/2024/01/17/3-1R/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/dan.jpg">
+      <meta itemprop="name" content="Dan">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dan's Blog">
+      <meta itemprop="description" content="Dan的博客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="R语言常用语句 | Dan's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          R语言常用语句
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-01-17 14:08:02 / 修改时间：14:33:00" itemprop="dateCreated datePublished" datetime="2024-01-17T14:08:02+08:00">2024-01-17</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="R语言-常用命令"><a href="#R语言-常用命令" class="headerlink" title="R语言 常用命令"></a>R语言 常用命令</h1><span id="more"></span>
+<h2 id="一、初始基本操作"><a href="#一、初始基本操作" class="headerlink" title="一、初始基本操作"></a>一、初始基本操作</h2><h3 id="获取工作目录。"><a href="#获取工作目录。" class="headerlink" title="获取工作目录。"></a>获取工作目录。</h3><blockquote>
+<p>getwd()</p>
+</blockquote>
+<h3 id="设定工作目录为F-R-myfun。"><a href="#设定工作目录为F-R-myfun。" class="headerlink" title="设定工作目录为F:&#x2F;R&#x2F;myfun。"></a>设定工作目录为F:&#x2F;R&#x2F;myfun。</h3><blockquote>
+<p>setwd(“F:&#x2F;R语言&#x2F;xuexi”)</p>
+</blockquote>
+<h3 id="查看com的变量格式。"><a href="#查看com的变量格式。" class="headerlink" title="查看com的变量格式。"></a>查看com的变量格式。</h3><blockquote>
+<p>args(com)</p>
+</blockquote>
+<h3 id="列出已安装的包。"><a href="#列出已安装的包。" class="headerlink" title="列出已安装的包。"></a>列出已安装的包。</h3><blockquote>
+<p>library()</p>
+</blockquote>
+<h3 id="载入包ggplot。"><a href="#载入包ggplot。" class="headerlink" title="载入包ggplot。"></a>载入包ggplot。</h3><blockquote>
+<p>library(ggplot)<br>require(ggplot)</p>
+</blockquote>
+<h3 id="查看包AER的信息。"><a href="#查看包AER的信息。" class="headerlink" title="查看包AER的信息。"></a>查看包AER的信息。</h3><blockquote>
+<p>library(help &#x3D; AER)</p>
+</blockquote>
+<h3 id="去除载入的包zoo。"><a href="#去除载入的包zoo。" class="headerlink" title="去除载入的包zoo。"></a>去除载入的包zoo。</h3><blockquote>
+<p>detach(package:zoo)</p>
+</blockquote>
+<h3 id="列出已载入的包。"><a href="#列出已载入的包。" class="headerlink" title="列出已载入的包。"></a>列出已载入的包。</h3><blockquote>
+<p>search(reshape)</p>
+</blockquote>
+<h3 id="列出已载入的包中的所有数据集。"><a href="#列出已载入的包中的所有数据集。" class="headerlink" title="列出已载入的包中的所有数据集。"></a>列出已载入的包中的所有数据集。</h3><blockquote>
+<p>data()</p>
+</blockquote>
+<h3 id="列出已安装的包中的所有数据集。"><a href="#列出已安装的包中的所有数据集。" class="headerlink" title="列出已安装的包中的所有数据集。"></a>列出已安装的包中的所有数据集。</h3><blockquote>
+<p>data(package &#x3D; .packages(all.available &#x3D; TRUE))</p>
+</blockquote>
+<h3 id="列出包AER里的所有数据集。"><a href="#列出包AER里的所有数据集。" class="headerlink" title="列出包AER里的所有数据集。"></a>列出包AER里的所有数据集。</h3><blockquote>
+<p>try(data(package &#x3D; “AER”) )</p>
+</blockquote>
+<h3 id="读入数据集Affairs和BankWages-这些数据集需已在data-中列出-。"><a href="#读入数据集Affairs和BankWages-这些数据集需已在data-中列出-。" class="headerlink" title="读入数据集Affairs和BankWages(这些数据集需已在data()中列出)。"></a>读入数据集Affairs和BankWages(这些数据集需已在data()中列出)。</h3><blockquote>
+<p>data(Affairs, “BankWages”)</p>
+</blockquote>
+<h3 id="获取数据集Affairs的信息。"><a href="#获取数据集Affairs的信息。" class="headerlink" title="获取数据集Affairs的信息。"></a>获取数据集Affairs的信息。</h3><blockquote>
+<p>help(Affairs)</p>
+</blockquote>
+<h3 id="贴上数据集Affairs，其作用是可以直接对数据集里的变量进行操作。"><a href="#贴上数据集Affairs，其作用是可以直接对数据集里的变量进行操作。" class="headerlink" title="贴上数据集Affairs，其作用是可以直接对数据集里的变量进行操作。"></a>贴上数据集Affairs，其作用是可以直接对数据集里的变量进行操作。</h3><blockquote>
+<p>attach(Affairs)</p>
+</blockquote>
+<h3 id="上述操作的逆操作。"><a href="#上述操作的逆操作。" class="headerlink" title="上述操作的逆操作。"></a>上述操作的逆操作。</h3><blockquote>
+<p>detach(Affairs)</p>
+</blockquote>
+<h2 id="二、对一般对象的基本操作"><a href="#二、对一般对象的基本操作" class="headerlink" title="二、对一般对象的基本操作"></a>二、对一般对象的基本操作</h2><h3 id="列出所有对象。"><a href="#列出所有对象。" class="headerlink" title="列出所有对象。"></a>列出所有对象。</h3><blockquote>
+<p>objects()<br>ls()</p>
+</blockquote>
+<h3 id="查看对象x的模式：空，数值，字符，逻辑，复数，列表，函数-NULL，numeric，character，logical，complex，list，function-。"><a href="#查看对象x的模式：空，数值，字符，逻辑，复数，列表，函数-NULL，numeric，character，logical，complex，list，function-。" class="headerlink" title="查看对象x的模式：空，数值，字符，逻辑，复数，列表，函数(NULL，numeric，character，logical，complex，list，function)。"></a>查看对象x的模式：空，数值，字符，逻辑，复数，列表，函数(NULL，numeric，character，logical，complex，list，function)。</h3><blockquote>
+<p>mode(x)</p>
+</blockquote>
+<h3 id="查看对象x的类型：除了mode里列出的几种类型外，还有整数，矩阵，因子，阵列，数据框，时间序列-integer，matrix，factor，array，data-frame，ts-等其他类型。mode主要用于区别数据存放的方式，而class是一种更细微的分类方式，比如矩阵，就是一种更“有序”的数据存放方式。此命令比mode常用。"><a href="#查看对象x的类型：除了mode里列出的几种类型外，还有整数，矩阵，因子，阵列，数据框，时间序列-integer，matrix，factor，array，data-frame，ts-等其他类型。mode主要用于区别数据存放的方式，而class是一种更细微的分类方式，比如矩阵，就是一种更“有序”的数据存放方式。此命令比mode常用。" class="headerlink" title="查看对象x的类型：除了mode里列出的几种类型外，还有整数，矩阵，因子，阵列，数据框，时间序列(integer，matrix，factor，array，data frame，ts)等其他类型。mode主要用于区别数据存放的方式，而class是一种更细微的分类方式，比如矩阵，就是一种更“有序”的数据存放方式。此命令比mode常用。"></a>查看对象x的类型：除了mode里列出的几种类型外，还有整数，矩阵，因子，阵列，数据框，时间序列(integer，matrix，factor，array，data frame，ts)等其他类型。mode主要用于区别数据存放的方式，而class是一种更细微的分类方式，比如矩阵，就是一种更“有序”的数据存放方式。此命令比mode常用。</h3><blockquote>
+<p>class(x)</p>
+</blockquote>
+<h3 id="把对象x转为矩阵型。"><a href="#把对象x转为矩阵型。" class="headerlink" title="把对象x转为矩阵型。"></a>把对象x转为矩阵型。</h3><blockquote>
+<p>as.matrix(x)</p>
+</blockquote>
+<h3 id="把对象x转为数值型。"><a href="#把对象x转为数值型。" class="headerlink" title="把对象x转为数值型。"></a>把对象x转为数值型。</h3><blockquote>
+<p>as.numeric(x)</p>
+</blockquote>
+<h3 id="把对象x转化为因子型。"><a href="#把对象x转化为因子型。" class="headerlink" title="把对象x转化为因子型。"></a>把对象x转化为因子型。</h3><blockquote>
+<p>as.factor(x)</p>
+</blockquote>
+<h3 id="查看对象x的结构。str是structure的缩写。"><a href="#查看对象x的结构。str是structure的缩写。" class="headerlink" title="查看对象x的结构。str是structure的缩写。"></a>查看对象x的结构。str是structure的缩写。</h3><blockquote>
+<p>str(x)</p>
+</blockquote>
+<h3 id="移除对象x。"><a href="#移除对象x。" class="headerlink" title="移除对象x。"></a>移除对象x。</h3><blockquote>
+<p>rm(x)</p>
+</blockquote>
+<h3 id="移除所有对象。"><a href="#移除所有对象。" class="headerlink" title="移除所有对象。"></a>移除所有对象。</h3><blockquote>
+<p>rm(list&#x3D;ls(all&#x3D;TRUE))</p>
+</blockquote>
+<h3 id="查看数据的前6行"><a href="#查看数据的前6行" class="headerlink" title="查看数据的前6行"></a>查看数据的前6行</h3><blockquote>
+<p>head(x)</p>
+</blockquote>
+<h2 id="三、与向量有关的基本操作"><a href="#三、与向量有关的基本操作" class="headerlink" title="三、与向量有关的基本操作"></a>三、与向量有关的基本操作</h2><h3 id="生成元素依次为1-2-4的向量x，这里的c是concatenate的意思。注意其类型是数值，不是矩阵。"><a href="#生成元素依次为1-2-4的向量x，这里的c是concatenate的意思。注意其类型是数值，不是矩阵。" class="headerlink" title="生成元素依次为1,2,4的向量x，这里的c是concatenate的意思。注意其类型是数值，不是矩阵。"></a>生成元素依次为1,2,4的向量x，这里的c是concatenate的意思。注意其类型是数值，不是矩阵。</h3><blockquote>
+<p>x &#x3D; c(1,2,4)</p>
+</blockquote>
+<h3 id="生成元素依次为”a”-”b”-”cd”的字符向量x。"><a href="#生成元素依次为”a”-”b”-”cd”的字符向量x。" class="headerlink" title="生成元素依次为”a”,”b”,”cd”的字符向量x。"></a>生成元素依次为”a”,”b”,”cd”的字符向量x。</h3><blockquote>
+<p>x &#x3D; c(“a”,”b”,”cd”)</p>
+</blockquote>
+<h3 id="生成”a-b-cd”的字符x。"><a href="#生成”a-b-cd”的字符x。" class="headerlink" title="生成”a b cd”的字符x。"></a>生成”a b cd”的字符x。</h3><blockquote>
+<p>x &#x3D; paste(“a”,”b”,”cd”)</p>
+</blockquote>
+<h3 id="向量x的第a到b个元素。"><a href="#向量x的第a到b个元素。" class="headerlink" title="向量x的第a到b个元素。"></a>向量x的第a到b个元素。</h3><blockquote>
+<p>x[a:b]</p>
+</blockquote>
+<h3 id="剔除向量x第i个元素所得的向量。"><a href="#剔除向量x第i个元素所得的向量。" class="headerlink" title="剔除向量x第i个元素所得的向量。"></a>剔除向量x第i个元素所得的向量。</h3><blockquote>
+<p>x[-i]</p>
+</blockquote>
+<h3 id="向量x的长度。"><a href="#向量x的长度。" class="headerlink" title="向量x的长度。"></a>向量x的长度。</h3><blockquote>
+<p>length(x)</p>
+</blockquote>
+<h3 id="生成以一个n维数值型向量x，第一个元素为a，最后一个元素为b，中间元素依次等距递增。-假设a"><a href="#生成以一个n维数值型向量x，第一个元素为a，最后一个元素为b，中间元素依次等距递增。-假设a" class="headerlink" title="生成以一个n维数值型向量x，第一个元素为a，最后一个元素为b，中间元素依次等距递增。(假设a&lt;b)"></a>生成以一个n维数值型向量x，第一个元素为a，最后一个元素为b，中间元素依次等距递增。(假设a&lt;b)</h3><blockquote>
+<p>x &#x3D; seq(a, b, length &#x3D; n)</p>
+</blockquote>
+<h3 id="生成一个数值型向量x，第一个元素为a，其后元素依次加c，直到最后一个元素加c大于b。-假设a"><a href="#生成一个数值型向量x，第一个元素为a，其后元素依次加c，直到最后一个元素加c大于b。-假设a" class="headerlink" title="生成一个数值型向量x，第一个元素为a，其后元素依次加c，直到最后一个元素加c大于b。(假设a&lt;b)"></a>生成一个数值型向量x，第一个元素为a，其后元素依次加c，直到最后一个元素加c大于b。(假设a&lt;b)</h3><blockquote>
+<p>x &#x3D; seq(a, b, c)</p>
+</blockquote>
+<h3 id="从1开始生成一个递增或递减数值型向量x，最后一个元素绝对值为小于等于-a-的最大整数。"><a href="#从1开始生成一个递增或递减数值型向量x，最后一个元素绝对值为小于等于-a-的最大整数。" class="headerlink" title="从1开始生成一个递增或递减数值型向量x，最后一个元素绝对值为小于等于|a|的最大整数。"></a>从1开始生成一个递增或递减数值型向量x，最后一个元素绝对值为小于等于|a|的最大整数。</h3><blockquote>
+<p>x &#x3D; seq(a)</p>
+</blockquote>
+<h3 id="生成一个从a递增-减-到b的数值型向量x。-a和b都是整数"><a href="#生成一个从a递增-减-到b的数值型向量x。-a和b都是整数" class="headerlink" title="生成一个从a递增(减)到b的数值型向量x。(a和b都是整数)"></a>生成一个从a递增(减)到b的数值型向量x。(a和b都是整数)</h3><blockquote>
+<p>x &#x3D; a:b</p>
+</blockquote>
+<h3 id="对向量v进行n次复制生成新的向量x。"><a href="#对向量v进行n次复制生成新的向量x。" class="headerlink" title="对向量v进行n次复制生成新的向量x。"></a>对向量v进行n次复制生成新的向量x。</h3><blockquote>
+<p>x &#x3D; rep(v, n)</p>
+</blockquote>
+<h3 id="依次对向量v的每个元素复制n此生成新的向量x。"><a href="#依次对向量v的每个元素复制n此生成新的向量x。" class="headerlink" title="依次对向量v的每个元素复制n此生成新的向量x。"></a>依次对向量v的每个元素复制n此生成新的向量x。</h3><blockquote>
+<p>x &#x3D; rep(v, each &#x3D; n)</p>
+</blockquote>
+<h3 id="生成一个向量x，其中每个元素是v对应元素的最近整数。"><a href="#生成一个向量x，其中每个元素是v对应元素的最近整数。" class="headerlink" title="生成一个向量x，其中每个元素是v对应元素的最近整数。"></a>生成一个向量x，其中每个元素是v对应元素的最近整数。</h3><blockquote>
+<p>x &#x3D; round(v)</p>
+</blockquote>
+<h3 id="获得向量x第i大元素在向量中的位置。"><a href="#获得向量x第i大元素在向量中的位置。" class="headerlink" title="获得向量x第i大元素在向量中的位置。"></a>获得向量x第i大元素在向量中的位置。</h3><blockquote>
+<p>order(x)</p>
+</blockquote>
+<h3 id="获得向量x每个元素大小位置。"><a href="#获得向量x每个元素大小位置。" class="headerlink" title="获得向量x每个元素大小位置。"></a>获得向量x每个元素大小位置。</h3><blockquote>
+<p>rank(x)</p>
+</blockquote>
+<h3 id="对向量x从小到大进行排序。降序：sort-x-decreasing-TRUE-。"><a href="#对向量x从小到大进行排序。降序：sort-x-decreasing-TRUE-。" class="headerlink" title="对向量x从小到大进行排序。降序：sort(x, decreasing &#x3D; TRUE)。"></a>对向量x从小到大进行排序。降序：sort(x, decreasing &#x3D; TRUE)。</h3><blockquote>
+<p>sort(x)</p>
+</blockquote>
+<h3 id="根据因子f对向量x分类执行函数g。"><a href="#根据因子f对向量x分类执行函数g。" class="headerlink" title="根据因子f对向量x分类执行函数g。"></a>根据因子f对向量x分类执行函数g。</h3><blockquote>
+<p>tapply(x,f,g)</p>
+</blockquote>
+<h3 id="向量x按因子f分类。"><a href="#向量x按因子f分类。" class="headerlink" title="向量x按因子f分类。"></a>向量x按因子f分类。</h3><blockquote>
+<p>split(x,f)</p>
+</blockquote>
+<h3 id="返回向量x的差分向量。"><a href="#返回向量x的差分向量。" class="headerlink" title="返回向量x的差分向量。"></a>返回向量x的差分向量。</h3><blockquote>
+<p>diff(x)</p>
+</blockquote>
+<h3 id="返回向量x的累加向量。"><a href="#返回向量x的累加向量。" class="headerlink" title="返回向量x的累加向量。"></a>返回向量x的累加向量。</h3><blockquote>
+<p>cumsum(x)</p>
+</blockquote>
+<h2 id="四、与矩阵有关的基本操作"><a href="#四、与矩阵有关的基本操作" class="headerlink" title="四、与矩阵有关的基本操作"></a>四、与矩阵有关的基本操作</h2><h3 id="生成m行n列的0矩阵。"><a href="#生成m行n列的0矩阵。" class="headerlink" title="生成m行n列的0矩阵。"></a>生成m行n列的0矩阵。</h3><blockquote>
+<p>M &#x3D; matrix(0,c(m,n))</p>
+</blockquote>
+<h3 id="按行合并矩阵X和Y形成新矩阵M。-X和Y列数需相同）"><a href="#按行合并矩阵X和Y形成新矩阵M。-X和Y列数需相同）" class="headerlink" title="按行合并矩阵X和Y形成新矩阵M。(X和Y列数需相同）"></a>按行合并矩阵X和Y形成新矩阵M。(X和Y列数需相同）</h3><blockquote>
+<p>M &#x3D; rbind(X,Y)</p>
+</blockquote>
+<h3 id="按列合并矩阵X和Y形成新矩阵M。-X和Y行数需相同）"><a href="#按列合并矩阵X和Y形成新矩阵M。-X和Y行数需相同）" class="headerlink" title="按列合并矩阵X和Y形成新矩阵M。(X和Y行数需相同）"></a>按列合并矩阵X和Y形成新矩阵M。(X和Y行数需相同）</h3><blockquote>
+<p>M &#x3D; cbind(X,Y)</p>
+</blockquote>
+<h3 id="矩阵M的列名。"><a href="#矩阵M的列名。" class="headerlink" title="矩阵M的列名。"></a>矩阵M的列名。</h3><blockquote>
+<p>colnames(M)</p>
+</blockquote>
+<h3 id="矩阵M的行名。"><a href="#矩阵M的行名。" class="headerlink" title="矩阵M的行名。"></a>矩阵M的行名。</h3><blockquote>
+<p>rownames(M)</p>
+</blockquote>
+<h3 id="矩阵M的行数。"><a href="#矩阵M的行数。" class="headerlink" title="矩阵M的行数。"></a>矩阵M的行数。</h3><blockquote>
+<p>nrow(M)</p>
+</blockquote>
+<h3 id="矩阵M的列数。"><a href="#矩阵M的列数。" class="headerlink" title="矩阵M的列数。"></a>矩阵M的列数。</h3><blockquote>
+<p>ncol(M)</p>
+</blockquote>
+<h3 id="矩阵M的对角线元素形成的向量"><a href="#矩阵M的对角线元素形成的向量" class="headerlink" title="矩阵M的对角线元素形成的向量"></a>矩阵M的对角线元素形成的向量</h3><blockquote>
+<p>diag(M)</p>
+</blockquote>
+<h3 id="生成以向量x为对角线元素，其他位置元素为0的矩阵M。"><a href="#生成以向量x为对角线元素，其他位置元素为0的矩阵M。" class="headerlink" title="生成以向量x为对角线元素，其他位置元素为0的矩阵M。"></a>生成以向量x为对角线元素，其他位置元素为0的矩阵M。</h3><blockquote>
+<p>M &#x3D; diag(x)</p>
+</blockquote>
+<h3 id="矩阵M的维度。"><a href="#矩阵M的维度。" class="headerlink" title="矩阵M的维度。"></a>矩阵M的维度。</h3><blockquote>
+<p>dim(M)</p>
+</blockquote>
+<h3 id="矩阵M第i行。-数值型"><a href="#矩阵M第i行。-数值型" class="headerlink" title="矩阵M第i行。(数值型)"></a>矩阵M第i行。(数值型)</h3><blockquote>
+<p>M[i,]</p>
+</blockquote>
+<h3 id="矩阵M第i行。-矩阵型"><a href="#矩阵M第i行。-矩阵型" class="headerlink" title="矩阵M第i行。(矩阵型)"></a>矩阵M第i行。(矩阵型)</h3><blockquote>
+<p>M[i,,drop &#x3D; FALSE]</p>
+</blockquote>
+<h3 id="删除矩阵M第i行。"><a href="#删除矩阵M第i行。" class="headerlink" title="删除矩阵M第i行。"></a>删除矩阵M第i行。</h3><blockquote>
+<p>M &#x3D; M[-i,]</p>
+</blockquote>
+<h3 id="矩阵M第j列。"><a href="#矩阵M第j列。" class="headerlink" title="矩阵M第j列。"></a>矩阵M第j列。</h3><blockquote>
+<p>M[,j]</p>
+</blockquote>
+<h3 id="矩阵M第i行j列元素。"><a href="#矩阵M第i行j列元素。" class="headerlink" title="矩阵M第i行j列元素。"></a>矩阵M第i行j列元素。</h3><blockquote>
+<p>M[i,j]</p>
+</blockquote>
+<h3 id="矩阵M的转置。若M为数值型向量，则t-M-为矩阵型行向量。"><a href="#矩阵M的转置。若M为数值型向量，则t-M-为矩阵型行向量。" class="headerlink" title="矩阵M的转置。若M为数值型向量，则t(M)为矩阵型行向量。"></a>矩阵M的转置。若M为数值型向量，则t(M)为矩阵型行向量。</h3><blockquote>
+<p>t(M)</p>
+</blockquote>
+<h3 id="矩阵X乘矩阵Y。若Y是数值型的向量，R会自动判断其为行向量还是列向量。若X与Y为维度匹配的数值型向量，则返回的是矩阵型向量的内积。"><a href="#矩阵X乘矩阵Y。若Y是数值型的向量，R会自动判断其为行向量还是列向量。若X与Y为维度匹配的数值型向量，则返回的是矩阵型向量的内积。" class="headerlink" title="矩阵X乘矩阵Y。若Y是数值型的向量，R会自动判断其为行向量还是列向量。若X与Y为维度匹配的数值型向量，则返回的是矩阵型向量的内积。"></a>矩阵X乘矩阵Y。若Y是数值型的向量，R会自动判断其为行向量还是列向量。若X与Y为维度匹配的数值型向量，则返回的是矩阵型向量的内积。</h3><blockquote>
+<p>X%*%Y</p>
+</blockquote>
+<h3 id="数值型向量x与y的外积-矩阵型-。"><a href="#数值型向量x与y的外积-矩阵型-。" class="headerlink" title="数值型向量x与y的外积(矩阵型)。"></a>数值型向量x与y的外积(矩阵型)。</h3><blockquote>
+<p>x%o%y</p>
+</blockquote>
+<h3 id="矩阵X与矩阵Y的Hadamard乘积。加、减、除、求余的规则和乘相同，即相同位置的元素进行运算。"><a href="#矩阵X与矩阵Y的Hadamard乘积。加、减、除、求余的规则和乘相同，即相同位置的元素进行运算。" class="headerlink" title="矩阵X与矩阵Y的Hadamard乘积。加、减、除、求余的规则和乘相同，即相同位置的元素进行运算。"></a>矩阵X与矩阵Y的Hadamard乘积。加、减、除、求余的规则和乘相同，即相同位置的元素进行运算。</h3><blockquote>
+<p>X*Y</p>
+</blockquote>
+<h3 id="求矩阵M的特征值和特征向量。"><a href="#求矩阵M的特征值和特征向量。" class="headerlink" title="求矩阵M的特征值和特征向量。"></a>求矩阵M的特征值和特征向量。</h3><blockquote>
+<p>eigen(M)$val<br>eigen(M)$vec</p>
+</blockquote>
+<h3 id="矩阵M求逆。"><a href="#矩阵M求逆。" class="headerlink" title="矩阵M求逆。"></a>矩阵M求逆。</h3><blockquote>
+<p>solve(M)</p>
+</blockquote>
+<h3 id="求解线性方程Ax-b。"><a href="#求解线性方程Ax-b。" class="headerlink" title="求解线性方程Ax&#x3D;b。"></a>求解线性方程Ax&#x3D;b。</h3><blockquote>
+<p>solve(A,b)</p>
+</blockquote>
+<h3 id="对矩阵M的行-dimcode-1-或列-dimcode-2-依次进行函数f操作，f的变量-arguments-方正fargs里。"><a href="#对矩阵M的行-dimcode-1-或列-dimcode-2-依次进行函数f操作，f的变量-arguments-方正fargs里。" class="headerlink" title="对矩阵M的行(dimcode&#x3D;1)或列(dimcode&#x3D;2)依次进行函数f操作，f的变量(arguments)方正fargs里。"></a>对矩阵M的行(dimcode&#x3D;1)或列(dimcode&#x3D;2)依次进行函数f操作，f的变量(arguments)方正fargs里。</h3><blockquote>
+<p>apply(M, dimcode, f, fargs)</p>
+</blockquote>
+<h2 id="五、与列表有关的基本操作"><a href="#五、与列表有关的基本操作" class="headerlink" title="五、与列表有关的基本操作"></a>五、与列表有关的基本操作</h2><h3 id="建立列表L。"><a href="#建立列表L。" class="headerlink" title="建立列表L。"></a>建立列表L。</h3><blockquote>
+<p>L &#x3D; list(a &#x3D; , b &#x3D; , c &#x3D; ,…)</p>
+</blockquote>
+<h3 id="返回列表L里的对象a。"><a href="#返回列表L里的对象a。" class="headerlink" title="返回列表L里的对象a。"></a>返回列表L里的对象a。</h3><blockquote>
+<p>L$a<br>L[[a]]</p>
+</blockquote>
+<h3 id="去除列表L里的对象a。"><a href="#去除列表L里的对象a。" class="headerlink" title="去除列表L里的对象a。"></a>去除列表L里的对象a。</h3><blockquote>
+<p>L$a &#x3D; NULL</p>
+</blockquote>
+<h3 id="列出列表L里的对象名。"><a href="#列出列表L里的对象名。" class="headerlink" title="列出列表L里的对象名。"></a>列出列表L里的对象名。</h3><blockquote>
+<p>names(L)</p>
+</blockquote>
+<h3 id="去掉列表L里的对象名。"><a href="#去掉列表L里的对象名。" class="headerlink" title="去掉列表L里的对象名。"></a>去掉列表L里的对象名。</h3><blockquote>
+<p>unname(L)</p>
+</blockquote>
+<h3 id="list-apply。功能与apply类似-参考上面的apply-，用于列表型数据。"><a href="#list-apply。功能与apply类似-参考上面的apply-，用于列表型数据。" class="headerlink" title="list apply。功能与apply类似(参考上面的apply)，用于列表型数据。"></a>list apply。功能与apply类似(参考上面的apply)，用于列表型数据。</h3><blockquote>
+<p>lapply(…)</p>
+</blockquote>
+<h3 id="simplified-apply。功能与lapply类似，区别在于函数结果的类型不是列表-list-。"><a href="#simplified-apply。功能与lapply类似，区别在于函数结果的类型不是列表-list-。" class="headerlink" title="simplified apply。功能与lapply类似，区别在于函数结果的类型不是列表(list)。"></a>simplified apply。功能与lapply类似，区别在于函数结果的类型不是列表(list)。</h3><blockquote>
+<p>sapply(…)</p>
+</blockquote>
+<h2 id="六、与数据框有关的基本操作"><a href="#六、与数据框有关的基本操作" class="headerlink" title="六、与数据框有关的基本操作"></a>六、与数据框有关的基本操作</h2><p> 数据框是一种特殊的列表，所以对列表适用的函数往往对数据框也适用。此外，数据框也有矩阵型数据的特征，所以一些适用于矩阵型数据的函数，不如rbind，cbind，apply等也可以作用在数据框上。</p>
+<h3 id="创建数据框Data。"><a href="#创建数据框Data。" class="headerlink" title="创建数据框Data。"></a>创建数据框Data。</h3><blockquote>
+<p>Data &#x3D; data.frame(…)</p>
+</blockquote>
+<h3 id="编辑数据框Data。"><a href="#编辑数据框Data。" class="headerlink" title="编辑数据框Data。"></a>编辑数据框Data。</h3><blockquote>
+<p>fix(Data)</p>
+</blockquote>
+<h3 id="显示数据框Data的前几行。"><a href="#显示数据框Data的前几行。" class="headerlink" title="显示数据框Data的前几行。"></a>显示数据框Data的前几行。</h3><blockquote>
+<p>head(Data)</p>
+</blockquote>
+<h3 id="列出数据框Data的组成部分。"><a href="#列出数据框Data的组成部分。" class="headerlink" title="列出数据框Data的组成部分。"></a>列出数据框Data的组成部分。</h3><blockquote>
+<p>attribute(Data)</p>
+</blockquote>
+<h3 id="显示数据框Data的变量名。"><a href="#显示数据框Data的变量名。" class="headerlink" title="显示数据框Data的变量名。"></a>显示数据框Data的变量名。</h3><blockquote>
+<p>names(Data)</p>
+</blockquote>
+<h3 id="显示数据框Data的行名。"><a href="#显示数据框Data的行名。" class="headerlink" title="显示数据框Data的行名。"></a>显示数据框Data的行名。</h3><blockquote>
+<p>row.names(Data)</p>
+</blockquote>
+<h3 id="数据框Data中名为name1的变量。"><a href="#数据框Data中名为name1的变量。" class="headerlink" title="数据框Data中名为name1的变量。"></a>数据框Data中名为name1的变量。</h3><blockquote>
+<p>Data$name1</p>
+</blockquote>
+<h3 id="数据框Data中第i个变量形成的数据框。"><a href="#数据框Data中第i个变量形成的数据框。" class="headerlink" title="数据框Data中第i个变量形成的数据框。"></a>数据框Data中第i个变量形成的数据框。</h3><blockquote>
+<p>Data[i]</p>
+</blockquote>
+<h3 id="合并数据框D1和D2，需要D1和D2中有至少一个相同的变量。"><a href="#合并数据框D1和D2，需要D1和D2中有至少一个相同的变量。" class="headerlink" title="合并数据框D1和D2，需要D1和D2中有至少一个相同的变量。"></a>合并数据框D1和D2，需要D1和D2中有至少一个相同的变量。</h3><blockquote>
+<p>merge(D1,D2)</p>
+</blockquote>
+<p>##七、与逻辑型数据有关的基本操作</p>
+<h3 id="判断是否对象x是数据框。类似命令有is-ts-x-，is-numeric-x-等。"><a href="#判断是否对象x是数据框。类似命令有is-ts-x-，is-numeric-x-等。" class="headerlink" title="判断是否对象x是数据框。类似命令有is.ts(x)，is.numeric(x)等。"></a>判断是否对象x是数据框。类似命令有is.ts(x)，is.numeric(x)等。</h3><blockquote>
+<p>is.data.frame(x)</p>
+</blockquote>
+<h3 id="判断是否对象x的每个元素都大于a。"><a href="#判断是否对象x的每个元素都大于a。" class="headerlink" title="判断是否对象x的每个元素都大于a。"></a>判断是否对象x的每个元素都大于a。</h3><blockquote>
+<p>all(x&gt;a)</p>
+</blockquote>
+<h3 id="判断对象x的元素中是否存在一个大于a。"><a href="#判断对象x的元素中是否存在一个大于a。" class="headerlink" title="判断对象x的元素中是否存在一个大于a。"></a>判断对象x的元素中是否存在一个大于a。</h3><blockquote>
+<p>any(x&gt;a)</p>
+</blockquote>
+<h3 id="判断x的每个元素是否大于y的每个元素。"><a href="#判断x的每个元素是否大于y的每个元素。" class="headerlink" title="判断x的每个元素是否大于y的每个元素。"></a>判断x的每个元素是否大于y的每个元素。</h3><blockquote>
+<p>x&gt;y</p>
+</blockquote>
+<h3 id="向量x中大于a的元素组成的新向量。"><a href="#向量x中大于a的元素组成的新向量。" class="headerlink" title="向量x中大于a的元素组成的新向量。"></a>向量x中大于a的元素组成的新向量。</h3><blockquote>
+<p>x[x&gt;a]</p>
+</blockquote>
+<h3 id="向量x中大于a的元素组成的新向量。与上面例子的区别在于若向量元素里有NA，上面的例子会保留在结果中，而subset命令会剔除掉。"><a href="#向量x中大于a的元素组成的新向量。与上面例子的区别在于若向量元素里有NA，上面的例子会保留在结果中，而subset命令会剔除掉。" class="headerlink" title="向量x中大于a的元素组成的新向量。与上面例子的区别在于若向量元素里有NA，上面的例子会保留在结果中，而subset命令会剔除掉。"></a>向量x中大于a的元素组成的新向量。与上面例子的区别在于若向量元素里有NA，上面的例子会保留在结果中，而subset命令会剔除掉。</h3><blockquote>
+<p>subset(x, x&gt;a)</p>
+</blockquote>
+<h3 id="返回向量中大于a的元素的位置。"><a href="#返回向量中大于a的元素的位置。" class="headerlink" title="返回向量中大于a的元素的位置。"></a>返回向量中大于a的元素的位置。</h3><blockquote>
+<p>which(x, x&gt;a)</p>
+</blockquote>
+<h3 id="生成一个与b-逻辑向量-维度相同的数值向量，若b-i-为TRUE，则x-i-为u，反之为v。"><a href="#生成一个与b-逻辑向量-维度相同的数值向量，若b-i-为TRUE，则x-i-为u，反之为v。" class="headerlink" title="生成一个与b(逻辑向量)维度相同的数值向量，若b[i]为TRUE，则x[i]为u，反之为v。"></a>生成一个与b(逻辑向量)维度相同的数值向量，若b[i]为TRUE，则x[i]为u，反之为v。</h3><blockquote>
+<p>x &#x3D; ifelse(b, u, v)</p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/12/20/6swirl9/" rel="prev" title="swirl包（Function）">
+                  <i class="fa fa-angle-left"></i> swirl包（Function）
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/01/27/17%E7%BD%97%E4%B8%B9%E6%97%A5%E8%AE%B0%E5%8D%81%E4%B8%80/" rel="next" title="随心记-十一（2024年1月份）">
+                  随心记-十一（2024年1月份） <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Dan</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共字</span>
+  <span class="post-meta-divider">|</span>
+  本站总访问量<span id="busuanzi_value_site_pv"></span>次
+  <span class="post-meta-divider">|</span>
+  本站访客数<span id="busuanzi_value_site_uv"></span>人次
+  <span class="post-meta-divider">|</span>
+  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+</div>
+
+
+    </div>
+  </footer>
+
+  
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.24/fancybox/fancybox.umd.js" integrity="sha256-oyhjPiYRWGXaAt+ny/mTMWOnN1GBoZDUQnzzgC7FRI4=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+  <script type="text/javascript" src="/js/category.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":120,"height":1200},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
